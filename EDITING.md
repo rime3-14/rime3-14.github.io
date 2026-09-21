@@ -9,8 +9,10 @@ Run `node preview.mjs` for a local preview at http://127.0.0.1:4173/.
 - Art entries use `title`, `artist`, `image` (an HTTPS image URL), `alt`, and optionally `source` (the artwork source page). Use artwork you have permission to display.
 - Essay entries use `slug` (lowercase words separated by hyphens), `title`, `date` (YYYY-MM-DD), `summary`, and `paragraphs` (a list of text paragraphs). Each essay gets its own page automatically. To remove an essay, remove its entry and its generated HTML file.
 
-The music page's album and listening link are in `build.mjs`. Its rotation is controlled by `music.js`, respects reduced-motion preferences, and does not autoplay audio.
+The music page's albums, covers, selected tracks, preview URLs, and Apple Music links are in `albums.json`. Rebuild after changing them. Selecting an album updates the vinyl and plays that song's preview; the page never starts audio on initial load. The rotation and player are controlled by `music.js`, with reduced-motion support, keyboard controls, and a streaming link if a preview is unavailable.
 
 The books interaction is an original CSS implementation inspired by the interactive library shared at https://x.com/carrabre/status/2081930429435875694. Covers are custom typographic treatments, not reproductions of published editions.
 
-Album artwork is provided by Apple's album metadata for Ultraviolence: https://music.apple.com/us/album/ultraviolence/1440831284.
+Album artwork and song previews come from Apple's iTunes metadata API. Each album has its source link in `albums.json`. Previews are streamed, not stored in this repository.
+
+Fashion is intentionally omitted from navigation until its content is ready. Its page source is preserved.
