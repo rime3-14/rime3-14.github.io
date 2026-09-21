@@ -1,4 +1,9 @@
 import { readFile, writeFile, mkdir } from 'node:fs/promises';
+import { createHash } from 'node:crypto';
+const assetVersions = {};
+for (const asset of ['styles.css', 'books.js', 'music.js']) {
+ assetVersions[asset] = createHash('sha256').update(await readFile(new URL(asset, import.meta.url))).digest('hex').slice(0,12);
+}
 const content = JSON.parse(await readFile(new URL('content.json', import.meta.url), 'utf8'));
 const esc = value => String(value).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const link = value => { if (!value) return ''; const url = new URL(value); if (!['https:', 'http:'].includes(url.protocol)) throw new Error('Links must use HTTP or HTTPS'); return esc(url.href); };
@@ -7,7 +12,7 @@ const favicon = "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' vi
 function page(slug, title, body, description, script = '') {
  const root = slug ? '../' : './';
  return `<!doctype html>
-<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="description" content="${esc(description)}"><title>${esc(title)} — Rime</title><link rel="icon" type="image/svg+xml" href="${favicon}"><link rel="stylesheet" href="${root}styles.css">${script ? `<script src="${root}${script}" defer></script>` : ''}</head>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="description" content="${esc(description)}"><title>${esc(title)} — Rime</title><link rel="icon" type="image/svg+xml" href="${favicon}"><link rel="stylesheet" href="${root}styles.css?v=${assetVersions['styles.css']}">${script ? `<script src="${root}${script}?v=${assetVersions[script]}" defer></script>` : ''}</head>
 <body class="${slug || 'home'}"><a class="skip-link" href="#main">Skip to content</a><div class="shell"><header><a class="wordmark" href="${root}" aria-label="Rime, home">rime<span>.</span></a>${slug ? `<a class="back" href="${root}">← Back to my nook</a>` : '<span class="place">France & Germany</span>'}</header><main id="main">${body}</main><footer>${slug ? `<nav aria-label="Explore my nook">${sections.map(([path,label])=>`<a href="../${path}/"${path === slug ? ' aria-current="page"' : ''}>${label}</a>`).join('')}</nav>` : '<span>A little bit of everything, really.</span>'}<span class="signature">Rime</span></footer></div></body></html>\n`;
 }
 const optionalLink = (url,label) => url ? `<a href="${link(url)}">${label} <span aria-hidden="true">↗</span></a>` : `<span class="pending">${label}<small>soon</small></span>`;
