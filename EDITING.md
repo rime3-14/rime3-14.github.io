@@ -6,7 +6,7 @@ Run `node preview.mjs` for a local preview at http://127.0.0.1:4173/.
 
 - Add a portfolio URL in `portfolio` when ready.
 - Book entries use `title`, `author`, `color`, and `ink`.
-- Art entries use `title`, `artist`, `image` (an HTTPS image URL), `alt`, and optionally `source` (the artwork source page). Use artwork you have permission to display.
+- Art entries use `title`, `artist`, `date`, `location`, `image` (an HTTPS image URL), `alt`, and `source` (the artwork source page), with optional `note` and `credit`. The gallery preserves each image’s proportions. Hover, tap, Enter, or Space flips a card; Escape turns it back. Source links are under the gallery. Use artwork you have permission to display.
 - Essay entries use `slug` (lowercase words separated by hyphens), `title`, `date` (YYYY-MM-DD), `summary`, and `paragraphs` (a list of text paragraphs). Each essay gets its own page automatically. To remove an essay, remove its entry and its generated HTML file.
 
 The music page's albums, covers, selected tracks, preview URLs, and Apple Music links are in `albums.json`. Rebuild after changing them. Selecting an album updates the vinyl and plays that song's preview; the page never starts audio on initial load. The rotation and player are controlled by `music.js`, with reduced-motion support, keyboard controls, and a streaming link if a preview is unavailable.

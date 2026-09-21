@@ -3,13 +3,163 @@
   "goodreads": "https://www.goodreads.com/user/show/145207462",
   "portfolio": "",
   "books": [
-    {"title":"Crime and Punishment","author":"Fyodor Dostoevsky","color":"#702d34","ink":"#f1dfc2"},
-    {"title":"Wuthering Heights","author":"Emily Brontë","color":"#3a5145","ink":"#f0e9cd"},
-    {"title":"Anna Karenina","author":"Leo Tolstoy","color":"#253d54","ink":"#eadcbe"},
-    {"title":"Dune","author":"Frank Herbert","color":"#c38f45","ink":"#302b25"},
-    {"title":"Martyr!","author":"Kaveh Akbar","color":"#b95e38","ink":"#fff0d4"},
-    {"title":"Sunrise on the Reaping","author":"Suzanne Collins","color":"#655176","ink":"#fae9c1"}
+    {
+      "title": "Crime and Punishment",
+      "author": "Fyodor Dostoevsky",
+      "color": "#702d34",
+      "ink": "#f1dfc2"
+    },
+    {
+      "title": "Wuthering Heights",
+      "author": "Emily Brontë",
+      "color": "#3a5145",
+      "ink": "#f0e9cd"
+    },
+    {
+      "title": "Anna Karenina",
+      "author": "Leo Tolstoy",
+      "color": "#253d54",
+      "ink": "#eadcbe"
+    },
+    {
+      "title": "Dune",
+      "author": "Frank Herbert",
+      "color": "#c38f45",
+      "ink": "#302b25"
+    },
+    {
+      "title": "Martyr!",
+      "author": "Kaveh Akbar",
+      "color": "#b95e38",
+      "ink": "#fff0d4"
+    },
+    {
+      "title": "Sunrise on the Reaping",
+      "author": "Suzanne Collins",
+      "color": "#655176",
+      "ink": "#fae9c1"
+    }
   ],
   "essays": [],
-  "art": []
+  "art": [
+    {
+      "title": "The Swan, No. 1",
+      "artist": "Hilma af Klint",
+      "date": "1914–1915",
+      "location": "Hilma af Klint Foundation · Stockholm, Sweden",
+      "image": "https://i0.wp.com/thevimu.com/wp-content/uploads/2025/11/art-hilma-af-klint-group-IX-SUW-swan-svanen-no-1-1915.jpg?resize=595%2C600&ssl=1",
+      "alt": "A white and a black swan meet against a divided black-and-white background.",
+      "source": "https://thevimu.com/the-swan-no-1-1915-ce/",
+      "credit": "Hilma af Klint Foundation. Image: The Vimu."
+    },
+    {
+      "title": "What a Human Being Is",
+      "artist": "Hilma af Klint",
+      "date": "c. 1910",
+      "location": "Current collection not publicly confirmed",
+      "image": "https://uploads2.wikiart.org/images/hilma-af-klint/what-a-human-being-is-1910.jpg",
+      "alt": "An abstract composition of spirals and geometric forms in pale blue, yellow, pink and black.",
+      "source": "https://www.wikiart.org/en/hilma-af-klint/what-a-human-being-is-1910",
+      "credit": "Image: WikiArt."
+    },
+    {
+      "title": "Dante et Virgile",
+      "artist": "William Bouguereau",
+      "date": "1850",
+      "location": "Musée d’Orsay · Paris, France",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/7/70/William-Adolphe_Bouguereau_%281825-1905%29_-_Dante_And_Virgil_In_Hell_%281850%29.jpg",
+      "alt": "Two figures struggle in the foreground while Dante and Virgil look on in a dark vision of hell.",
+      "source": "https://www.musee-orsay.fr/en/artworks/dante-et-virgile-153692",
+      "credit": "Image: Wikimedia Commons."
+    },
+    {
+      "title": "No. 5/No. 22",
+      "artist": "Mark Rothko",
+      "date": "1950",
+      "location": "The Museum of Modern Art · New York, USA",
+      "image": "https://www.moma.org/media/W1siZiIsIjIwMzM2OSJdLFsicCIsImNvbnZlcnQiLCItcXVhbGl0eSA5MCAtcmVzaXplIDIwMDB4MjAwMFx1MDAzZSJdXQ.jpg?sha=93b8f74e60d3e577",
+      "alt": "Broad fields of yellow and ochre divided by a narrow red band.",
+      "source": "https://www.moma.org/collection/works/80566",
+      "credit": "Image: MoMA. © Kate Rothko Prizel & Christopher Rothko / Artists Rights Society (ARS), New York."
+    },
+    {
+      "title": "Ochre and Red on Red",
+      "artist": "Mark Rothko",
+      "date": "1954",
+      "location": "The Phillips Collection · Washington, DC, USA",
+      "image": "https://www.phillipscollection.org/sites/default/files/styles/feature_extra_large_no_crop_1200_/public/collection/1666.jpg?itok=ukZLBT8X",
+      "alt": "A glowing ochre rectangle floats above a red field on a red ground.",
+      "source": "https://www.phillipscollection.org/collection/ochre-and-red-red",
+      "credit": "Image: The Phillips Collection. © Kate Rothko Prizel & Christopher Rothko / Artists Rights Society (ARS), New York."
+    },
+    {
+      "title": "Rothko Chapel",
+      "artist": "Mark Rothko",
+      "date": "Paintings 1964–1967 · chapel opened 1971",
+      "location": "Rothko Chapel · Houston, Texas, USA",
+      "note": "An installation of fourteen paintings.",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/96/Rothko_chapel_interior.jpg/500px-Rothko_chapel_interior.jpg",
+      "alt": "The Rothko Chapel with Mark Rothko’s dark, monumental paintings.",
+      "source": "https://rothkochapel.org/visit/rothko-chapel/",
+      "credit": "Photograph: Alan Islas, 2017, CC BY-SA 4.0. Unmodified.",
+      "imageSource": "https://commons.wikimedia.org/wiki/File:Rothko_chapel_interior.jpg",
+      "license": "https://creativecommons.org/licenses/by-sa/4.0/"
+    },
+    {
+      "title": "The Persistence of Memory",
+      "artist": "Salvador Dalí",
+      "date": "1931",
+      "location": "The Museum of Modern Art · New York, USA",
+      "image": "https://www.moma.org/media/W1siZiIsIjYxOTY1OSJdLFsicCIsImNvbnZlcnQiLCItcXVhbGl0eSA5MCAtcmVzaXplIDIwMDB4MjAwMFx1MDAzZSJdXQ.jpg?sha=ef9155183ab6bba1",
+      "alt": "Soft, melting watches drape over a branch, a ledge and a dreamlike figure in a coastal landscape.",
+      "source": "https://www.moma.org/collection/works/79018",
+      "credit": "Image: MoMA. © Salvador Dalí, Gala-Salvador Dalí Foundation / Artists Rights Society (ARS), New York."
+    },
+    {
+      "title": "Le fils de l’homme",
+      "artist": "René Magritte",
+      "date": "1964",
+      "location": "Private collection",
+      "note": "The current location is not public.",
+      "image": "https://uploads3.wikiart.org/images/rene-magritte/son-of-man-1964(1).jpg!Large.jpg",
+      "alt": "A man wearing a bowler hat stands before the sea, his face obscured by a green apple.",
+      "source": "https://www.wikiart.org/en/rene-magritte/son-of-man-1964",
+      "credit": "Image: WikiArt. © René Magritte."
+    },
+    {
+      "title": "“Untitled” (Portrait of Ross in L.A.)",
+      "artist": "Félix Gonzalez-Torres",
+      "date": "1991",
+      "location": "Art Institute of Chicago · Chicago, USA",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/%22Untitled%22_%28Portrait_of_Ross_in_L.A%29_in_the_Art_Institute_of_Chicago.jpg/500px-%22Untitled%22_%28Portrait_of_Ross_in_L.A%29_in_the_Art_Institute_of_Chicago.jpg",
+      "alt": "A pile of sweets in brightly coloured wrappers rests in the corner of a gallery.",
+      "source": "https://www.artic.edu/artworks/152961/untitled-portrait-of-ross-in-l-a",
+      "credit": "Photograph: Cduncanmiller, 2024, CC BY-SA 4.0. Unmodified. Artwork: Felix Gonzalez-Torres Foundation.",
+      "imageSource": "https://commons.wikimedia.org/wiki/File:%22Untitled%22_(Portrait_of_Ross_in_L.A)_in_the_Art_Institute_of_Chicago.jpg",
+      "license": "https://creativecommons.org/licenses/by-sa/4.0/"
+    },
+    {
+      "title": "Pietà",
+      "artist": "Michelangelo",
+      "date": "1498–1499",
+      "location": "St Peter’s Basilica · Vatican City",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/a/a7/Michelangelo%27s_Pieta_5450.jpg",
+      "alt": "Michelangelo’s marble sculpture of Mary holding the body of Christ in her lap.",
+      "source": "https://www.basilicasanpietro.va/en/san-pietro/the-pieta-of-saint-peter-s",
+      "credit": "Photograph: Stanislav Traykov, CC BY 2.5. Unmodified.",
+      "imageSource": "https://commons.wikimedia.org/wiki/File:Michelangelo%27s_Pieta_5450.jpg",
+      "license": "https://creativecommons.org/licenses/by/2.5/"
+    },
+    {
+      "title": "Icarus (Icare)",
+      "artist": "Henri Matisse",
+      "date": "1947",
+      "location": "The Metropolitan Museum of Art · New York, USA",
+      "note": "Plate VIII from Jazz. One of the prints in this edition.",
+      "image": "https://collectionapi.metmuseum.org/api/collection/v1/iiif/337069/741187/restricted",
+      "alt": "A black figure with a red heart floats among yellow starbursts against a blue background.",
+      "source": "https://www.metmuseum.org/art/collection/search/337069",
+      "credit": "Image: The Metropolitan Museum of Art. © Succession H. Matisse / Artists Rights Society (ARS), New York."
+    }
+  ]
 }
