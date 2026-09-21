@@ -2,9 +2,23 @@ const volumes = [...document.querySelectorAll('.book-slot')];
 const previous = document.getElementById('previous-book');
 const next = document.getElementById('next-book');
 let selection = 0;
+const stage = document.querySelector('.shelf-stage');
+const motion = window.matchMedia('(prefers-reduced-motion: reduce)');
+let revealTimer;
+
+function revealBook() {
+ const bounds = stage.getBoundingClientRect();
+ const book = volumes[selection].getBoundingClientRect();
+ const padding = 25;
+ const delta = book.left < bounds.left + padding ? book.left - bounds.left - padding
+   : book.right > bounds.right - padding ? book.right - bounds.right + padding : 0;
+ if (delta) stage.scrollTo({left:stage.scrollLeft + delta, behavior:motion.matches ? 'instant' : 'smooth'});
+}
 document.querySelector('.shelf-controls').hidden = false;
 function selectBook(index, focus = false) {
- selection = Math.max(0, Math.min(volumes.length - 1, index));
+ const target = Math.max(0, Math.min(volumes.length - 1, index));
+ if (target === selection) return;
+ selection = target;
  volumes.forEach((volume, i) => {
    volume.classList.toggle('selected', i === selection);
    volume.setAttribute('aria-pressed', String(i === selection));
@@ -16,7 +30,8 @@ function selectBook(index, focus = false) {
  previous.disabled = selection === 0;
  next.disabled = selection === volumes.length - 1;
  if (focus) selected.focus({preventScroll:true});
- selected.scrollIntoView({behavior:window.matchMedia('(prefers-reduced-motion: reduce)').matches ? 'instant' : 'smooth', block:'nearest', inline:'nearest'});
+ clearTimeout(revealTimer);
+ revealTimer = setTimeout(revealBook, motion.matches ? 0 : 460);
 }
 volumes.forEach((volume, i) => {
  volume.addEventListener('click', () => selectBook(i));
