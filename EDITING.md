@@ -16,3 +16,5 @@ The books interaction is an original CSS implementation inspired by the interact
 Album artwork and song previews come from Apple's iTunes metadata API. Each album has its source link in `albums.json`. Previews are streamed, not stored in this repository.
 
 Fashion is intentionally omitted from navigation until its content is ready. Its page source is preserved.
+
+The homepage greeting uses Rime’s original, unmodified drawing in `assets/rime-handwriting.png`. An SVG viewport excludes the spellcheck underline; its filter removes the light background and renders the original ink in `#94566d`. The drawing is not recreated with a font. Change its display width in `.handwritten-greeting` in `styles.css`.

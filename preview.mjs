@@ -8,6 +8,7 @@ const files = new Map([
   ['/music.js', ['music.js', 'text/javascript; charset=utf-8']],
   ['/books.js', ['books.js', 'text/javascript; charset=utf-8']],
   ['/art.js', ['art.js', 'text/javascript; charset=utf-8']],
+  ['/assets/rime-handwriting.png', ['assets/rime-handwriting.png', 'image/png']],
   ...['books', 'fashion', 'music', 'essays', 'art', 'sports'].flatMap(section => [
     [`/${section}/`, [`${section}/index.html`, 'text/html; charset=utf-8']],
     [`/${section}/index.html`, [`${section}/index.html`, 'text/html; charset=utf-8']],

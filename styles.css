@@ -21,7 +21,7 @@ h1 em { font-weight:400; color:var(--accent); }
 .home h1 { font-size:clamp(2.6rem,5.8vw,3.7rem); }
 .home h1 { font-family:'IBM Plex Sans',Arial,sans-serif; font-weight:400; letter-spacing:-.045em; line-height:1.15; }
 .home h1 em { font-style:normal; color:inherit; }
-.home-intro > .eyebrow { font:italic 1.65rem/1.3 Georgia,serif; color:#94566d; letter-spacing:0; margin-bottom:24px; }
+.handwritten-greeting { display:block; width:260px; max-width:100%; height:auto; margin-bottom:24px; overflow:hidden; }
 .bio { margin-top:25px; font-size:1rem; line-height:1.8; color:var(--muted); }
 .directory { border-top:1px solid var(--line); }
 .directory > a,.directory-external { display:flex; align-items:center; gap:22px; min-height:57px; border-bottom:1px solid var(--line); font-size:1.0625rem; }
