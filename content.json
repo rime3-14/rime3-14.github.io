@@ -1,0 +1,15 @@
+{
+  "letterboxd": "https://boxd.it/mvFYH",
+  "goodreads": "https://www.goodreads.com/user/show/145207462",
+  "portfolio": "",
+  "books": [
+    {"title":"Crime and Punishment","author":"Fyodor Dostoevsky","color":"#702d34","ink":"#f1dfc2"},
+    {"title":"Wuthering Heights","author":"Emily Brontë","color":"#3a5145","ink":"#f0e9cd"},
+    {"title":"Anna Karenina","author":"Leo Tolstoy","color":"#253d54","ink":"#eadcbe"},
+    {"title":"Dune","author":"Frank Herbert","color":"#c38f45","ink":"#302b25"},
+    {"title":"Martyr!","author":"Kaveh Akbar","color":"#b95e38","ink":"#fff0d4"},
+    {"title":"Sunrise on the Reaping","author":"Suzanne Collins","color":"#655176","ink":"#fae9c1"}
+  ],
+  "essays": [],
+  "art": []
+}
