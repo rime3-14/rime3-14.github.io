@@ -4,14 +4,29 @@ Edit `content.json`, then run `node build.mjs`. Commit the generated HTML along 
 
 Run `node preview.mjs` for a local preview at http://127.0.0.1:4173/.
 
-- Add a portfolio URL in `portfolio` when ready.
+- The professional-site note uses the URL in `portfolio`.
 - Book entries use `title`, `author`, `color`, and `ink`.
 - Art entries use `title`, `artist`, `date`, `location`, `image` (an HTTPS image URL), `alt`, and `source` (the artwork source page), with optional `note` and `credit`. The gallery preserves each image’s proportions. Hover, tap, Enter, or Space flips a card; Escape turns it back. Source links are under the gallery. Use artwork you have permission to display.
 - Essay entries use `slug` (lowercase words separated by hyphens), `title`, `date` (YYYY-MM-DD), `summary`, and `paragraphs` (a list of text paragraphs). Each essay gets its own page automatically. To remove an essay, remove its entry and its generated HTML file.
 
 The music page's albums, covers, selected tracks, preview URLs, and Apple Music links are in `albums.json`. Rebuild after changing them. Selecting an album updates the vinyl and plays that song's preview; the page never starts audio on initial load. The rotation and player are controlled by `music.js`, with reduced-motion support, keyboard controls, and a streaming link if a preview is unavailable.
 
-The books interaction is an original CSS implementation inspired by the interactive library shared at https://x.com/carrabre/status/2081930429435875694. Covers are custom typographic treatments, not reproductions of published editions.
+The books interaction is an original CSS implementation inspired by the interactive library reference and shelf video. Covers are custom illustrated typographic treatments, not reproductions of published editions. `books-template.mjs`, `books.css`, and `books.js` control the shelf and inspect-volume dialog. Click a spine or use the arrow controls; Escape closes the dialog.
+
+## The hidden room
+
+The only entrance on the main site is the small footer link. The room is at `/fun/`, with independent styles and navigation. It is omitted from search indexing, but is still a public page.
+
+Edit `fun-content.json`, then rebuild:
+
+- `portrait`: a local image path such as `../assets/fun/portrait.jpg`. Leave empty until the portrait is ready. The mirror converts the image to ASCII in the browser. Visitors can also try their own image locally; it is never uploaded.
+- `photos`: entries with `image`, `alt`, and `caption`. Leave the array empty to show the unfilled photo frames. Each populated print opens in a lightbox.
+- `travels`: entries with `country`, `caption`, `image`, optional `alt` and `region`, and `theme` (`spain`, `france`, `germany`, or `italy`). An empty image displays an original country illustration. Replace these starter cards with actual travel details later.
+- `bag`: entries with `id`, `name`, and `note`. IDs select the original object drawings: `book`, `gloss`, `earphones`, `charm`, `gum`, `notebook`, `glasses`, `photos`, `receipt`.
+
+Keep images under `assets/fun/`, using simple filenames without spaces. HTTPS image URLs also work; a portrait served elsewhere must allow cross-origin canvas access.
+
+Sketches are stored in the visitor's browser on that device, with PNG/SVG download buttons. This is a personal drawing pad, not a public guestbook: drawings are not sent to Rime or other visitors. The empty portrait, photo frames, current-book title, and cinema receipt are intentional placeholders awaiting Rime's content.
 
 Album artwork and song previews come from Apple's iTunes metadata API. Each album has its source link in `albums.json`. Previews are streamed, not stored in this repository.
 

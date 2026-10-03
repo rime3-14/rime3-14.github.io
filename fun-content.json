@@ -1,0 +1,21 @@
+{
+  "portrait": "",
+  "photos": [],
+  "travels": [
+    {"country":"Spain","caption":"A postcard waiting for its story.","image":"","theme":"spain"},
+    {"country":"France","caption":"A postcard waiting for its story.","image":"","theme":"france"},
+    {"country":"Germany","caption":"A postcard waiting for its story.","image":"","theme":"germany"},
+    {"country":"Italy","caption":"A postcard waiting for its story.","image":"","theme":"italy"}
+  ],
+  "bag": [
+    {"id":"book","name":"My current book","note":"Title to be added."},
+    {"id":"gloss","name":"Lip gloss","note":"A little shine."},
+    {"id":"earphones","name":"Wired earphones","note":"Always a little tangled."},
+    {"id":"charm","name":"Kuromi charm","note":"Tiny bag companion."},
+    {"id":"gum","name":"Gum","note":"Just in case."},
+    {"id":"notebook","name":"Notebook","note":"Somewhere for passing thoughts."},
+    {"id":"glasses","name":"Glasses","note":"Seeing things clearly."},
+    {"id":"photos","name":"Little photos","note":"The pictures will go here."},
+    {"id":"receipt","name":"Cinema receipt","note":"The Odyssey · a placeholder for the real receipt."}
+  ]
+}
