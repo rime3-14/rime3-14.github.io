@@ -3,3 +3,27 @@
 @media(max-width:1050px){.room-layout{grid-template-columns:155px minmax(0,1fr);gap:24px}.room-right{display:none}.window-body{min-height:560px}}
 @media(max-width:700px){.room-page{padding:0 20px}.room-masthead>span{display:none}.room-layout{display:block;padding:28px 0}.room-brand{font-size:38px;margin:0 0 20px;letter-spacing:-1.5px}.room-brand br{display:none}.room-brand em{margin-left:8px}.room-brand>span{display:inline-block;font-size:9px;margin-left:20px;letter-spacing:0}.room-nav{flex-direction:row;overflow-x:auto;gap:8px;white-space:nowrap;padding:8px 0;margin-bottom:23px}.room-nav a{padding:8px;font-size:11px;gap:6px}.room-left .little-note,.room-left>.small-link{display:none}.window-body{padding:27px 22px 22px;min-height:510px}.room-panel h1{font-size:36px}.door-grid{gap:28px 10px}.room-icon{width:57px;height:57px}.room-door{font-size:10px}.room-footer{font-size:9px;flex-wrap:wrap}.room-footer>span:last-child{display:none}.window-status{font-size:8px}.photo-wall{gap:20px 15px;margin-inline:0}.ascii-frame{min-height:240px}.ascii-tools{gap:12px 9px}.postcard-controls{gap:10px}.postcard-controls .paper-button{padding:9px}.sketch-prompt{font-size:16px}.sketch-prompt span{font-size:9px;letter-spacing:0}.sketch-tools{gap:12px}.drawing-actions{margin-left:0}.neighbours a{font-size:15px}.neighbours a span{font-size:9px}.big-bag{max-width:280px}.bag-object .room-icon{width:53px;height:53px}.bag-object>span{font-size:9px}.room-brand>span{display:block;margin:10px 0 0}.ascii-frame pre{font-size:4px}.window-body{overflow:hidden}}
 @media(prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;transition:none!important;scroll-behavior:auto!important}}
+
+/* Rime's supplied drawings and cutout belongings. */
+.supplied-art{display:block;object-fit:contain;pointer-events:none;user-select:none}
+.paper-art{mix-blend-mode:multiply}
+.door-grid{gap:30px 18px;margin-top:29px}
+.room-door{gap:13px}
+.door-art{width:104px;height:94px;max-width:100%;transition:transform .22s ease}
+.door-portrait{width:70px}.door-bag{width:90px}.door-sketch{width:93px}.door-links{width:79px}
+.room-door:hover .door-art{transform:translateY(-5px) rotate(-4deg)}
+.cat-playing-card{margin:5px 1px 0;transform:rotate(4deg);filter:drop-shadow(2px 4px 3px #39243d20)}
+.cat-playing-card img{display:block;width:100%;height:auto;border-radius:12px;clip-path:inset(1% 1.7% round 11px)}
+.big-bag{max-width:280px;margin:10px auto 0;transition:max-width .35s ease,transform .3s}
+.big-bag .bag-photo{width:100%;height:300px;object-fit:contain;filter:drop-shadow(2px 5px 4px #291a2820)}
+.big-bag[aria-expanded=true]{max-width:110px}
+.big-bag[aria-expanded=true] .bag-photo{height:120px}
+.bag-contents{gap:24px 14px;padding:28px 0 14px}
+.bag-object{min-width:0;padding:8px 4px;gap:10px;border-radius:4px}
+.bag-art{width:122px;height:117px;max-width:100%;filter:drop-shadow(1px 3px 2px #291a2814);transition:scale .2s}
+.bag-object .room-icon{height:117px;width:66px}
+.bag-art-gloss{width:32px;rotate:8deg}.bag-art-charm{width:78px}.bag-art-photos{width:83px}.bag-art-glasses,.bag-art-receipt{width:135px}
+.bag-object:hover .bag-art{scale:1.07}
+.bag-object[aria-pressed=true]{background:#e8dce780;box-shadow:0 0 0 1px #cdb7c8}
+.bag-caption{min-height:70px}
+@media(max-width:700px){.door-grid{gap:29px 12px}.door-art{width:78px;height:79px}.door-portrait{width:52px}.door-bag{width:64px}.door-links{width:60px}.door-sketch{width:68px}.bag-contents{gap:17px 10px}.bag-art{height:94px;width:100px}.bag-art-gloss{width:27px}.bag-art-charm{width:64px}.bag-art-photos{width:64px}.bag-object .room-icon{height:94px;width:55px}.big-bag .bag-photo{height:270px}.room-nav{scrollbar-width:thin}}

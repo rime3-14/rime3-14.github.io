@@ -26,6 +26,8 @@ Edit `fun-content.json`, then rebuild:
 
 Keep images under `assets/fun/`, using simple filenames without spaces. HTTPS image URLs also work; a portrait served elsewhere must allow cross-origin canvas access.
 
+The supplied room doodles, cat card, and bag belongings are mapped in `fun-art.mjs`. Their optimized WebP files and preparation notes are under `assets/fun/`. Change these mappings to replace an object image without changing its interaction or caption.
+
 Sketches are stored in the visitor's browser on that device, with PNG/SVG download buttons. This is a personal drawing pad, not a public guestbook: drawings are not sent to Rime or other visitors. The empty portrait, photo frames, current-book title, and cinema receipt are intentional placeholders awaiting Rime's content.
 
 Album artwork and song previews come from Apple's iTunes metadata API. Each album has its source link in `albums.json`. Previews are streamed, not stored in this repository.
