@@ -11,17 +11,19 @@ function revealBook(){
 function inspect(){
  const selected=volumes[selection],cover=byId('inspection-cover');
  cover.replaceChildren(selected.querySelector('.book-front').cloneNode(true));
+ cover.style.setProperty('--ratio',selected.style.getPropertyValue('--ratio'));
  cover.style.setProperty('--cover',selected.style.getPropertyValue('--cover'));cover.style.setProperty('--book-ink',selected.style.getPropertyValue('--book-ink'));
  ['title','author','count'].forEach(key=>byId(`inspection-${key}`).textContent=byId(`book-${key}`).textContent);
- byId('inspection-link').href=`https://www.goodreads.com/search?q=${encodeURIComponent(byId('book-title').textContent+' '+byId('book-author').textContent)}`;
+ byId('inspection-link').href=`https://www.goodreads.com/search?q=${encodeURIComponent(selected.dataset.isbn || selected.dataset.title)}`;
+ byId('inspection-edition').textContent=selected.dataset.edition;byId('inspection-edition').href=selected.dataset.source;
  byId('inspect-previous').disabled=selection===0;byId('inspect-next').disabled=selection===volumes.length-1;
 }
 function selectBook(index,focus=false){
  selection=Math.max(0,Math.min(volumes.length-1,index));
  volumes.forEach((v,i)=>{v.classList.toggle('selected',i===selection);v.setAttribute('aria-pressed',String(i===selection));});
  const selected=volumes[selection];
- byId('book-title').textContent=selected.querySelector('.book-front strong').textContent;
- byId('book-author').textContent=selected.querySelector('.book-front small').textContent;
+ byId('book-title').textContent=selected.dataset.title;
+ byId('book-author').textContent=selected.dataset.author;
  byId('book-count').textContent=`${String(selection+1).padStart(2,'0')} / ${String(volumes.length).padStart(2,'0')}`;
  previous.disabled=selection===0;next.disabled=selection===volumes.length-1;
  if(focus)selected.focus({preventScroll:true});
@@ -35,3 +37,10 @@ byId('inspect-book').addEventListener('click',()=>{inspect();dialog.showModal();
 byId('inspect-previous').addEventListener('click',()=>selectBook(selection-1));byId('inspect-next').addEventListener('click',()=>selectBook(selection+1));
 dialog.addEventListener('keydown',event=>{if(['ArrowLeft','ArrowRight'].includes(event.key)){event.preventDefault();selectBook(selection+(event.key==='ArrowRight'?1:-1));}});
 dialog.addEventListener('click',event=>{if(event.target===dialog){const b=dialog.getBoundingClientRect();if(event.clientX<b.left||event.clientX>b.right||event.clientY<b.top||event.clientY>b.bottom)dialog.close();}});
+
+// Keep the readable title beneath the artwork if an image cannot load.
+document.querySelectorAll('.published-cover').forEach(img=>{
+ const fallback=()=>{img.hidden=true;};
+ img.addEventListener('error',fallback);
+ if(img.complete && !img.naturalWidth)fallback();
+});

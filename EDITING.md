@@ -5,13 +5,14 @@ Edit `content.json`, then run `node build.mjs`. Commit the generated HTML along 
 Run `node preview.mjs` for a local preview at http://127.0.0.1:4173/.
 
 - The professional-site note uses the URL in `portfolio`.
-- Book entries use `title`, `author`, `color`, and `ink`.
-- Art entries use `title`, `artist`, `date`, `location`, `image` (an HTTPS image URL), `alt`, and `source` (the artwork source page), with optional `note` and `credit`. The gallery preserves each image’s proportions. Hover, tap, Enter, or Space flips a card; Escape turns it back. Source links are under the gallery. Use artwork you have permission to display.
+- Book entries use `title`, `author`, optional `translator`, `color`, `ink`, `cover`, `coverWidth`, `coverHeight`, `edition`, `isbn`, and `source` (the publisher page). Store covers in `assets/books/`; dimensions preserve the actual edition’s proportions. Goodreads searches use its ISBN.
+- Art entries use `title`, `artist`, `date`, `location`, `image` (an HTTPS image URL or a local path such as `../assets/art/work.jpg`), `alt`, and `source` (the artwork source page), with optional `note` and `credit`. The gallery preserves each image’s proportions. Hover, tap, Enter, or Space flips a card; Escape turns it back. Source links are under the gallery. Use artwork you have permission to display.
+- `likedEssays` entries use `title`, `author`, `url`, and optional `note` (for example, `PDF`). These appear as external reading links, separately from Rime’s writing.
 - Essay entries use `slug` (lowercase words separated by hyphens), `title`, `date` (YYYY-MM-DD), `summary`, and `paragraphs` (a list of text paragraphs). Each essay gets its own page automatically. To remove an essay, remove its entry and its generated HTML file.
 
 The music page's albums, covers, selected tracks, preview URLs, and Apple Music links are in `albums.json`. Rebuild after changing them. Selecting an album updates the vinyl and plays that song's preview; the page never starts audio on initial load. The rotation and player are controlled by `music.js`, with reduced-motion support, keyboard controls, and a streaming link if a preview is unavailable.
 
-The books interaction is an original CSS implementation inspired by the interactive library reference and shelf video. Covers are custom illustrated typographic treatments, not reproductions of published editions. `books-template.mjs`, `books.css`, and `books.js` control the shelf and inspect-volume dialog. Click a spine or use the arrow controls; Escape closes the dialog.
+The books interaction is an original CSS implementation inspired by the interactive library reference and shelf video. Front covers reproduce published editions, with publisher links in the inspection view. The spines are complementary typographic treatments. Asset sources are recorded in `assets/books/SOURCES.md`. `books-template.mjs`, `books.css`, and `books.js` control the shelf and inspect-volume dialog. Click a spine or use the arrow controls; Escape closes the dialog.
 
 ## The hidden room
 

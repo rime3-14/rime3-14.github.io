@@ -7,37 +7,111 @@
       "title": "Crime and Punishment",
       "author": "Fyodor Dostoevsky",
       "color": "#702d34",
-      "ink": "#f1dfc2"
+      "ink": "#f1dfc2",
+      "cover": "../assets/books/crime-and-punishment.jpg",
+      "coverWidth": 450,
+      "coverHeight": 744,
+      "isbn": "9780241347683",
+      "edition": "Penguin Clothbound Classics",
+      "source": "https://penguinrandomhouselibrary.com/book/?isbn=9780241347683"
     },
     {
       "title": "Wuthering Heights",
       "author": "Emily Brontë",
       "color": "#3a5145",
-      "ink": "#f0e9cd"
+      "ink": "#f0e9cd",
+      "cover": "../assets/books/wuthering-heights.jpg",
+      "coverWidth": 450,
+      "coverHeight": 680,
+      "isbn": "9780141040356",
+      "edition": "Penguin Clothbound Classics",
+      "source": "https://www.penguinrandomhouse.com/books/286389/wuthering-heights-by-emily-bronte/"
     },
     {
       "title": "Anna Karenina",
       "author": "Leo Tolstoy",
       "color": "#253d54",
-      "ink": "#eadcbe"
+      "ink": "#eadcbe",
+      "cover": "../assets/books/anna-karenina.jpg",
+      "coverWidth": 450,
+      "coverHeight": 684,
+      "isbn": "9780141199610",
+      "edition": "Penguin Clothbound Classics",
+      "source": "https://www.penguinrandomhouseretail.com/book/?isbn=9780141199610"
     },
     {
       "title": "Dune",
       "author": "Frank Herbert",
       "color": "#c38f45",
-      "ink": "#302b25"
+      "ink": "#302b25",
+      "cover": "../assets/books/dune.jpg",
+      "coverWidth": 450,
+      "coverHeight": 675,
+      "isbn": "9780441013593",
+      "edition": "Ace",
+      "source": "https://penguinrandomhousehighereducation.com/book/?isbn=9780441013593"
     },
     {
-      "title": "Martyr!",
-      "author": "Kaveh Akbar",
-      "color": "#b95e38",
-      "ink": "#fff0d4"
+      "title": "Eros the Bittersweet",
+      "author": "Anne Carson",
+      "color": "#91a384",
+      "ink": "#202822",
+      "cover": "../assets/books/eros-the-bittersweet.jpg",
+      "coverWidth": 1650,
+      "coverHeight": 2550,
+      "isbn": "9781628973860",
+      "edition": "Dalkey Archive Essentials",
+      "source": "https://dalkeyarchive.store/products/eros-the-bittersweet"
     },
     {
-      "title": "Sunrise on the Reaping",
-      "author": "Suzanne Collins",
-      "color": "#655176",
-      "ink": "#fae9c1"
+      "title": "The Diaries",
+      "author": "Franz Kafka",
+      "translator": "Ross Benjamin",
+      "color": "#bb4734",
+      "ink": "#fff8e6",
+      "cover": "../assets/books/kafka-diaries.jpg",
+      "coverWidth": 450,
+      "coverHeight": 698,
+      "isbn": "9780805212792",
+      "edition": "Schocken",
+      "source": "https://www.penguinrandomhouse.com/books/612561/the-diaries-of-franz-kafka-by-franz-kafka/"
+    },
+    {
+      "title": "Le Mythe de Sisyphe",
+      "author": "Albert Camus",
+      "color": "#e6ddc6",
+      "ink": "#342d26",
+      "cover": "../assets/books/le-mythe-de-sisyphe.jpg",
+      "coverWidth": 306,
+      "coverHeight": 500,
+      "isbn": "9782070322886",
+      "edition": "Folio essais · Gallimard",
+      "source": "https://www.gallimard.fr/catalogue/le-mythe-de-sisyphe/9782070322886"
+    },
+    {
+      "title": "Antigone",
+      "author": "Sophocles",
+      "color": "#252525",
+      "ink": "#f7f2e7",
+      "cover": "../assets/books/antigone.jpg",
+      "coverWidth": 450,
+      "coverHeight": 652,
+      "isbn": "9780141397702",
+      "edition": "Penguin Little Black Classics",
+      "source": "https://www.penguin.co.uk/books/276830/antigone-by-sophocles/9780141397702"
+    },
+    {
+      "title": "The Odyssey",
+      "author": "Homer",
+      "translator": "Emily Wilson",
+      "color": "#426d88",
+      "ink": "#faf3da",
+      "cover": "../assets/books/the-odyssey.jpg",
+      "coverWidth": 300,
+      "coverHeight": 437,
+      "isbn": "9780393356250",
+      "edition": "W. W. Norton",
+      "source": "https://wwnorton.co.uk/books/9780393356250-the-odyssey-4709fc56-cc27-49d3-90f5-4934b58a885c"
     }
   ],
   "essays": [],
@@ -160,6 +234,84 @@
       "alt": "A black figure with a red heart floats among yellow starbursts against a blue background.",
       "source": "https://www.metmuseum.org/art/collection/search/337069",
       "credit": "Image: The Metropolitan Museum of Art. © Succession H. Matisse / Artists Rights Society (ARS), New York."
+    },
+    {
+      "title": "Four Darks in Red",
+      "artist": "Mark Rothko",
+      "date": "1958",
+      "location": "Whitney Museum of American Art · New York, USA",
+      "image": "../assets/art/four-darks-in-red.jpg",
+      "alt": "Four softly edged bands of black and dark maroon float on a deep red ground.",
+      "source": "https://whitney.org/collection/works/897",
+      "credit": "Image: Whitney Museum of American Art. © Kate Rothko Prizel & Christopher Rothko / Artists Rights Society (ARS), New York."
+    },
+    {
+      "title": "Nike of Samothrace",
+      "artist": "Unknown artist · Hellenistic Greek",
+      "date": "c. 190 BC",
+      "location": "Musée du Louvre · Paris, France",
+      "note": "Also known as the Winged Victory of Samothrace.",
+      "image": "../assets/art/nike-of-samothrace.jpg",
+      "alt": "The winged marble goddess Nike stands with drapery billowing around her body; her head and arms are missing.",
+      "source": "https://www.louvre.fr/en/explore/the-palace/a-stairway-to-victory",
+      "credit": "Photograph: © 2014 Musée du Louvre / Philippe Fuzeau."
+    },
+    {
+      "title": "Stańczyk",
+      "artist": "Jan Matejko",
+      "date": "1862",
+      "location": "National Museum in Warsaw · Warsaw, Poland",
+      "image": "../assets/art/stanczyk.jpg",
+      "alt": "A pensive court jester dressed in red sits alone while a brightly lit ball continues in the room beyond.",
+      "source": "https://www.mnw.art.pl/multimedia/sztuka-pod-lupa/mloda-polska/",
+      "credit": "Image: Google Art Project, via Wikimedia Commons. Public domain.",
+      "imageSource": "https://commons.wikimedia.org/wiki/File:Jan_Matejko_-_Sta%C5%84czyk_-_Google_Art_Project.jpg",
+      "license": "https://creativecommons.org/publicdomain/mark/1.0/"
+    }
+  ],
+  "likedEssays": [
+    {
+      "title": "Signposts Back",
+      "author": "Avital Balwit",
+      "url": "https://www.avitalbalwit.com/post/signposts-back"
+    },
+    {
+      "title": "I am not always very attached to being alive",
+      "author": "Anna Borges",
+      "url": "https://theoutline.com/post/7267/living-with-passive-suicidal-ideation"
+    },
+    {
+      "title": "What I Wish Someone Had Told Me",
+      "author": "Sam Altman",
+      "url": "https://blog.samaltman.com/what-i-wish-someone-had-told-me"
+    },
+    {
+      "title": "Ernest Hemingway’s Powerful Letter to F. Scott Fitzgerald",
+      "author": "Ernest Hemingway",
+      "note": "Letter · via Farnam Street",
+      "url": "https://fs.blog/you-see-well-enough-but-you-stop-listening/"
+    },
+    {
+      "title": "The Straussian Moment",
+      "author": "Peter Thiel",
+      "note": "PDF",
+      "url": "https://gwern.net/doc/politics/2007-thiel.pdf"
+    },
+    {
+      "title": "The Diet Coke Essay",
+      "author": "Cricket Guest",
+      "url": "https://finalgirldigital.substack.com/p/the-diet-coke-essay"
+    },
+    {
+      "title": "Man-Computer Symbiosis",
+      "author": "J. C. R. Licklider",
+      "note": "PDF",
+      "url": "https://worrydream.com/refs/Licklider_1960_-_Man-Computer_Symbiosis.pdf"
+    },
+    {
+      "title": "Almost anything you give sustained attention to will begin to loop on itself and bloom",
+      "author": "Henrik Karlsson",
+      "url": "https://www.henrikkarlsson.xyz/p/attention"
     }
   ]
 }
