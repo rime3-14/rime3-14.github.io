@@ -158,11 +158,11 @@ time { font-size:.875rem; color:var(--muted); }
 .essay-jump { display:flex; flex-wrap:wrap; gap:12px 28px; margin-top:24px; font:12px/1.5 'IBM Plex Mono',monospace; }
 .essay-jump a { text-underline-offset:5px; text-decoration-color:var(--line); }
 .essay-section { scroll-margin-top:30px; }
-.essay-section>h2 { font-size:1.15rem; margin-bottom:20px; letter-spacing:-.025em; }
+.essay-section>h2 { font-size:1.15rem; font-weight:500; margin-bottom:20px; letter-spacing:-.025em; }
 .reading-list { list-style:none; padding:0; margin:0; }
 .reading-list li+li { border-top:1px solid var(--line); }
 .reading-link { display:flex; align-items:start; justify-content:space-between; gap:28px; padding:23px 0; text-decoration:none; }
-.reading-link h3,.essay-list h3 { margin:0; font:400 clamp(1rem,2.2vw,1.2rem)/1.55 'IBM Plex Mono',monospace; letter-spacing:-.035em; }
+.reading-link h3,.essay-list h3 { margin:0; font:400 clamp(.9375rem,1.5vw,1rem)/1.55 'IBM Plex Mono',monospace; letter-spacing:-.035em; }
 .reading-link p { margin-top:8px; font-size:14px; color:var(--muted); line-height:1.6; }
 .reading-note { font-size:12px; }
 .reading-arrow { color:var(--muted); font-size:20px; flex:none; transition:transform .2s; }
