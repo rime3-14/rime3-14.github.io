@@ -127,14 +127,24 @@
       "credit": "Hilma af Klint Foundation. Image: The Vimu."
     },
     {
-      "title": "What a Human Being Is",
-      "artist": "Hilma af Klint",
-      "date": "c. 1910",
-      "location": "Current collection not publicly confirmed",
-      "image": "https://uploads2.wikiart.org/images/hilma-af-klint/what-a-human-being-is-1910.jpg",
-      "alt": "An abstract composition of spirals and geometric forms in pale blue, yellow, pink and black.",
-      "source": "https://www.wikiart.org/en/hilma-af-klint/what-a-human-being-is-1910",
-      "credit": "Image: WikiArt."
+      "title": "Ochre and Red on Red",
+      "artist": "Mark Rothko",
+      "date": "1954",
+      "location": "The Phillips Collection · Washington, DC, USA",
+      "image": "https://www.phillipscollection.org/sites/default/files/styles/feature_extra_large_no_crop_1200_/public/collection/1666.jpg?itok=ukZLBT8X",
+      "alt": "A glowing ochre rectangle floats above a red field on a red ground.",
+      "source": "https://www.phillipscollection.org/collection/ochre-and-red-red",
+      "credit": "Image: The Phillips Collection. © Kate Rothko Prizel & Christopher Rothko / Artists Rights Society (ARS), New York."
+    },
+    {
+      "title": "Blue Monochrome",
+      "artist": "Yves Klein",
+      "date": "1961",
+      "location": "The Museum of Modern Art · New York, USA",
+      "image": "../assets/art/klein-blue-monochrome.jpg",
+      "alt": "A tall rectangular field of deep ultramarine blue with a subtly textured surface.",
+      "source": "https://www.moma.org/collection/works/80103",
+      "credit": "Image: MoMA. © 2026 Artists Rights Society (ARS), New York / ADAGP, Paris."
     },
     {
       "title": "Dante et Virgile",
@@ -147,6 +157,37 @@
       "credit": "Image: Wikimedia Commons."
     },
     {
+      "title": "Man Grieving over a Dead Deer",
+      "artist": "George Minne",
+      "date": "1896",
+      "location": "Museum of Fine Arts (MSK) · Ghent, Belgium",
+      "image": "../assets/art/minne-dead-deer.jpg",
+      "alt": "A bronze sculpture of a grieving man curled over a dead deer, his arms embracing the animal.",
+      "source": "https://www.mskgent.be/en/collection/1949-an",
+      "credit": "Image: Museum of Fine Arts (MSK), Ghent. Public domain."
+    },
+    {
+      "title": "Victoire de Samothrace",
+      "artist": "Yves Klein",
+      "date": "1962",
+      "location": "Kunsthalle Mannheim · Mannheim, Germany",
+      "note": "A plaster replica of the ancient Winged Victory, covered in International Klein Blue.",
+      "image": "../assets/art/klein-victoire-de-samothrace.jpg",
+      "alt": "A small winged figure in vivid ultramarine blue is mounted on a slender metal rod above a pale stone base.",
+      "source": "https://www.kuma.art/en/exponat/victoire-de-samothrace",
+      "credit": "Photograph: Kunsthalle Mannheim / Cem Yücetas. © VG Bild-Kunst, Bonn 2018."
+    },
+    {
+      "title": "What a Human Being Is",
+      "artist": "Hilma af Klint",
+      "date": "c. 1910",
+      "location": "Current collection not publicly confirmed",
+      "image": "https://uploads2.wikiart.org/images/hilma-af-klint/what-a-human-being-is-1910.jpg",
+      "alt": "An abstract composition of spirals and geometric forms in pale blue, yellow, pink and black.",
+      "source": "https://www.wikiart.org/en/hilma-af-klint/what-a-human-being-is-1910",
+      "credit": "Image: WikiArt."
+    },
+    {
       "title": "No. 5/No. 22",
       "artist": "Mark Rothko",
       "date": "1950",
@@ -155,16 +196,6 @@
       "alt": "Broad fields of yellow and ochre divided by a narrow red band.",
       "source": "https://www.moma.org/collection/works/80566",
       "credit": "Image: MoMA. © Kate Rothko Prizel & Christopher Rothko / Artists Rights Society (ARS), New York."
-    },
-    {
-      "title": "Ochre and Red on Red",
-      "artist": "Mark Rothko",
-      "date": "1954",
-      "location": "The Phillips Collection · Washington, DC, USA",
-      "image": "https://www.phillipscollection.org/sites/default/files/styles/feature_extra_large_no_crop_1200_/public/collection/1666.jpg?itok=ukZLBT8X",
-      "alt": "A glowing ochre rectangle floats above a red field on a red ground.",
-      "source": "https://www.phillipscollection.org/collection/ochre-and-red-red",
-      "credit": "Image: The Phillips Collection. © Kate Rothko Prizel & Christopher Rothko / Artists Rights Society (ARS), New York."
     },
     {
       "title": "Rothko Chapel",
