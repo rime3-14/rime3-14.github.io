@@ -127,14 +127,14 @@
       "credit": "Hilma af Klint Foundation. Image: The Vimu."
     },
     {
-      "title": "Ochre and Red on Red",
+      "title": "Four Darks in Red",
       "artist": "Mark Rothko",
-      "date": "1954",
-      "location": "The Phillips Collection · Washington, DC, USA",
-      "image": "https://www.phillipscollection.org/sites/default/files/styles/feature_extra_large_no_crop_1200_/public/collection/1666.jpg?itok=ukZLBT8X",
-      "alt": "A glowing ochre rectangle floats above a red field on a red ground.",
-      "source": "https://www.phillipscollection.org/collection/ochre-and-red-red",
-      "credit": "Image: The Phillips Collection. © Kate Rothko Prizel & Christopher Rothko / Artists Rights Society (ARS), New York."
+      "date": "1958",
+      "location": "Whitney Museum of American Art · New York, USA",
+      "image": "../assets/art/four-darks-in-red.jpg",
+      "alt": "Four softly edged bands of black and dark maroon float on a deep red ground.",
+      "source": "https://whitney.org/collection/works/897",
+      "credit": "Image: Whitney Museum of American Art. © Kate Rothko Prizel & Christopher Rothko / Artists Rights Society (ARS), New York."
     },
     {
       "title": "Blue Monochrome",
@@ -147,6 +147,17 @@
       "credit": "Image: MoMA. © 2026 Artists Rights Society (ARS), New York / ADAGP, Paris."
     },
     {
+      "title": "Female Artist (Artistin)",
+      "artist": "Ernst Ludwig Kirchner",
+      "date": "1910",
+      "location": "Brücke-Museum · Berlin, Germany",
+      "image": "../assets/art/kirchner-female-artist.jpg",
+      "alt": "A girl in a striped dress rests her chin on her hand beside a white cat, painted in vivid greens, blues and orange.",
+      "source": "https://www.bruecke-museum.de/en/sammlung/werke/61617/artistin",
+      "credit": "Ernst Ludwig Kirchner, Artistin, 1910. Image: Brücke-Museum, CC BY-SA 4.0. Unmodified.",
+      "license": "https://creativecommons.org/licenses/by-sa/4.0/"
+    },
+    {
       "title": "Dante et Virgile",
       "artist": "William Bouguereau",
       "date": "1850",
@@ -157,6 +168,40 @@
       "credit": "Image: Wikimedia Commons."
     },
     {
+      "title": "The Cyclops",
+      "artist": "Odilon Redon",
+      "date": "c. 1914",
+      "location": "Kröller-Müller Museum · Otterlo, the Netherlands",
+      "image": "../assets/art/redon-the-cyclops.jpg",
+      "alt": "A one-eyed giant peers over a rocky hill towards a sleeping figure among colourful flowers.",
+      "source": "https://www.krollermuller.nl/en/collection/odilon-redon-the-cyclops-km-103-098",
+      "credit": "Image: Kröller-Müller Museum. Artwork in the public domain."
+    },
+    {
+      "title": "The Sun",
+      "artist": "Edvard Munch",
+      "date": "1911",
+      "location": "University of Oslo Aula · Oslo, Norway",
+      "image": "../assets/art/munch-the-sun.jpg",
+      "alt": "A brilliant sun sends multicoloured rays across a rocky coast and blue water.",
+      "source": "https://www.munch.no/en/our-collection/between-us-and-the-sun",
+      "credit": "Image: The Athenaeum, via Wikimedia Commons. Public domain.",
+      "imageSource": "https://commons.wikimedia.org/wiki/File:Edvard_Munch_-_The_Sun_(1911).jpg",
+      "license": "https://creativecommons.org/publicdomain/mark/1.0/"
+    },
+    {
+      "title": "The Monk by the Sea",
+      "artist": "Caspar David Friedrich",
+      "date": "1808–1810",
+      "location": "Alte Nationalgalerie · Berlin, Germany",
+      "image": "../assets/art/friedrich-monk-by-the-sea.jpg",
+      "alt": "A lone monk stands on a pale shore beneath an immense grey-blue sky and a dark band of sea.",
+      "source": "https://search.smb.museum/object/obj-965511",
+      "credit": "Image: Google Art Project, via Wikimedia Commons. Public domain.",
+      "imageSource": "https://commons.wikimedia.org/wiki/File:Caspar_David_Friedrich_-_Der_M%C3%B6nch_am_Meer_-_Google_Art_Project.jpg",
+      "license": "https://creativecommons.org/publicdomain/mark/1.0/"
+    },
+    {
       "title": "Man Grieving over a Dead Deer",
       "artist": "George Minne",
       "date": "1896",
@@ -165,6 +210,26 @@
       "alt": "A bronze sculpture of a grieving man curled over a dead deer, his arms embracing the animal.",
       "source": "https://www.mskgent.be/en/collection/1949-an",
       "credit": "Image: Museum of Fine Arts (MSK), Ghent. Public domain."
+    },
+    {
+      "title": "Ochre and Red on Red",
+      "artist": "Mark Rothko",
+      "date": "1954",
+      "location": "The Phillips Collection · Washington, DC, USA",
+      "image": "https://www.phillipscollection.org/sites/default/files/styles/feature_extra_large_no_crop_1200_/public/collection/1666.jpg?itok=ukZLBT8X",
+      "alt": "A glowing ochre rectangle floats above a red field on a red ground.",
+      "source": "https://www.phillipscollection.org/collection/ochre-and-red-red",
+      "credit": "Image: The Phillips Collection. © Kate Rothko Prizel & Christopher Rothko / Artists Rights Society (ARS), New York."
+    },
+    {
+      "title": "Vir Heroicus Sublimis",
+      "artist": "Barnett Newman",
+      "date": "1950–1951",
+      "location": "The Museum of Modern Art · New York, USA",
+      "image": "../assets/art/newman-vir-heroicus-sublimis.jpg",
+      "alt": "A wide field of vivid red is punctuated by five narrow vertical stripes of contrasting colours.",
+      "source": "https://www.moma.org/collection/works/79250",
+      "credit": "Image: MoMA. © 2026 Barnett Newman Foundation / Artists Rights Society (ARS), New York."
     },
     {
       "title": "Victoire de Samothrace",
@@ -198,51 +263,6 @@
       "credit": "Image: MoMA. © Kate Rothko Prizel & Christopher Rothko / Artists Rights Society (ARS), New York."
     },
     {
-      "title": "Rothko Chapel",
-      "artist": "Mark Rothko",
-      "date": "Paintings 1964–1967 · chapel opened 1971",
-      "location": "Rothko Chapel · Houston, Texas, USA",
-      "note": "An installation of fourteen paintings.",
-      "image": "../assets/art/rothko-chapel-interior.jpg",
-      "alt": "A wide historical view of the Rothko Chapel, with dark monumental paintings, rows of wooden benches and a seated visitor beneath the skylight.",
-      "source": "https://rothkochapel.org/visit/rothko-chapel/",
-      "credit": "Photograph: G. E. Kidder Smith. © Massachusetts Institute of Technology, CC BY-NC 3.0. Unmodified.",
-      "imageSource": "https://dome.mit.edu/handle/1721.3/32628",
-      "license": "https://creativecommons.org/licenses/by-nc/3.0/"
-    },
-    {
-      "title": "The Persistence of Memory",
-      "artist": "Salvador Dalí",
-      "date": "1931",
-      "location": "The Museum of Modern Art · New York, USA",
-      "image": "https://www.moma.org/media/W1siZiIsIjYxOTY1OSJdLFsicCIsImNvbnZlcnQiLCItcXVhbGl0eSA5MCAtcmVzaXplIDIwMDB4MjAwMFx1MDAzZSJdXQ.jpg?sha=ef9155183ab6bba1",
-      "alt": "Soft, melting watches drape over a branch, a ledge and a dreamlike figure in a coastal landscape.",
-      "source": "https://www.moma.org/collection/works/79018",
-      "credit": "Image: MoMA. © Salvador Dalí, Gala-Salvador Dalí Foundation / Artists Rights Society (ARS), New York."
-    },
-    {
-      "title": "Le fils de l’homme",
-      "artist": "René Magritte",
-      "date": "1964",
-      "location": "Private collection",
-      "note": "The current location is not public.",
-      "image": "https://uploads3.wikiart.org/images/rene-magritte/son-of-man-1964(1).jpg!Large.jpg",
-      "alt": "A man wearing a bowler hat stands before the sea, his face obscured by a green apple.",
-      "source": "https://www.wikiart.org/en/rene-magritte/son-of-man-1964",
-      "credit": "Image: WikiArt. © René Magritte."
-    },
-    {
-      "title": "Female Artist (Artistin)",
-      "artist": "Ernst Ludwig Kirchner",
-      "date": "1910",
-      "location": "Brücke-Museum · Berlin, Germany",
-      "image": "../assets/art/kirchner-female-artist.jpg",
-      "alt": "A girl in a striped dress rests her chin on her hand beside a white cat, painted in vivid greens, blues and orange.",
-      "source": "https://www.bruecke-museum.de/en/sammlung/werke/61617/artistin",
-      "credit": "Ernst Ludwig Kirchner, Artistin, 1910. Image: Brücke-Museum, CC BY-SA 4.0. Unmodified.",
-      "license": "https://creativecommons.org/licenses/by-sa/4.0/"
-    },
-    {
       "title": "Pietà",
       "artist": "Michelangelo",
       "date": "1498–1499",
@@ -266,16 +286,6 @@
       "credit": "Image: The Metropolitan Museum of Art. © Succession H. Matisse / Artists Rights Society (ARS), New York."
     },
     {
-      "title": "Four Darks in Red",
-      "artist": "Mark Rothko",
-      "date": "1958",
-      "location": "Whitney Museum of American Art · New York, USA",
-      "image": "../assets/art/four-darks-in-red.jpg",
-      "alt": "Four softly edged bands of black and dark maroon float on a deep red ground.",
-      "source": "https://whitney.org/collection/works/897",
-      "credit": "Image: Whitney Museum of American Art. © Kate Rothko Prizel & Christopher Rothko / Artists Rights Society (ARS), New York."
-    },
-    {
       "title": "Nike of Samothrace",
       "artist": "Unknown artist · Hellenistic Greek",
       "date": "c. 190 BC",
@@ -297,6 +307,40 @@
       "credit": "Image: Google Art Project, via Wikimedia Commons. Public domain.",
       "imageSource": "https://commons.wikimedia.org/wiki/File:Jan_Matejko_-_Sta%C5%84czyk_-_Google_Art_Project.jpg",
       "license": "https://creativecommons.org/publicdomain/mark/1.0/"
+    },
+    {
+      "title": "The Persistence of Memory",
+      "artist": "Salvador Dalí",
+      "date": "1931",
+      "location": "The Museum of Modern Art · New York, USA",
+      "image": "https://www.moma.org/media/W1siZiIsIjYxOTY1OSJdLFsicCIsImNvbnZlcnQiLCItcXVhbGl0eSA5MCAtcmVzaXplIDIwMDB4MjAwMFx1MDAzZSJdXQ.jpg?sha=ef9155183ab6bba1",
+      "alt": "Soft, melting watches drape over a branch, a ledge and a dreamlike figure in a coastal landscape.",
+      "source": "https://www.moma.org/collection/works/79018",
+      "credit": "Image: MoMA. © Salvador Dalí, Gala-Salvador Dalí Foundation / Artists Rights Society (ARS), New York."
+    },
+    {
+      "title": "Le fils de l’homme",
+      "artist": "René Magritte",
+      "date": "1964",
+      "location": "Private collection",
+      "note": "The current location is not public.",
+      "image": "https://uploads3.wikiart.org/images/rene-magritte/son-of-man-1964(1).jpg!Large.jpg",
+      "alt": "A man wearing a bowler hat stands before the sea, his face obscured by a green apple.",
+      "source": "https://www.wikiart.org/en/rene-magritte/son-of-man-1964",
+      "credit": "Image: WikiArt. © René Magritte."
+    },
+    {
+      "title": "Rothko Chapel",
+      "artist": "Mark Rothko",
+      "date": "Paintings 1964–1967 · chapel opened 1971",
+      "location": "Rothko Chapel · Houston, Texas, USA",
+      "note": "An installation of fourteen paintings.",
+      "image": "../assets/art/rothko-chapel-interior.jpg",
+      "alt": "A wide historical view of the Rothko Chapel, with dark monumental paintings, rows of wooden benches and a seated visitor beneath the skylight.",
+      "source": "https://rothkochapel.org/visit/rothko-chapel/",
+      "credit": "Photograph: G. E. Kidder Smith. © Massachusetts Institute of Technology, CC BY-NC 3.0. Unmodified.",
+      "imageSource": "https://dome.mit.edu/handle/1721.3/32628",
+      "license": "https://creativecommons.org/licenses/by-nc/3.0/"
     }
   ],
   "likedEssays": [

@@ -19,3 +19,10 @@ Added 2026-10-19 (original image bytes preserved):
 
 - `kirchner-female-artist.jpg`: https://static.48.93.47.78.clients.your-server.de/ds-images/61617_front.jpg?w=1600 — Ernst Ludwig Kirchner, Artistin, 1910. Brücke-Museum, CC BY-SA 4.0, unmodified. Collection record: https://www.bruecke-museum.de/en/sammlung/werke/61617/artistin ; license: https://creativecommons.org/licenses/by-sa/4.0/
 - `rothko-chapel-interior.jpg`: https://dome.mit.edu/server/api/core/bitstreams/fb355258-bcb2-4c8a-a11b-79c384c067d0/content — Photograph by G. E. Kidder Smith. © Massachusetts Institute of Technology, CC BY-NC 3.0, unmodified. Historical interior view from MIT Libraries Digital Collections: https://dome.mit.edu/handle/1721.3/32628 ; license: https://creativecommons.org/licenses/by-nc/3.0/
+
+Additional works, 2026-10-19 (original image bytes preserved):
+
+- `friedrich-monk-by-the-sea.jpg`: https://upload.wikimedia.org/wikipedia/commons/2/21/Caspar_David_Friedrich_-_Der_M%C3%B6nch_am_Meer_-_Google_Art_Project.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original — Image: Google Art Project, via Wikimedia Commons. Public domain. Collection record: https://search.smb.museum/object/obj-965511
+- `munch-the-sun.jpg`: https://upload.wikimedia.org/wikipedia/commons/b/b1/Edvard_Munch_-_The_Sun_%281911%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original — Image: The Athenaeum, via Wikimedia Commons. Public domain. Collection record: https://www.munch.no/en/our-collection/between-us-and-the-sun
+- `redon-the-cyclops.jpg`: https://iiif.micr.io/hJmsco/full/799/0/default.jpg — Image: Kröller-Müller Museum. Artwork in the public domain. Collection record: https://www.krollermuller.nl/en/collection/odilon-redon-the-cyclops-km-103-098
+- `newman-vir-heroicus-sublimis.jpg`: https://www.moma.org/media/W1siZiIsIjQ3ODMxNSJdLFsicCIsImNvbnZlcnQiLCItcXVhbGl0eSA5MCAtcmVzaXplIDIwMDB4MjAwMFx1MDAzZSJdXQ.jpg?sha=e01b4c2140afb867 — Image: MoMA. © 2026 Barnett Newman Foundation / Artists Rights Society (ARS), New York. Collection record: https://www.moma.org/collection/works/79250
