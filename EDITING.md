@@ -12,7 +12,7 @@ Run `node preview.mjs` for a local preview at http://127.0.0.1:4173/.
 
 The music page's albums, covers, selected tracks, preview URLs, and Apple Music links are in `albums.json`. Rebuild after changing them. Selecting an album updates the vinyl and plays that song's preview; the page never starts audio on initial load. The rotation and player are controlled by `music.js`, with reduced-motion support, keyboard controls, and a streaming link if a preview is unavailable.
 
-The books interaction is an original CSS implementation inspired by the interactive library reference and shelf video. Front covers reproduce published editions, with publisher links in the inspection view. The spines are complementary typographic treatments. Asset sources are recorded in `assets/books/SOURCES.md`. `books-template.mjs`, `books.css`, and `books.js` control the shelf and inspect-volume dialog. Click a spine or use the arrow controls; Escape closes the dialog.
+The books interaction is an original CSS implementation inspired by the interactive library reference and shelf video. Front covers reproduce published editions, with publisher links in the inspection view. The spines are complementary typographic treatments. Asset sources are recorded in `assets/books/SOURCES.md`. `books-template.mjs`, `books.css`, and `books.js` control the shelf and inspect-volume dialog. Click a spine or use the previous/next controls; Escape closes the dialog.
 
 ## The hidden room
 

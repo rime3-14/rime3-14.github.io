@@ -26,8 +26,6 @@ h1 em { font-weight:400; color:var(--accent); }
 .directory { border-top:1px solid var(--line); }
 .directory > a,.directory-external { display:flex; align-items:center; gap:22px; min-height:57px; border-bottom:1px solid var(--line); font-size:1.0625rem; }
 .number { font-family:Georgia,serif; color:var(--muted); font-size:.75rem; width:20px; }
-.go { margin-left:auto; font-size:1rem; color:var(--muted); }
-.directory a:hover .go { color:var(--accent); }
 .directory-external > a,.directory-external > .pending { flex:1; display:flex; justify-content:space-between; align-items:center; }
 .pending { color:var(--muted); }
 .pending small { font: .75rem Arial,sans-serif; margin-left:12px; letter-spacing:.04em; }
@@ -169,10 +167,7 @@ time { font-size:.875rem; color:var(--muted); }
 .reading-link h3,.essay-list h3 { margin:0; font:400 clamp(.9375rem,1.5vw,1rem)/1.55 'IBM Plex Mono',monospace; letter-spacing:-.035em; }
 .reading-link p { margin-top:5px; font-size:14px; color:var(--muted); line-height:1.6; }
 .reading-note { font-size:12px; }
-.reading-arrow { color:var(--muted); font-size:20px; flex:none; transition:transform .2s; }
 .reading-link:hover h3 { color:var(--accent); text-decoration:underline; text-underline-offset:5px; }
-.reading-link:hover .reading-arrow { transform:translate(2px,-2px); }
 .own-essays { min-height:180px; padding-top:25px; text-align:center; }
-@media(prefers-reduced-motion:reduce) { .reading-arrow { transition:none; } }
 
 .own-essays .empty-note { padding:0; }

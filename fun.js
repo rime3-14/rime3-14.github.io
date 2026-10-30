@@ -96,7 +96,7 @@ $('#ascii-detail').addEventListener('input',renderAscii);$('#ascii-save').addEve
 new ResizeObserver(fitAscii).observe($('.ascii-frame'));
 renderAscii();if($('.ascii-frame').dataset.portrait)loadPortrait($('.ascii-frame').dataset.portrait);
 
-$('#bag-toggle').addEventListener('click',()=>{const open=$('#bag-contents').hidden;$('#bag-contents').hidden=!open;$('#bag-toggle').setAttribute('aria-expanded',String(open));$('#bag-toggle').setAttribute('aria-label',open?'Close my bag':'Open my bag');$('#bag-action').textContent=open?'put it all back ↑':'click to unpack ↓';});
+$('#bag-toggle').addEventListener('click',()=>{const open=$('#bag-contents').hidden;$('#bag-contents').hidden=!open;$('#bag-toggle').setAttribute('aria-expanded',String(open));$('#bag-toggle').setAttribute('aria-label',open?'Close my bag':'Open my bag');$('#bag-action').textContent=open?'put it all back':'click to unpack';});
 $$('.bag-object').forEach(button=>button.addEventListener('click',()=>{$$('.bag-object').forEach(b=>b.setAttribute('aria-pressed',String(b===button)));$('#bag-item-name').textContent=button.dataset.name;$('#bag-item-note').textContent=button.dataset.bagNote;}));
 
 const postcards=$$('[data-card]');let cardIndex=0,cardBusy=false,swipeStart=null;
