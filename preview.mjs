@@ -5,7 +5,7 @@ const files = new Map([
   ['/', ['index.html', 'text/html; charset=utf-8']],
   ['/index.html', ['index.html', 'text/html; charset=utf-8']],
   ['/styles.css', ['styles.css', 'text/css; charset=utf-8']],
-  ...['books.css','fun.css','fun.js'].map(name=>[`/${name}`, [name,name.endsWith('.css')?'text/css; charset=utf-8':'text/javascript; charset=utf-8']]),
+  ...['books.css','fun.css','fun.js','essays.js'].map(name=>[`/${name}`, [name,name.endsWith('.css')?'text/css; charset=utf-8':'text/javascript; charset=utf-8']]),
   ['/music.js', ['music.js', 'text/javascript; charset=utf-8']],
   ['/books.js', ['books.js', 'text/javascript; charset=utf-8']],
   ['/art.js', ['art.js', 'text/javascript; charset=utf-8']],

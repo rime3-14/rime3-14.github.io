@@ -345,25 +345,30 @@
   ],
   "likedEssays": [
     {
-      "title": "Signposts Back",
-      "author": "Avital Balwit",
-      "url": "https://www.avitalbalwit.com/post/signposts-back"
+      "title": "Machines of Loving Grace",
+      "author": "Dario Amodei",
+      "url": "https://darioamodei.com/essay/machines-of-loving-grace"
     },
     {
-      "title": "I am not always very attached to being alive",
-      "author": "Anna Borges",
-      "url": "https://theoutline.com/post/7267/living-with-passive-suicidal-ideation"
-    },
-    {
-      "title": "What I Wish Someone Had Told Me",
+      "title": "How To Be Successful",
       "author": "Sam Altman",
-      "url": "https://blog.samaltman.com/what-i-wish-someone-had-told-me"
+      "url": "https://blog.samaltman.com/how-to-be-successful"
+    },
+    {
+      "title": "Fast",
+      "author": "Patrick Collison",
+      "url": "https://patrickcollison.com/fast"
     },
     {
       "title": "Ernest Hemingway’s Powerful Letter to F. Scott Fitzgerald",
       "author": "Ernest Hemingway",
       "note": "Letter · via Farnam Street",
       "url": "https://fs.blog/you-see-well-enough-but-you-stop-listening/"
+    },
+    {
+      "title": "Signposts Back",
+      "author": "Avital Balwit",
+      "url": "https://www.avitalbalwit.com/post/signposts-back"
     },
     {
       "title": "The Straussian Moment",
@@ -377,15 +382,45 @@
       "url": "https://finalgirldigital.substack.com/p/the-diet-coke-essay"
     },
     {
+      "title": "Almost anything you give sustained attention to will begin to loop on itself and bloom",
+      "author": "Henrik Karlsson",
+      "url": "https://www.henrikkarlsson.xyz/p/attention"
+    },
+    {
+      "title": "The Adolescence of Technology",
+      "author": "Dario Amodei",
+      "url": "https://darioamodei.com/essay/the-adolescence-of-technology"
+    },
+    {
+      "title": "What I Wish Someone Had Told Me",
+      "author": "Sam Altman",
+      "url": "https://blog.samaltman.com/what-i-wish-someone-had-told-me"
+    },
+    {
       "title": "Man-Computer Symbiosis",
       "author": "J. C. R. Licklider",
       "note": "PDF",
       "url": "https://worrydream.com/refs/Licklider_1960_-_Man-Computer_Symbiosis.pdf"
     },
     {
-      "title": "Almost anything you give sustained attention to will begin to loop on itself and bloom",
-      "author": "Henrik Karlsson",
-      "url": "https://www.henrikkarlsson.xyz/p/attention"
+      "title": "I am not always very attached to being alive",
+      "author": "Anna Borges",
+      "url": "https://theoutline.com/post/7267/living-with-passive-suicidal-ideation"
+    },
+    {
+      "title": "100 Ways To Live Better",
+      "author": "Jacob Falkovich",
+      "url": "https://www.lesswrong.com/posts/HJeD6XbMGEfcrx3mD/100-ways-to-live-better"
+    },
+    {
+      "title": "How to Do Great Work",
+      "author": "Paul Graham",
+      "url": "https://paulgraham.com/greatwork.html"
+    },
+    {
+      "title": "A Project of One’s Own",
+      "author": "Paul Graham",
+      "url": "https://paulgraham.com/own.html"
     }
   ]
 }
