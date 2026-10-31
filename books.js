@@ -27,7 +27,7 @@ function selectBook(index,focus=false){
  byId('book-count').textContent=`${String(selection+1).padStart(2,'0')} / ${String(volumes.length).padStart(2,'0')}`;
  previous.disabled=selection===0;next.disabled=selection===volumes.length-1;
  if(focus)selected.focus({preventScroll:true});
- clearTimeout(revealTimer);revealTimer=setTimeout(revealBook,motion.matches?0:620);
+ clearTimeout(revealTimer);revealTimer=setTimeout(revealBook,motion.matches?0:470);
  if(dialog.open)inspect();
 }
 document.querySelector('.shelf-controls').hidden=false;byId('inspect-book').hidden=false;

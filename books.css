@@ -34,3 +34,48 @@
 .inspection-copy .inspection-edition { margin-top:10px; font-size:12px; }
 .inspection-edition a { text-underline-offset:4px; text-decoration-color:#b7aaa0; }
 @media(max-width:700px) { .goodreads-link { margin:6px 0 10px; padding:10px 14px; font-size:12px; } }
+
+/* A close-set shelf, with one volume pulled forward. */
+.books { --paper:#f6f6f5; --accent:#94566d; }
+.shelf-intro { align-items:center; padding-bottom:24px; }
+.library-scene { display:flex; flex-direction:column; align-items:stretch; margin:20px 0 0; padding:0; min-height:0; }
+.shelf-stage { order:0; padding:30px 12px 0; overflow-x:auto; scrollbar-width:none; }
+.shelf-stage::-webkit-scrollbar { display:none; }
+.bookshelf { height:360px; gap:0; padding:0 14px; align-items:end; overflow:visible; }
+.book-slot { --display-height:calc(var(--height) - 22px); --spine-width:44px; flex:0 0 var(--spine-width); width:var(--spine-width); perspective:none; transition:flex-basis .45s ease,width .45s ease; }
+.book-slot.selected { flex-basis:var(--book-width); width:var(--book-width); z-index:2; }
+.book-object,.book-slot.selected .book-object { inset:0; width:100%; transform:none; transform-style:flat; transition:none; }
+.book-spine { width:100%; transform:none; border-radius:3px 3px 0 0; box-shadow:inset 2px 0 3px #0003,inset -2px 0 3px #0003; padding:19px 10px; transition:opacity .2s; }
+.book-spine>span { font-size:16px; }.book-spine small { font-size:9px; }
+.book-slot.selected .book-spine { opacity:0; }
+.book-front { border-radius:3px 3px 0 0; box-shadow:2px 0 5px #0003; transition:opacity .25s ease; }
+.book-slot:not(.selected) .book-front { visibility:hidden; }
+.book-slot.selected .book-front { visibility:visible; }
+.published-cover { object-fit:fill; }
+.shelf-ledge { order:1; position:relative; top:auto; bottom:auto; height:14px; flex:none; background:linear-gradient(#cbbda9 0 3px,#e3dace 3px 11px,#c9bcaa 11px); box-shadow:0 12px 18px -8px #30271f40; border-radius:1px; }
+.shelf-info { order:2; padding:35px 0 0; display:flex; align-items:center; justify-content:space-between; gap:24px; }
+.shelf-info .eyebrow { margin-bottom:10px; font-size:10px; }
+.shelf-info h2 { min-height:0; font:normal clamp(1.5rem,3vw,2rem)/1.2 'IBM Plex Mono',monospace; letter-spacing:-.06em; }
+.shelf-info #book-author { margin-top:10px; font-size:12px; }
+.shelf-info .inspect-button { margin:0; flex:none; padding:12px 0 7px; border-color:var(--accent); }
+.library-bottom { padding:25px 0 45px; }
+.shelf-controls { flex-shrink:0; }
+.shelf-controls button { border:0; border-radius:0; padding:4px 7px; font-size:11px; }
+.shelf-controls button:not(:disabled):hover { color:var(--accent); text-decoration:underline; text-underline-offset:5px; }
+.book-slot:focus-visible { outline:2px solid var(--accent); outline-offset:4px; z-index:3; }
+.goodreads-link { border:0; border-radius:0; padding:8px 0; gap:10px; }
+.goodreads-link:hover { background:none; text-decoration:underline; text-underline-offset:5px; }
+@media(hover:hover) and (pointer:fine) { .book-slot:not(.selected):hover .book-object { transform:translateY(-7px); transition:transform .2s; } }
+@media(max-width:700px) {
+ .shelf-intro { gap:18px; padding:25px 0 10px; }.shelf-intro h1 { font-size:2rem; }
+ .library-scene { display:flex; margin:10px -25px 0; }.shelf-stage { padding:20px 25px 0; }
+ .bookshelf { height:310px; padding:0; justify-content:start; }
+ .book-slot { --display-height:calc(var(--height) - 75px); --spine-width:40px; }
+ .shelf-ledge { top:auto; height:14px; }
+ .shelf-info { padding:28px 25px 0; align-items:start; gap:16px; }
+ .shelf-info h2 { font-size:1.35rem; }.shelf-info .inspect-button { font-size:10px; padding-top:2px; }
+ .shelf-info #book-author { font-size:11px; line-height:1.6; }
+ .library-bottom { padding:22px 0 32px; }.library-bottom p { font-size:9px; }
+ .goodreads-link { margin:0; padding:0; font-size:11px; }
+}
+@media(prefers-reduced-motion:reduce) { .book-slot,.book-front,.book-spine,.book-object { transition:none!important; } }
