@@ -319,7 +319,17 @@
     {
       "id": "Pierre Bourdieu",
       "label": "Pierre Bourdieu",
-      "group": 4
+      "group": 4,
+      "readingSource": {
+        "shelf": "to-read",
+        "books": [
+          {
+            "title": "Distinction",
+            "url": "https://www.goodreads.com/book/show/80336.Distinction"
+          }
+        ]
+      },
+      "note": "On my want-to-read shelf: Distinction."
     },
     {
       "id": "Critical theory",
@@ -334,7 +344,21 @@
     {
       "id": "Jean-Paul Sartre",
       "label": "Jean-Paul Sartre",
-      "group": 4
+      "group": 4,
+      "readingSource": {
+        "shelf": "to-read",
+        "books": [
+          {
+            "title": "Being and Nothingness",
+            "url": "https://www.goodreads.com/book/show/10033.Being_and_Nothingness"
+          },
+          {
+            "title": "Nausea",
+            "url": "https://www.goodreads.com/book/show/298275.Nausea"
+          }
+        ]
+      },
+      "note": "On my want-to-read shelf: Being and Nothingness; Nausea."
     },
     {
       "id": "Gilles Deleuze",
@@ -349,7 +373,17 @@
     {
       "id": "G. W. F. Hegel",
       "label": "G. W. F. Hegel",
-      "group": 4
+      "group": 4,
+      "readingSource": {
+        "shelf": "to-read",
+        "books": [
+          {
+            "title": "Phenomenology of Spirit",
+            "url": "https://www.goodreads.com/book/show/9454.Phenomenology_of_Spirit"
+          }
+        ]
+      },
+      "note": "On my want-to-read shelf: Phenomenology of Spirit."
     },
     {
       "id": "History",
@@ -528,12 +562,32 @@
     {
       "id": "Anne Carson",
       "label": "Anne Carson",
-      "group": 6
+      "group": 6,
+      "readingSource": {
+        "shelf": "to-read",
+        "books": [
+          {
+            "title": "Antigonick",
+            "url": "https://www.goodreads.com/book/show/13305951-antigonick"
+          }
+        ]
+      },
+      "note": "On my want-to-read shelf: Antigonick."
     },
     {
       "id": "Franz Kafka",
       "label": "Franz Kafka",
-      "group": 6
+      "group": 6,
+      "readingSource": {
+        "shelf": "to-read",
+        "books": [
+          {
+            "title": "Lettres à Milena",
+            "url": "https://www.goodreads.com/book/show/15982153-lettres-milena"
+          }
+        ]
+      },
+      "note": "On my want-to-read shelf: Lettres à Milena."
     },
     {
       "id": "Poetry",
@@ -1318,6 +1372,586 @@
       "group": 10,
       "hub": true,
       "root": true
+    },
+    {
+      "id": "Existentialism",
+      "label": "Existentialism",
+      "group": 4
+    },
+    {
+      "id": "The absurd",
+      "label": "The absurd",
+      "group": 4
+    },
+    {
+      "id": "Freedom",
+      "label": "Freedom",
+      "group": 4
+    },
+    {
+      "id": "Ethics",
+      "label": "Ethics",
+      "group": 4
+    },
+    {
+      "id": "Language & meaning",
+      "label": "Language & meaning",
+      "group": 4
+    },
+    {
+      "id": "Power",
+      "label": "Power",
+      "group": 4
+    },
+    {
+      "id": "Feminism",
+      "label": "Feminism",
+      "group": 4
+    },
+    {
+      "id": "Social class",
+      "label": "Social class",
+      "group": 4
+    },
+    {
+      "id": "Identity",
+      "label": "Identity",
+      "group": 4
+    },
+    {
+      "id": "Embodiment",
+      "label": "Embodiment",
+      "group": 4
+    },
+    {
+      "id": "Mortality",
+      "label": "Mortality",
+      "group": 4
+    },
+    {
+      "id": "Desire",
+      "label": "Desire",
+      "group": 4
+    },
+    {
+      "id": "Alienation",
+      "label": "Alienation",
+      "group": 4
+    },
+    {
+      "id": "Gothic literature",
+      "label": "Gothic literature",
+      "group": 6
+    },
+    {
+      "id": "Modernism",
+      "label": "Modernism",
+      "group": 6
+    },
+    {
+      "id": "Myth retellings",
+      "label": "Myth retellings",
+      "group": 6
+    },
+    {
+      "id": "Letters & diaries",
+      "label": "Letters & diaries",
+      "group": 6
+    },
+    {
+      "id": "Satire",
+      "label": "Satire",
+      "group": 6
+    },
+    {
+      "id": "Literature of attention",
+      "label": "Literature of attention",
+      "group": 6
+    },
+    {
+      "id": "Speculative futures",
+      "label": "Speculative futures",
+      "group": 2
+    },
+    {
+      "id": "Friedrich Nietzsche",
+      "label": "Friedrich Nietzsche",
+      "group": 4,
+      "note": "On my want-to-read shelf: Beyond Good and Evil.",
+      "url": "https://www.goodreads.com/book/show/12321.Beyond_Good_and_Evil",
+      "readingSource": {
+        "shelf": "to-read",
+        "books": [
+          {
+            "title": "Beyond Good and Evil",
+            "url": "https://www.goodreads.com/book/show/12321.Beyond_Good_and_Evil"
+          }
+        ]
+      }
+    },
+    {
+      "id": "Ludwig Wittgenstein",
+      "label": "Ludwig Wittgenstein",
+      "group": 4,
+      "note": "On my want-to-read shelf: Philosophical Investigations; Tractatus Logico-Philosophicus.",
+      "url": "https://www.goodreads.com/book/show/12073.Philosophical_Investigations",
+      "readingSource": {
+        "shelf": "to-read",
+        "books": [
+          {
+            "title": "Philosophical Investigations",
+            "url": "https://www.goodreads.com/book/show/12073.Philosophical_Investigations"
+          },
+          {
+            "title": "Tractatus Logico-Philosophicus",
+            "url": "https://www.goodreads.com/book/show/12075.Tractatus_Logico_Philosophicus"
+          }
+        ]
+      }
+    },
+    {
+      "id": "Immanuel Kant",
+      "label": "Immanuel Kant",
+      "group": 4,
+      "note": "On my want-to-read shelf: Critique of Practical Reason.",
+      "url": "https://www.goodreads.com/book/show/154072.Critique_of_Practical_Reason",
+      "readingSource": {
+        "shelf": "to-read",
+        "books": [
+          {
+            "title": "Critique of Practical Reason",
+            "url": "https://www.goodreads.com/book/show/154072.Critique_of_Practical_Reason"
+          }
+        ]
+      }
+    },
+    {
+      "id": "Virginia Woolf",
+      "label": "Virginia Woolf",
+      "group": 6,
+      "note": "On my want-to-read shelf: On Being Ill.",
+      "url": "https://www.goodreads.com/book/show/18850.On_Being_Ill",
+      "readingSource": {
+        "shelf": "to-read",
+        "books": [
+          {
+            "title": "On Being Ill",
+            "url": "https://www.goodreads.com/book/show/18850.On_Being_Ill"
+          }
+        ]
+      }
+    },
+    {
+      "id": "Andrea Dworkin",
+      "label": "Andrea Dworkin",
+      "group": 4,
+      "note": "On my want-to-read shelf: Intercourse; Pornography: Men Possessing Women.",
+      "url": "https://www.goodreads.com/book/show/163265.Intercourse",
+      "readingSource": {
+        "shelf": "to-read",
+        "books": [
+          {
+            "title": "Intercourse",
+            "url": "https://www.goodreads.com/book/show/163265.Intercourse"
+          },
+          {
+            "title": "Pornography: Men Possessing Women",
+            "url": "https://www.goodreads.com/book/show/163256.Pornography"
+          }
+        ]
+      }
+    },
+    {
+      "id": "Jack Halberstam",
+      "label": "Jack Halberstam",
+      "group": 4,
+      "note": "On my want-to-read shelf: The Queer Art of Failure.",
+      "url": "https://www.goodreads.com/book/show/11161565-the-queer-art-of-failure",
+      "readingSource": {
+        "shelf": "to-read",
+        "books": [
+          {
+            "title": "The Queer Art of Failure",
+            "url": "https://www.goodreads.com/book/show/11161565-the-queer-art-of-failure"
+          }
+        ]
+      }
+    },
+    {
+      "id": "Viktor Frankl",
+      "label": "Viktor Frankl",
+      "group": 4,
+      "note": "On my want-to-read shelf: Man's Search for Meaning.",
+      "url": "https://www.goodreads.com/book/show/4069.Man_s_Search_for_Meaning",
+      "readingSource": {
+        "shelf": "to-read",
+        "books": [
+          {
+            "title": "Man's Search for Meaning",
+            "url": "https://www.goodreads.com/book/show/4069.Man_s_Search_for_Meaning"
+          }
+        ]
+      }
+    },
+    {
+      "id": "Mary Beard",
+      "label": "Mary Beard",
+      "group": 4,
+      "note": "On my want-to-read shelf: SPQR: A History of Ancient Rome.",
+      "url": "https://www.goodreads.com/book/show/28789711-spqr",
+      "readingSource": {
+        "shelf": "to-read",
+        "books": [
+          {
+            "title": "SPQR: A History of Ancient Rome",
+            "url": "https://www.goodreads.com/book/show/28789711-spqr"
+          }
+        ]
+      }
+    },
+    {
+      "id": "Robert Caro",
+      "label": "Robert Caro",
+      "group": 4,
+      "note": "On my want-to-read shelf: The Power Broker: Robert Moses and the Fall of New York.",
+      "url": "https://www.goodreads.com/book/show/1111.The_Power_Broker",
+      "readingSource": {
+        "shelf": "to-read",
+        "books": [
+          {
+            "title": "The Power Broker: Robert Moses and the Fall of New York",
+            "url": "https://www.goodreads.com/book/show/1111.The_Power_Broker"
+          }
+        ]
+      }
+    },
+    {
+      "id": "Georges Perec",
+      "label": "Georges Perec",
+      "group": 6,
+      "note": "On my want-to-read shelf: An Attempt at Exhausting a Place in Paris.",
+      "url": "https://www.goodreads.com/book/show/7902560-an-attempt-at-exhausting-a-place-in-paris",
+      "readingSource": {
+        "shelf": "to-read",
+        "books": [
+          {
+            "title": "An Attempt at Exhausting a Place in Paris",
+            "url": "https://www.goodreads.com/book/show/7902560-an-attempt-at-exhausting-a-place-in-paris"
+          }
+        ]
+      }
+    },
+    {
+      "id": "Maira Kalman",
+      "label": "Maira Kalman",
+      "group": 7,
+      "note": "On my want-to-read shelf: Women Holding Things: A Moving Art Book About Exploring the Profound in Everyday Life.",
+      "url": "https://www.goodreads.com/book/show/60194116-women-holding-things",
+      "readingSource": {
+        "shelf": "to-read",
+        "books": [
+          {
+            "title": "Women Holding Things: A Moving Art Book About Exploring the Profound in Everyday Life",
+            "url": "https://www.goodreads.com/book/show/60194116-women-holding-things"
+          }
+        ]
+      }
+    },
+    {
+      "id": "Madeline Miller",
+      "label": "Madeline Miller",
+      "group": 6,
+      "note": "On my want-to-read shelf: Circe.",
+      "url": "https://www.goodreads.com/book/show/35959740-circe",
+      "readingSource": {
+        "shelf": "to-read",
+        "books": [
+          {
+            "title": "Circe",
+            "url": "https://www.goodreads.com/book/show/35959740-circe"
+          }
+        ]
+      }
+    },
+    {
+      "id": "Stephen Fry",
+      "label": "Stephen Fry",
+      "group": 6,
+      "note": "On my want-to-read shelf: Troy.",
+      "url": "https://www.goodreads.com/book/show/53443339-troy",
+      "readingSource": {
+        "shelf": "to-read",
+        "books": [
+          {
+            "title": "Troy",
+            "url": "https://www.goodreads.com/book/show/53443339-troy"
+          }
+        ]
+      }
+    },
+    {
+      "id": "Mikhail Bulgakov",
+      "label": "Mikhail Bulgakov",
+      "group": 6,
+      "note": "On my want-to-read shelf: The Master and Margarita.",
+      "url": "https://www.goodreads.com/book/show/117833.The_Master_and_Margarita",
+      "readingSource": {
+        "shelf": "to-read",
+        "books": [
+          {
+            "title": "The Master and Margarita",
+            "url": "https://www.goodreads.com/book/show/117833.The_Master_and_Margarita"
+          }
+        ]
+      }
+    },
+    {
+      "id": "Samuel Beckett",
+      "label": "Samuel Beckett",
+      "group": 6,
+      "note": "On my want-to-read shelf: Waiting for Godot.",
+      "url": "https://www.goodreads.com/book/show/17716.Waiting_for_Godot",
+      "readingSource": {
+        "shelf": "to-read",
+        "books": [
+          {
+            "title": "Waiting for Godot",
+            "url": "https://www.goodreads.com/book/show/17716.Waiting_for_Godot"
+          }
+        ]
+      }
+    },
+    {
+      "id": "Milan Kundera",
+      "label": "Milan Kundera",
+      "group": 6,
+      "note": "On my want-to-read shelf: The Unbearable Lightness of Being.",
+      "url": "https://www.goodreads.com/book/show/9717.The_Unbearable_Lightness_of_Being",
+      "readingSource": {
+        "shelf": "to-read",
+        "books": [
+          {
+            "title": "The Unbearable Lightness of Being",
+            "url": "https://www.goodreads.com/book/show/9717.The_Unbearable_Lightness_of_Being"
+          }
+        ]
+      }
+    },
+    {
+      "id": "Hermann Hesse",
+      "label": "Hermann Hesse",
+      "group": 6,
+      "note": "On my want-to-read shelf: Demian: Die Geschichte von Emil Sinclairs Jugend.",
+      "url": "https://www.goodreads.com/book/show/24861.Demian",
+      "readingSource": {
+        "shelf": "to-read",
+        "books": [
+          {
+            "title": "Demian: Die Geschichte von Emil Sinclairs Jugend",
+            "url": "https://www.goodreads.com/book/show/24861.Demian"
+          }
+        ]
+      }
+    },
+    {
+      "id": "Elena Ferrante",
+      "label": "Elena Ferrante",
+      "group": 6,
+      "note": "On my want-to-read shelf: L'Amie prodigieuse.",
+      "url": "https://www.goodreads.com/book/show/28366993-l-amie-prodigieuse",
+      "readingSource": {
+        "shelf": "to-read",
+        "books": [
+          {
+            "title": "L'Amie prodigieuse",
+            "url": "https://www.goodreads.com/book/show/28366993-l-amie-prodigieuse"
+          }
+        ]
+      }
+    },
+    {
+      "id": "Mieko Kawakami",
+      "label": "Mieko Kawakami",
+      "group": 6,
+      "note": "On my want-to-read shelf: All the Lovers in the Night; Breasts and Eggs.",
+      "url": "https://www.goodreads.com/book/show/59336625-all-the-lovers-in-the-night",
+      "readingSource": {
+        "shelf": "to-read",
+        "books": [
+          {
+            "title": "All the Lovers in the Night",
+            "url": "https://www.goodreads.com/book/show/59336625-all-the-lovers-in-the-night"
+          },
+          {
+            "title": "Breasts and Eggs",
+            "url": "https://www.goodreads.com/book/show/50736031-breasts-and-eggs"
+          }
+        ]
+      }
+    },
+    {
+      "id": "Warsan Shire",
+      "label": "Warsan Shire",
+      "group": 6,
+      "note": "On my want-to-read shelf: Teaching My Mother How to Give Birth.",
+      "url": "https://www.goodreads.com/book/show/13376363-teaching-my-mother-how-to-give-birth",
+      "readingSource": {
+        "shelf": "to-read",
+        "books": [
+          {
+            "title": "Teaching My Mother How to Give Birth",
+            "url": "https://www.goodreads.com/book/show/13376363-teaching-my-mother-how-to-give-birth"
+          }
+        ]
+      }
+    },
+    {
+      "id": "Ocean Vuong",
+      "label": "Ocean Vuong",
+      "group": 6,
+      "note": "On my want-to-read shelf: On Earth We're Briefly Gorgeous.",
+      "url": "https://www.goodreads.com/book/show/41880609-on-earth-we-re-briefly-gorgeous",
+      "readingSource": {
+        "shelf": "to-read",
+        "books": [
+          {
+            "title": "On Earth We're Briefly Gorgeous",
+            "url": "https://www.goodreads.com/book/show/41880609-on-earth-we-re-briefly-gorgeous"
+          }
+        ]
+      }
+    },
+    {
+      "id": "Daphne du Maurier",
+      "label": "Daphne du Maurier",
+      "group": 6,
+      "note": "On my want-to-read shelf: Rebecca; Rebecca.",
+      "url": "https://www.goodreads.com/book/show/17899948-rebecca",
+      "readingSource": {
+        "shelf": "to-read",
+        "books": [
+          {
+            "title": "Rebecca",
+            "url": "https://www.goodreads.com/book/show/17899948-rebecca"
+          },
+          {
+            "title": "Rebecca",
+            "url": "https://www.goodreads.com/book/show/636993.Rebecca"
+          }
+        ]
+      }
+    },
+    {
+      "id": "Matthew Lewis",
+      "label": "Matthew Lewis",
+      "group": 6,
+      "note": "On my want-to-read shelf: The Monk.",
+      "url": "https://www.goodreads.com/book/show/93157.The_Monk",
+      "readingSource": {
+        "shelf": "to-read",
+        "books": [
+          {
+            "title": "The Monk",
+            "url": "https://www.goodreads.com/book/show/93157.The_Monk"
+          }
+        ]
+      }
+    },
+    {
+      "id": "Olga Ravn",
+      "label": "Olga Ravn",
+      "group": 6,
+      "note": "On my want-to-read shelf: The Employees.",
+      "url": "https://www.goodreads.com/book/show/53780642-the-employees",
+      "readingSource": {
+        "shelf": "to-read",
+        "books": [
+          {
+            "title": "The Employees",
+            "url": "https://www.goodreads.com/book/show/53780642-the-employees"
+          }
+        ]
+      }
+    },
+    {
+      "id": "Isaac Asimov",
+      "label": "Isaac Asimov",
+      "group": 6,
+      "note": "On my want-to-read shelf: Foundation.",
+      "url": "https://www.goodreads.com/book/show/29579.Foundation",
+      "readingSource": {
+        "shelf": "to-read",
+        "books": [
+          {
+            "title": "Foundation",
+            "url": "https://www.goodreads.com/book/show/29579.Foundation"
+          }
+        ]
+      }
+    },
+    {
+      "id": "Cixin Liu",
+      "label": "Cixin Liu",
+      "group": 6,
+      "note": "On my want-to-read shelf: The Three-Body Problem.",
+      "url": "https://www.goodreads.com/book/show/20518872-the-three-body-problem",
+      "readingSource": {
+        "shelf": "to-read",
+        "books": [
+          {
+            "title": "The Three-Body Problem",
+            "url": "https://www.goodreads.com/book/show/20518872-the-three-body-problem"
+          }
+        ]
+      }
+    },
+    {
+      "id": "Ray Kurzweil",
+      "label": "Ray Kurzweil",
+      "group": 2,
+      "note": "On my want-to-read shelf: The Singularity is Near: When Humans Transcend Biology.",
+      "url": "https://www.goodreads.com/book/show/83518.The_Singularity_is_Near",
+      "readingSource": {
+        "shelf": "to-read",
+        "books": [
+          {
+            "title": "The Singularity is Near: When Humans Transcend Biology",
+            "url": "https://www.goodreads.com/book/show/83518.The_Singularity_is_Near"
+          }
+        ]
+      }
+    },
+    {
+      "id": "Jacqueline Harpman",
+      "label": "Jacqueline Harpman",
+      "group": 6,
+      "note": "On my want-to-read shelf: I Who Have Never Known Men.",
+      "url": "https://www.goodreads.com/book/show/11996.I_Who_Have_Never_Known_Men",
+      "readingSource": {
+        "shelf": "to-read",
+        "books": [
+          {
+            "title": "I Who Have Never Known Men",
+            "url": "https://www.goodreads.com/book/show/11996.I_Who_Have_Never_Known_Men"
+          }
+        ]
+      }
+    },
+    {
+      "id": "Yukio Mishima",
+      "label": "Yukio Mishima",
+      "group": 6,
+      "note": "Recently read: The Sailor Who Fell from Grace with the Sea. Want to read: Confessions of a Mask.",
+      "url": "https://www.goodreads.com/book/show/62794.Confessions_of_a_Mask",
+      "readingSource": {
+        "shelf": "to-read",
+        "books": [
+          {
+            "title": "Confessions of a Mask",
+            "url": "https://www.goodreads.com/book/show/62794.Confessions_of_a_Mask"
+          }
+        ]
+      }
     }
   ],
   "edges": [
@@ -3735,6 +4369,711 @@
       "Paul Graham",
       "Building things",
       "from my essay collection"
+    ],
+    [
+      "Philosophy & society",
+      "Existentialism",
+      "a reading association"
+    ],
+    [
+      "Philosophy & society",
+      "The absurd",
+      "a reading association"
+    ],
+    [
+      "Philosophy & society",
+      "Freedom",
+      "a reading association"
+    ],
+    [
+      "Philosophy & society",
+      "Ethics",
+      "a reading association"
+    ],
+    [
+      "Philosophy & society",
+      "Language & meaning",
+      "a reading association"
+    ],
+    [
+      "Philosophy & society",
+      "Power",
+      "a reading association"
+    ],
+    [
+      "Philosophy & society",
+      "Feminism",
+      "a reading association"
+    ],
+    [
+      "Philosophy & society",
+      "Social class",
+      "a reading association"
+    ],
+    [
+      "Philosophy & society",
+      "Identity",
+      "a reading association"
+    ],
+    [
+      "Philosophy & society",
+      "Embodiment",
+      "a reading association"
+    ],
+    [
+      "Philosophy & society",
+      "Mortality",
+      "a reading association"
+    ],
+    [
+      "Philosophy & society",
+      "Desire",
+      "a reading association"
+    ],
+    [
+      "Philosophy & society",
+      "Alienation",
+      "a reading association"
+    ],
+    [
+      "Literature",
+      "Gothic literature",
+      "a reading association"
+    ],
+    [
+      "Literature",
+      "Modernism",
+      "a reading association"
+    ],
+    [
+      "Literature",
+      "Myth retellings",
+      "a reading association"
+    ],
+    [
+      "Literature",
+      "Letters & diaries",
+      "a reading association"
+    ],
+    [
+      "Literature",
+      "Satire",
+      "a reading association"
+    ],
+    [
+      "Literature",
+      "Literature of attention",
+      "a reading association"
+    ],
+    [
+      "Technology",
+      "Speculative futures",
+      "a reading association"
+    ],
+    [
+      "Philosophy & society",
+      "Friedrich Nietzsche",
+      "a reading association"
+    ],
+    [
+      "Friedrich Nietzsche",
+      "Ethics",
+      "a reading association"
+    ],
+    [
+      "Friedrich Nietzsche",
+      "Philosophy",
+      "a reading association"
+    ],
+    [
+      "Friedrich Nietzsche",
+      "Meaning",
+      "a reading association"
+    ],
+    [
+      "Philosophy & society",
+      "Ludwig Wittgenstein",
+      "a reading association"
+    ],
+    [
+      "Ludwig Wittgenstein",
+      "Language & meaning",
+      "a reading association"
+    ],
+    [
+      "Ludwig Wittgenstein",
+      "Linguistics",
+      "a reading association"
+    ],
+    [
+      "Ludwig Wittgenstein",
+      "Syntax",
+      "a reading association"
+    ],
+    [
+      "Philosophy & society",
+      "Immanuel Kant",
+      "a reading association"
+    ],
+    [
+      "Immanuel Kant",
+      "Ethics",
+      "a reading association"
+    ],
+    [
+      "Immanuel Kant",
+      "Freedom",
+      "a reading association"
+    ],
+    [
+      "G. W. F. Hegel",
+      "Consciousness",
+      "a reading association"
+    ],
+    [
+      "Jean-Paul Sartre",
+      "Existentialism",
+      "a reading association"
+    ],
+    [
+      "Jean-Paul Sartre",
+      "Freedom",
+      "a reading association"
+    ],
+    [
+      "Literature",
+      "Virginia Woolf",
+      "a reading association"
+    ],
+    [
+      "Virginia Woolf",
+      "Modernism",
+      "a reading association"
+    ],
+    [
+      "Virginia Woolf",
+      "Embodiment",
+      "a reading association"
+    ],
+    [
+      "Virginia Woolf",
+      "Writing",
+      "a reading association"
+    ],
+    [
+      "Philosophy & society",
+      "Andrea Dworkin",
+      "a reading association"
+    ],
+    [
+      "Andrea Dworkin",
+      "Feminism",
+      "a reading association"
+    ],
+    [
+      "Andrea Dworkin",
+      "Power",
+      "a reading association"
+    ],
+    [
+      "Philosophy & society",
+      "Jack Halberstam",
+      "a reading association"
+    ],
+    [
+      "Jack Halberstam",
+      "Critical theory",
+      "a reading association"
+    ],
+    [
+      "Jack Halberstam",
+      "Trying & failing",
+      "a reading association"
+    ],
+    [
+      "Pierre Bourdieu",
+      "Social class",
+      "a reading association"
+    ],
+    [
+      "Pierre Bourdieu",
+      "Aesthetics",
+      "a reading association"
+    ],
+    [
+      "Philosophy & society",
+      "Viktor Frankl",
+      "a reading association"
+    ],
+    [
+      "Viktor Frankl",
+      "Meaning",
+      "a reading association"
+    ],
+    [
+      "Viktor Frankl",
+      "Hope?",
+      "a reading association"
+    ],
+    [
+      "Philosophy & society",
+      "Mary Beard",
+      "a reading association"
+    ],
+    [
+      "Mary Beard",
+      "History",
+      "a reading association"
+    ],
+    [
+      "Mary Beard",
+      "Classics",
+      "a reading association"
+    ],
+    [
+      "Philosophy & society",
+      "Robert Caro",
+      "a reading association"
+    ],
+    [
+      "Robert Caro",
+      "Power",
+      "a reading association"
+    ],
+    [
+      "Robert Caro",
+      "History",
+      "a reading association"
+    ],
+    [
+      "Literature",
+      "Georges Perec",
+      "a reading association"
+    ],
+    [
+      "Georges Perec",
+      "Attention",
+      "a reading association"
+    ],
+    [
+      "Georges Perec",
+      "Literature of attention",
+      "a reading association"
+    ],
+    [
+      "Georges Perec",
+      "Objects as a concept",
+      "a reading association"
+    ],
+    [
+      "Art & cinema",
+      "Maira Kalman",
+      "a reading association"
+    ],
+    [
+      "Maira Kalman",
+      "Art",
+      "a reading association"
+    ],
+    [
+      "Maira Kalman",
+      "Objects as a concept",
+      "a reading association"
+    ],
+    [
+      "Maira Kalman",
+      "Literature of attention",
+      "a reading association"
+    ],
+    [
+      "Anne Carson",
+      "Myth retellings",
+      "a reading association"
+    ],
+    [
+      "Anne Carson",
+      "Antigone",
+      "a reading association"
+    ],
+    [
+      "Literature",
+      "Madeline Miller",
+      "a reading association"
+    ],
+    [
+      "Madeline Miller",
+      "Myth retellings",
+      "a reading association"
+    ],
+    [
+      "Madeline Miller",
+      "Myths",
+      "a reading association"
+    ],
+    [
+      "Literature",
+      "Stephen Fry",
+      "a reading association"
+    ],
+    [
+      "Stephen Fry",
+      "Myth retellings",
+      "a reading association"
+    ],
+    [
+      "Stephen Fry",
+      "Achilles",
+      "a reading association"
+    ],
+    [
+      "Literature",
+      "Mikhail Bulgakov",
+      "a reading association"
+    ],
+    [
+      "Mikhail Bulgakov",
+      "Satire",
+      "a reading association"
+    ],
+    [
+      "Mikhail Bulgakov",
+      "Myths",
+      "a reading association"
+    ],
+    [
+      "Literature",
+      "Samuel Beckett",
+      "a reading association"
+    ],
+    [
+      "Samuel Beckett",
+      "The absurd",
+      "a reading association"
+    ],
+    [
+      "Samuel Beckett",
+      "Hope?",
+      "a reading association"
+    ],
+    [
+      "Literature",
+      "Milan Kundera",
+      "a reading association"
+    ],
+    [
+      "Milan Kundera",
+      "Existentialism",
+      "a reading association"
+    ],
+    [
+      "Milan Kundera",
+      "Desire",
+      "a reading association"
+    ],
+    [
+      "Literature",
+      "Hermann Hesse",
+      "a reading association"
+    ],
+    [
+      "Hermann Hesse",
+      "Identity",
+      "a reading association"
+    ],
+    [
+      "Hermann Hesse",
+      "Meaning",
+      "a reading association"
+    ],
+    [
+      "Literature",
+      "Elena Ferrante",
+      "a reading association"
+    ],
+    [
+      "Elena Ferrante",
+      "Friendship",
+      "a reading association"
+    ],
+    [
+      "Elena Ferrante",
+      "Social class",
+      "a reading association"
+    ],
+    [
+      "Literature",
+      "Mieko Kawakami",
+      "a reading association"
+    ],
+    [
+      "Mieko Kawakami",
+      "Embodiment",
+      "a reading association"
+    ],
+    [
+      "Mieko Kawakami",
+      "Identity",
+      "a reading association"
+    ],
+    [
+      "Literature",
+      "Warsan Shire",
+      "a reading association"
+    ],
+    [
+      "Warsan Shire",
+      "Poetry",
+      "a reading association"
+    ],
+    [
+      "Warsan Shire",
+      "Identity",
+      "a reading association"
+    ],
+    [
+      "Literature",
+      "Ocean Vuong",
+      "a reading association"
+    ],
+    [
+      "Ocean Vuong",
+      "Poetry",
+      "a reading association"
+    ],
+    [
+      "Ocean Vuong",
+      "Memory",
+      "a reading association"
+    ],
+    [
+      "Literature",
+      "Daphne du Maurier",
+      "a reading association"
+    ],
+    [
+      "Daphne du Maurier",
+      "Gothic literature",
+      "a reading association"
+    ],
+    [
+      "Daphne du Maurier",
+      "Memory",
+      "a reading association"
+    ],
+    [
+      "Literature",
+      "Matthew Lewis",
+      "a reading association"
+    ],
+    [
+      "Matthew Lewis",
+      "Gothic literature",
+      "a reading association"
+    ],
+    [
+      "Matthew Lewis",
+      "Sainthood",
+      "a reading association"
+    ],
+    [
+      "Literature",
+      "Olga Ravn",
+      "a reading association"
+    ],
+    [
+      "Olga Ravn",
+      "Science fiction",
+      "a reading association"
+    ],
+    [
+      "Olga Ravn",
+      "Consciousness",
+      "a reading association"
+    ],
+    [
+      "Olga Ravn",
+      "Alienation",
+      "a reading association"
+    ],
+    [
+      "Literature",
+      "Isaac Asimov",
+      "a reading association"
+    ],
+    [
+      "Isaac Asimov",
+      "Science fiction",
+      "a reading association"
+    ],
+    [
+      "Isaac Asimov",
+      "History",
+      "a reading association"
+    ],
+    [
+      "Isaac Asimov",
+      "Speculative futures",
+      "a reading association"
+    ],
+    [
+      "Literature",
+      "Cixin Liu",
+      "a reading association"
+    ],
+    [
+      "Cixin Liu",
+      "Science fiction",
+      "a reading association"
+    ],
+    [
+      "Cixin Liu",
+      "Speculative futures",
+      "a reading association"
+    ],
+    [
+      "Technology",
+      "Ray Kurzweil",
+      "a reading association"
+    ],
+    [
+      "Ray Kurzweil",
+      "AI development",
+      "a reading association"
+    ],
+    [
+      "Ray Kurzweil",
+      "Speculative futures",
+      "a reading association"
+    ],
+    [
+      "Ray Kurzweil",
+      "Genetics",
+      "a reading association"
+    ],
+    [
+      "Literature",
+      "Jacqueline Harpman",
+      "a reading association"
+    ],
+    [
+      "Jacqueline Harpman",
+      "Science fiction",
+      "a reading association"
+    ],
+    [
+      "Jacqueline Harpman",
+      "Freedom",
+      "a reading association"
+    ],
+    [
+      "Jacqueline Harpman",
+      "Meaning",
+      "a reading association"
+    ],
+    [
+      "Franz Kafka",
+      "Letters & diaries",
+      "a reading association"
+    ],
+    [
+      "Franz Kafka",
+      "Alienation",
+      "a reading association"
+    ],
+    [
+      "Literature",
+      "Yukio Mishima",
+      "a reading association"
+    ],
+    [
+      "Yukio Mishima",
+      "Glory",
+      "a reading association"
+    ],
+    [
+      "Yukio Mishima",
+      "Beauty",
+      "a reading association"
+    ],
+    [
+      "Yukio Mishima",
+      "Identity",
+      "a reading association"
+    ],
+    [
+      "Existentialism",
+      "Albert Camus",
+      "a reading association"
+    ],
+    [
+      "The absurd",
+      "Albert Camus",
+      "a reading association"
+    ],
+    [
+      "The absurd",
+      "Le Mythe de Sisyphe",
+      "a reading association"
+    ],
+    [
+      "Freedom",
+      "Agency",
+      "a reading association"
+    ],
+    [
+      "Language & meaning",
+      "Syntax",
+      "a reading association"
+    ],
+    [
+      "Feminism",
+      "Social class",
+      "a reading association"
+    ],
+    [
+      "Social class",
+      "Sociology",
+      "a reading association"
+    ],
+    [
+      "Literature of attention",
+      "Attention",
+      "a reading association"
+    ],
+    [
+      "Literature of attention",
+      "Art",
+      "a reading association"
+    ],
+    [
+      "Modernism",
+      "Memory",
+      "a reading association"
+    ],
+    [
+      "Letters & diaries",
+      "Writing",
+      "a reading association"
+    ],
+    [
+      "Gothic literature",
+      "Wuthering Heights",
+      "a reading association"
+    ],
+    [
+      "Mortality",
+      "Meaning",
+      "a reading association"
+    ],
+    [
+      "Embodiment",
+      "Life & mind",
+      "a reading association"
+    ],
+    [
+      "Speculative futures",
+      "Science fiction",
+      "a reading association"
     ]
   ]
 }

@@ -21,15 +21,28 @@ function draw(){const rect=svg.getBoundingClientRect(),scale=Math.min(rect.width
  for(const l of links){const selected=active&&(l.a===active||l.b===active);l.el.style.opacity=active?(selected?'.8':'.06'):'.5';l.el.setAttribute('stroke',selected?data.groups[active.group].color:'#b9afb9');l.el.setAttribute('stroke-width',(selected?1.2:.6)/scale);}}
 function select(id){active=byId.get(id);query='';$('map-search').value='';const span=active.hub?1850:1300;const target={x:active.x-span/2,y:active.y-span*.38,w:span,h:span*.76};$('map-category').textContent=data.groups[active.group].label;$('map-title').textContent=active.label;$('map-note').textContent=active.note||'Follow one of its connections to keep exploring.';const a=$('map-visit');a.hidden=!active.url;if(active.url){a.href=active.url;a.textContent=active.url.startsWith('http')?'Read / visit':'Explore in my nook';}const box=$('map-connections');box.replaceChildren();const heading=document.createElement('h3');heading.textContent='Connected to';box.append(heading);for(const n of [...new Set(links.filter(l=>l.a===active||l.b===active).map(l=>l.a===active?l.b:l.a))]){const b=document.createElement('button');b.textContent=n.label;b.onclick=()=>select(n.id);box.append(b);}fly(target);}
 function reset(){cancelAnimationFrame(flight);active=null;query='';$('map-search').value='';camera={x:-250,y:-300,w:3600,h:2900};$('map-title').textContent='Everything is connected';$('map-category').textContent='Follow a thread';$('map-note').textContent='';$('map-connections').replaceChildren();$('map-visit').hidden=true;draw();}
-function zoom(f){const w=Math.max(450,Math.min(4300,camera.w*f)),h=w*camera.h/camera.w;fly({x:camera.x+(camera.w-w)/2,y:camera.y+(camera.h-h)/2,w,h});}
+function zoom(f,point=null,immediate=false){
+ const w=Math.max(450,Math.min(4300,camera.w*f)),ratio=w/camera.w,h=camera.h*ratio;
+ const anchor=point||{x:camera.x+camera.w/2,y:camera.y+camera.h/2};
+ const target={x:anchor.x-(anchor.x-camera.x)*ratio,y:anchor.y-(anchor.y-camera.y)*ratio,w,h};
+ if(immediate){cancelAnimationFrame(flight);camera=target;draw();}else fly(target);
+}
+function mapPoint(x,y){const p=svg.createSVGPoint();p.x=x;p.y=y;return p.matrixTransform(svg.getScreenCTM().inverse());}
+
 $('zoom-in').onclick=()=>zoom(.75);$('zoom-out').onclick=()=>zoom(1.33);$('map-reset').onclick=reset;
 $('map-search').addEventListener('input',e=>{query=e.target.value.toLowerCase().trim();active=null;const box=$('map-connections');box.replaceChildren();$('map-title').textContent=query?'Matching threads':'Everything is connected';$('map-category').textContent='Search';$('map-note').textContent='Select a result to find it on the map.';$('map-visit').hidden=true;const found=nodes.filter(n=>n.label.toLowerCase().includes(query));if(query){for(const n of found){const b=document.createElement('button');b.textContent=n.label;b.onclick=()=>select(n.id);box.append(b);}if(!found.length)$('map-note').textContent='No matching threads yet.';}draw();});
 document.querySelectorAll('[data-topic]').forEach(b=>b.onclick=()=>select(data.groups[+b.dataset.topic].label));document.querySelectorAll('[data-interest]').forEach(b=>b.onclick=()=>{select(b.dataset.interest);svg.scrollIntoView({block:'center',behavior:'instant'});});
 let pressNode=null,dragged=false,pointers=new Map(),last=null;
 svg.addEventListener('pointerdown',e=>{cancelAnimationFrame(flight);pressNode=e.target.closest('g[role=button]')?.dataset.id;pointers.set(e.pointerId,{x:e.clientX,y:e.clientY});last=null;dragged=false;svg.setPointerCapture(e.pointerId);});
-svg.addEventListener('pointermove',e=>{if(!pointers.has(e.pointerId))return;const old=pointers.get(e.pointerId),p={x:e.clientX,y:e.clientY};pointers.set(e.pointerId,p);if(pointers.size===2){const [a,b]=[...pointers.values()],d=Math.hypot(a.x-b.x,a.y-b.y);if(last)zoom(last/d);last=d;dragged=true;}else{const dx=p.x-old.x,dy=p.y-old.y;if(Math.abs(dx)+Math.abs(dy)>2)dragged=true;const r=svg.getBoundingClientRect(),s=Math.max(camera.w/r.width,camera.h/r.height);camera.x-=dx*s;camera.y-=dy*s;draw();}});
+svg.addEventListener('pointermove',e=>{if(!pointers.has(e.pointerId))return;const old=pointers.get(e.pointerId),p={x:e.clientX,y:e.clientY};pointers.set(e.pointerId,p);if(pointers.size===2){const [a,b]=[...pointers.values()],d=Math.hypot(a.x-b.x,a.y-b.y);if(last&&d>0)zoom(last/d,mapPoint((a.x+b.x)/2,(a.y+b.y)/2),true);last=d;dragged=true;}else{const dx=p.x-old.x,dy=p.y-old.y;if(Math.abs(dx)+Math.abs(dy)>2)dragged=true;const r=svg.getBoundingClientRect(),s=Math.max(camera.w/r.width,camera.h/r.height);camera.x-=dx*s;camera.y-=dy*s;draw();}});
 for(const type of ['pointerup','pointercancel'])svg.addEventListener(type,e=>{if(type==='pointerup'&&!dragged&&pressNode)select(pressNode);pointers.delete(e.pointerId);last=null;pressNode=null;});
-svg.addEventListener('wheel',e=>{if(e.ctrlKey||e.metaKey){e.preventDefault();zoom(e.deltaY>0?1.08:.92);}else if(e.shiftKey){e.preventDefault();cancelAnimationFrame(flight);camera.x+=(e.deltaX||e.deltaY)*camera.w/svg.clientWidth;draw();}},{passive:false});
+svg.addEventListener('wheel',e=>{
+ e.preventDefault();
+ if(e.shiftKey){cancelAnimationFrame(flight);camera.x+=(e.deltaX||e.deltaY)*camera.w/svg.clientWidth;draw();return;}
+ const pixels=e.deltaY*(e.deltaMode===1?16:e.deltaMode===2?svg.clientHeight:1);
+ zoom(Math.exp(Math.max(-.5,Math.min(.5,pixels*.002))),mapPoint(e.clientX,e.clientY),true);
+},{passive:false});
+
 document.querySelectorAll('.map-toolbar,.map-layout,.map-topics').forEach(e=>e.hidden=false);document.querySelector('.interest-index').open=false;reset();
 
 new ResizeObserver(draw).observe(svg);
