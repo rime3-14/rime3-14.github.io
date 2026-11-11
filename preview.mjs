@@ -5,12 +5,12 @@ const files = new Map([
   ['/', ['index.html', 'text/html; charset=utf-8']],
   ['/index.html', ['index.html', 'text/html; charset=utf-8']],
   ['/styles.css', ['styles.css', 'text/css; charset=utf-8']],
-  ...['books.css','fun.css','fun.js','essays.js'].map(name=>[`/${name}`, [name,name.endsWith('.css')?'text/css; charset=utf-8':'text/javascript; charset=utf-8']]),
+  ...['interests.css','interests.js','books.css','fun.css','fun.js','essays.js'].map(name=>[`/${name}`, [name,name.endsWith('.css')?'text/css; charset=utf-8':'text/javascript; charset=utf-8']]),
   ['/music.js', ['music.js', 'text/javascript; charset=utf-8']],
   ['/books.js', ['books.js', 'text/javascript; charset=utf-8']],
   ['/art.js', ['art.js', 'text/javascript; charset=utf-8']],
   ['/assets/rime-handwriting.png', ['assets/rime-handwriting.png', 'image/png']],
-  ...['books', 'fashion', 'music', 'essays', 'art', 'sports', 'fun'].flatMap(section => [
+  ...['books', 'fashion', 'music', 'essays', 'art', 'sports', 'interests', 'fun'].flatMap(section => [
     [`/${section}/`, [`${section}/index.html`, 'text/html; charset=utf-8']],
     [`/${section}/index.html`, [`${section}/index.html`, 'text/html; charset=utf-8']],
   ]),
@@ -29,7 +29,7 @@ async function registerAssets(directory='assets') {
 await registerAssets();
 const server = http.createServer(async (request, response) => {
   const pathname = new URL(request.url, 'http://localhost').pathname;
-  if (['books', 'fashion', 'music', 'essays', 'art', 'sports', 'fun'].some(section => pathname === `/${section}`)) {
+  if (['books', 'fashion', 'music', 'essays', 'art', 'sports', 'interests', 'fun'].some(section => pathname === `/${section}`)) {
     response.writeHead(301, { Location: `${pathname}/` }); response.end(); return;
   }
   const route = files.get(pathname);
@@ -42,4 +42,4 @@ const server = http.createServer(async (request, response) => {
     response.writeHead(500); response.end('Unable to load this page');
   }
 });
-server.listen(4173, '127.0.0.1', () => console.log('Preview: http://127.0.0.1:4173'));
+server.listen(Number(process.env.PORT || 4173), '127.0.0.1', () => console.log('Preview: http://127.0.0.1:' + (process.env.PORT || 4173)));

@@ -1,9 +1,10 @@
+import { interestsPage } from './interests-template.mjs';
 import { bookPage } from './books-template.mjs';
 import { funPage } from './fun-template.mjs';
 import { readFile, writeFile, mkdir } from 'node:fs/promises';
 import { createHash } from 'node:crypto';
 const assetVersions = {};
-for (const asset of ['styles.css', 'essays.js', 'books.js', 'books.css', 'music.js', 'art.js', 'fun.css', 'fun.js']) {
+for (const asset of ['interests.css', 'interests.js', 'styles.css', 'essays.js', 'books.js', 'books.css', 'music.js', 'art.js', 'fun.css', 'fun.js']) {
  assetVersions[asset] = createHash('sha256').update(await readFile(new URL(asset, import.meta.url))).digest('hex').slice(0,12);
 }
 const content = JSON.parse(await readFile(new URL('content.json', import.meta.url), 'utf8'));
@@ -12,12 +13,13 @@ const media = value => { if (!value) return ''; if (/^\.\.\/assets\/[a-zA-Z0-9_.
 const albums = JSON.parse(await readFile(new URL('albums.json', import.meta.url), 'utf8'));
 const esc = value => String(value).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const link = value => { if (!value) return ''; const url = new URL(value); if (!['https:', 'http:'].includes(url.protocol)) throw new Error('Links must use HTTP or HTTPS'); return esc(url.href); };
-const sections = [['books','Books'],['music','Music'],['essays','Essays'],['art','Art'],['sports','Sports']];
+const interests = JSON.parse(await readFile(new URL('interests-data.json', import.meta.url), 'utf8'));
+const sections = [['books','Books'],['music','Music'],['essays','Essays'],['art','Art'],['interests','Interests']];
 const favicon = "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='18' fill='%23322348'/%3E%3Ctext x='32' y='46' text-anchor='middle' font-family='Georgia' font-size='49' fill='white'%3Er%3C/text%3E%3C/svg%3E";
 function page(slug, title, body, description, script = '') {
  const root = slug ? '../' : './';
  return `<!doctype html>
-<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="description" content="${esc(description)}"><title>${esc(title)} — Rime</title><link rel="icon" type="image/svg+xml" href="${favicon}"><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500&display=swap" rel="stylesheet"><link rel="stylesheet" href="${root}styles.css?v=${assetVersions['styles.css']}">${slug === 'books' ? `<link rel="stylesheet" href="${root}books.css?v=${assetVersions['books.css']}">` : ''}${script ? `<script src="${root}${script}?v=${assetVersions[script]}" defer></script>` : ''}</head>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="description" content="${esc(description)}"><title>${esc(title)} — Rime</title><link rel="icon" type="image/svg+xml" href="${favicon}"><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500&display=swap" rel="stylesheet"><link rel="stylesheet" href="${root}styles.css?v=${assetVersions['styles.css']}">${slug === 'books' ? `<link rel="stylesheet" href="${root}books.css?v=${assetVersions['books.css']}">` : ''}${slug === 'interests' ? `<link rel="stylesheet" href="${root}interests.css?v=${assetVersions['interests.css']}">` : ''}${script ? `<script src="${root}${script}?v=${assetVersions[script]}" defer></script>` : ''}</head>
 <body class="${slug || 'home'}"><a class="skip-link" href="#main">Skip to content</a><div class="shell"><header><a class="wordmark" href="${root}" aria-label="Rime, home">rime<span>.</span></a>${slug ? `<a class="back" href="${root}">Back to my nook</a>` : ''}</header><main id="main">${body}</main><footer>${slug ? `<nav aria-label="Explore my nook">${sections.map(([path,label])=>`<a href="../${path}/"${path === slug ? ' aria-current="page"' : ''}>${label}</a>`).join('')}</nav>` : '<div class="footer-note"><span>A little bit of everything, really.</span><a class="secret-link" href="fun/">don’t click here</a></div>'}<span class="signature">Rime</span></footer></div></body></html>\n`;
 }
 const optionalLink = (url,label) => url ? `<a href="${link(url)}">${label} </a>` : `<span class="pending">${label}<small>soon</small></span>`;
@@ -25,7 +27,7 @@ const bookShelf = bookPage(content.books, content.goodreads, esc, link, media);
 await writeFile(new URL('index.html',import.meta.url),page('', 'My little nook', `
 <section class="home-intro"><svg class="handwritten-greeting" xmlns="http://www.w3.org/2000/svg" viewBox="140 172 1360 265" width="260" height="51" role="img" aria-labelledby="greeting-title"><title id="greeting-title">Hi, I'm Rime :) — in my own handwriting</title><defs><filter id="handwriting-ink" x="0" y="0" width="1600" height="716" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB"><feColorMatrix type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  -1.2 0 0 0 1.14" result="ink-mask"/><feFlood flood-color="#94566d"/><feComposite in2="ink-mask" operator="in"/></filter></defs><image href="./assets/rime-handwriting.png" width="1600" height="716" filter="url(#handwriting-ink)"/></svg><h1>Welcome to my little<br><em>nook</em> of the internet.</h1><p class="bio">I'm 23, studying computer science, and living between France and Germany.<br>Glad you found your way here :)</p></section>
 <nav class="directory" aria-label="My corners of the internet">${sections.map(([path,label],i)=>`<a href="${path}/"><span class="number">0${i+1}</span><span>${label}</span></a>`).join('')}<div class="directory-external"><span class="number">0${sections.length+1}</span>${optionalLink(content.letterboxd,'Movies on Letterboxd')}</div></nav>
-<nav class="elsewhere" aria-label="Elsewhere"><a href="https://github.com/rime3-14">GitHub </a></nav><p class="portfolio-note">This is my personal corner. For work & projects, visit <a href="${link(content.portfolio)}">my portfolio</a>.</p>`, "Rime's little nook: books, music, writing, art, and sport."));
+<nav class="elsewhere" aria-label="Elsewhere"><a href="https://github.com/rime3-14">GitHub </a></nav><p class="portfolio-note">This is my personal corner. For work & projects, visit <a href="${link(content.portfolio)}">my portfolio</a>.</p>`, "Rime's little nook: books, music, writing, art, and interests."));
 const firstAlbum = albums[0];
 const artGallery = `<section class="art-heading"><h1>Art.</h1><p>Hover or tap a piece.</p></section>
 <section class="gallery" aria-label="Favourite artworks">${content.art.map((a,i)=>`<article class="art-card"><button type="button" class="art-toggle" aria-pressed="false" aria-label="Details: ${esc(a.title)}" aria-describedby="art-details-${i}"><span class="art-inner"><span class="art-front" aria-hidden="false"><img src="${media(a.image)}" alt="${esc(a.alt)}" loading="${i<3?'eager':'lazy'}" decoding="async" referrerpolicy="no-referrer"></span><span class="art-back" id="art-details-${i}" aria-hidden="true"><strong>${esc(a.title)}</strong><span class="art-artist">${esc(a.artist)}</span><span class="art-date">${esc(a.date)}</span><span class="art-location"><small>Collection / location</small>${esc(a.location)}</span>${a.note ? `<span class="art-note">${esc(a.note)}</span>` : ''}</span></span></button></article>`).join('')}</section>
@@ -40,7 +42,7 @@ const pages = {
  music: ['Music', musicPage, 'A few albums on Rime’s turntable.', 'music.js'],
  essays: ['Essays', `<section class="section-intro"><h1>Essays.</h1></section><div class="essay-tabs" role="tablist" aria-label="Essay sections"><h2><button type="button" role="tab" id="liked-heading" aria-controls="liked-essays" aria-selected="true">Essays I liked</button></h2><h2><button type="button" role="tab" id="own-heading" aria-controls="my-essays" aria-selected="false" tabindex="-1">Essays by me</button></h2></div><section class="essay-section" id="liked-essays" role="tabpanel" aria-labelledby="liked-heading"><ul class="reading-list">${(content.likedEssays || []).map(e=>`<li><a class="reading-link" href="${link(e.url)}"><div><h3>${esc(e.title)}</h3><p>${esc(e.author)}${e.note ? `<span class="reading-note"> · ${esc(e.note)}</span>` : ''}</p></div></a></li>`).join('')}</ul></section><section class="essay-section own-essays" id="my-essays" role="tabpanel" aria-labelledby="own-heading" hidden><div class="essay-list">${content.essays.length ? content.essays.map(e=>`<article><h3><a href="${esc(e.slug)}.html">${esc(e.title)}</a></h3><p>${esc(e.summary || '')}</p><time datetime="${esc(e.date)}">${esc(e.date)}</time></article>`).join('') : '<p class="empty-note">Coming soon.</p>'}</div></section>`, 'Essays Rime liked, and a space for her own writing.', 'essays.js'],
  art: ['Art', artGallery, 'A gallery of Rime’s favourite artworks.', 'art.js'],
- sports: ['Sports', `<h1 class="visually-hidden">Sports</h1><div class="sports-grid"><section><h2>What I do</h2><ul><li>Yoga</li><li>Pilates</li></ul></section><section><h2>What I follow</h2><ul><li>Formula 1</li><li>Football</li></ul></section></div>`, 'Yoga, Pilates, Formula 1, and football: Rime’s sporting interests.']
+ interests: ['Interests', interestsPage(interests,esc), 'A connected map of Rime’s interests, ideas and curiosities.', 'interests.js']
 };
 for (const [slug,[title,body,description,script]] of Object.entries(pages)) {
  await mkdir(new URL(`${slug}/`,import.meta.url),{recursive:true});
@@ -54,3 +56,5 @@ for (const essay of content.essays) {
 await mkdir(new URL('fun/',import.meta.url),{recursive:true});
 await writeFile(new URL('fun/index.html',import.meta.url),funPage(funContent,{css:assetVersions['fun.css'],js:assetVersions['fun.js']},esc,media));
 console.log('Built homepage, six sections, and the hidden fun room.');
+
+await writeFile(new URL('sports/index.html',import.meta.url), '<!doctype html><html lang="en"><meta charset="utf-8"><meta http-equiv="refresh" content="0;url=../interests/"><title>Interests — Rime</title><a href="../interests/">Explore my interests</a></html>');

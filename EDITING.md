@@ -36,3 +36,7 @@ Album artwork and song previews come from Apple's iTunes metadata API. Each albu
 Fashion is intentionally omitted from navigation until its content is ready. Its page source is preserved.
 
 The homepage greeting uses Rime’s original, unmodified drawing in `assets/rime-handwriting.png`. An SVG viewport excludes the spellcheck underline; its filter removes the light background and renders the original ink in `#94566d`. The drawing is not recreated with a font. Change its display width in `.handwritten-greeting` in `styles.css`.
+
+## Interests map
+
+Edit `interests-data.json`: `groups` sets the topic colours, `nodes` holds labels and optional notes/URLs, and `edges` lists pairs of node IDs with an association label. IDs must be unique and every edge endpoint must exist. Run `node build.mjs` after changes. The old Sports route redirects to Interests. The map layout and interactions live in `interests.js` and `interests.css`.

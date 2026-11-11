@@ -1,0 +1,2060 @@
+{
+  "groups": [
+    {
+      "label": "Fashion & couture",
+      "color": "#94566d"
+    },
+    {
+      "label": "Design & objects",
+      "color": "#957b53"
+    },
+    {
+      "label": "Technology",
+      "color": "#647f8b"
+    },
+    {
+      "label": "Mathematics",
+      "color": "#7770a4"
+    },
+    {
+      "label": "Philosophy & society",
+      "color": "#71846d"
+    },
+    {
+      "label": "Myths & figures",
+      "color": "#a17c67"
+    },
+    {
+      "label": "Literature",
+      "color": "#8b6c89"
+    },
+    {
+      "label": "Art & cinema",
+      "color": "#648c88"
+    },
+    {
+      "label": "Music",
+      "color": "#9b7480"
+    },
+    {
+      "label": "Movement & life",
+      "color": "#8b8663"
+    }
+  ],
+  "nodes": [
+    {
+      "id": "Fashion & couture",
+      "label": "Fashion & couture",
+      "group": 0,
+      "hub": true
+    },
+    {
+      "id": "Fashion",
+      "label": "Fashion",
+      "group": 0
+    },
+    {
+      "id": "Haute couture",
+      "label": "Haute couture",
+      "group": 0
+    },
+    {
+      "id": "Fashion weeks",
+      "label": "Fashion weeks",
+      "group": 0
+    },
+    {
+      "id": "Maison Margiela",
+      "label": "Maison Margiela",
+      "group": 0
+    },
+    {
+      "id": "Acne Studios",
+      "label": "Acne Studios",
+      "group": 0
+    },
+    {
+      "id": "Schiaparelli",
+      "label": "Schiaparelli",
+      "group": 0
+    },
+    {
+      "id": "Dior haute couture",
+      "label": "Dior haute couture",
+      "group": 0
+    },
+    {
+      "id": "Balenciaga",
+      "label": "Balenciaga",
+      "group": 0
+    },
+    {
+      "id": "Elsa Schiaparelli",
+      "label": "Elsa Schiaparelli",
+      "group": 0
+    },
+    {
+      "id": "John Galliano",
+      "label": "John Galliano",
+      "group": 0
+    },
+    {
+      "id": "Alexander McQueen",
+      "label": "Alexander McQueen",
+      "group": 0
+    },
+    {
+      "id": "Jonathan Anderson",
+      "label": "Jonathan Anderson",
+      "group": 0
+    },
+    {
+      "id": "Design & objects",
+      "label": "Design & objects",
+      "group": 1,
+      "hub": true
+    },
+    {
+      "id": "Design",
+      "label": "Design",
+      "group": 1
+    },
+    {
+      "id": "Computational design",
+      "label": "Computational design",
+      "group": 1
+    },
+    {
+      "id": "Graphic design",
+      "label": "Graphic design",
+      "group": 1
+    },
+    {
+      "id": "Objects as a concept",
+      "label": "Objects as a concept",
+      "group": 1
+    },
+    {
+      "id": "Human–computer interaction",
+      "label": "Human–computer interaction",
+      "group": 1
+    },
+    {
+      "id": "Beauty",
+      "label": "Beauty",
+      "group": 1
+    },
+    {
+      "id": "Creativity",
+      "label": "Creativity",
+      "group": 1
+    },
+    {
+      "id": "Mediums",
+      "label": "Mediums",
+      "group": 1
+    },
+    {
+      "id": "Flamingo Estate",
+      "label": "Flamingo Estate",
+      "group": 1
+    },
+    {
+      "id": "OEM",
+      "label": "OEM",
+      "group": 1
+    },
+    {
+      "id": "Le Labo",
+      "label": "Le Labo",
+      "group": 1
+    },
+    {
+      "id": "Diptyque",
+      "label": "Diptyque",
+      "group": 1
+    },
+    {
+      "id": "Technology",
+      "label": "Technology",
+      "group": 2,
+      "hub": true
+    },
+    {
+      "id": "Tech",
+      "label": "Tech",
+      "group": 2
+    },
+    {
+      "id": "AI development",
+      "label": "AI development",
+      "group": 2
+    },
+    {
+      "id": "Computer science",
+      "label": "Computer science",
+      "group": 2
+    },
+    {
+      "id": "Theoretical CS",
+      "label": "Theoretical CS",
+      "group": 2
+    },
+    {
+      "id": "Software",
+      "label": "Software",
+      "group": 2
+    },
+    {
+      "id": "Companies",
+      "label": "Companies",
+      "group": 2
+    },
+    {
+      "id": "Venture capital",
+      "label": "Venture capital",
+      "group": 2
+    },
+    {
+      "id": "Big tech",
+      "label": "Big tech",
+      "group": 2
+    },
+    {
+      "id": "Pattern recognition",
+      "label": "Pattern recognition",
+      "group": 2
+    },
+    {
+      "id": "Wikipedia",
+      "label": "Wikipedia",
+      "group": 2
+    },
+    {
+      "id": "Mathematics",
+      "label": "Mathematics",
+      "group": 3,
+      "hub": true
+    },
+    {
+      "id": "Pure maths",
+      "label": "Pure maths",
+      "group": 3
+    },
+    {
+      "id": "Category theory",
+      "label": "Category theory",
+      "group": 3
+    },
+    {
+      "id": "Algebraic geometry",
+      "label": "Algebraic geometry",
+      "group": 3
+    },
+    {
+      "id": "Linear algebra",
+      "label": "Linear algebra",
+      "group": 3
+    },
+    {
+      "id": "Abstraction",
+      "label": "Abstraction",
+      "group": 3
+    },
+    {
+      "id": "Riemann hypothesis",
+      "label": "Riemann hypothesis",
+      "group": 3
+    },
+    {
+      "id": "Poincaré conjecture",
+      "label": "Poincaré conjecture",
+      "group": 3
+    },
+    {
+      "id": "Grigori Perelman",
+      "label": "Grigori Perelman",
+      "group": 3
+    },
+    {
+      "id": "Philosophy & society",
+      "label": "Philosophy & society",
+      "group": 4,
+      "hub": true
+    },
+    {
+      "id": "Philosophy",
+      "label": "Philosophy",
+      "group": 4
+    },
+    {
+      "id": "Linguistics",
+      "label": "Linguistics",
+      "group": 4
+    },
+    {
+      "id": "Neurolinguistics",
+      "label": "Neurolinguistics",
+      "group": 4
+    },
+    {
+      "id": "Anthropology",
+      "label": "Anthropology",
+      "group": 4
+    },
+    {
+      "id": "Sociology",
+      "label": "Sociology",
+      "group": 4
+    },
+    {
+      "id": "Economics",
+      "label": "Economics",
+      "group": 4
+    },
+    {
+      "id": "Pierre Bourdieu",
+      "label": "Pierre Bourdieu",
+      "group": 4
+    },
+    {
+      "id": "Critical theory",
+      "label": "Critical theory",
+      "group": 4
+    },
+    {
+      "id": "Effective altruism",
+      "label": "Effective altruism",
+      "group": 4
+    },
+    {
+      "id": "Jean-Paul Sartre",
+      "label": "Jean-Paul Sartre",
+      "group": 4
+    },
+    {
+      "id": "Gilles Deleuze",
+      "label": "Gilles Deleuze",
+      "group": 4
+    },
+    {
+      "id": "Félix Guattari",
+      "label": "Félix Guattari",
+      "group": 4
+    },
+    {
+      "id": "G. W. F. Hegel",
+      "label": "G. W. F. Hegel",
+      "group": 4
+    },
+    {
+      "id": "History",
+      "label": "History",
+      "group": 4
+    },
+    {
+      "id": "Geist & freedom",
+      "label": "Geist & freedom",
+      "group": 4,
+      "note": "History as the rational, progressive unfolding of Geist, realizing self-consciousness and freedom — the Hegelian idea I keep returning to."
+    },
+    {
+      "id": "Søren Kierkegaard",
+      "label": "Søren Kierkegaard",
+      "group": 4
+    },
+    {
+      "id": "Martin Heidegger",
+      "label": "Martin Heidegger",
+      "group": 4,
+      "note": "An interest in his philosophy, not his Nazi politics."
+    },
+    {
+      "id": "Ted Kaczynski / Unabomber",
+      "label": "Ted Kaczynski / Unabomber",
+      "group": 4,
+      "note": "Technology, industrial society and its critics."
+    },
+    {
+      "id": "Myths & figures",
+      "label": "Myths & figures",
+      "group": 5,
+      "hub": true
+    },
+    {
+      "id": "Myths",
+      "label": "Myths",
+      "group": 5
+    },
+    {
+      "id": "Great narratives",
+      "label": "Great narratives",
+      "group": 5
+    },
+    {
+      "id": "Great figures",
+      "label": "Great figures",
+      "group": 5,
+      "note": "“Great” in the sense of figures who loom large in stories and history; gender-neutral."
+    },
+    {
+      "id": "Saints",
+      "label": "Saints",
+      "group": 5
+    },
+    {
+      "id": "Sainthood",
+      "label": "Sainthood",
+      "group": 5
+    },
+    {
+      "id": "Jeanne d’Arc",
+      "label": "Jeanne d’Arc",
+      "group": 5
+    },
+    {
+      "id": "Hypatia of Alexandria",
+      "label": "Hypatia of Alexandria",
+      "group": 5
+    },
+    {
+      "id": "Achilles",
+      "label": "Achilles",
+      "group": 5,
+      "note": "Achilles and glory. Glory to Achilles."
+    },
+    {
+      "id": "Glory",
+      "label": "Glory",
+      "group": 5
+    },
+    {
+      "id": "Athena",
+      "label": "Athena",
+      "group": 5,
+      "note": "Glory to Athena."
+    },
+    {
+      "id": "Alexander the Great",
+      "label": "Alexander the Great",
+      "group": 5
+    },
+    {
+      "id": "Napoleon",
+      "label": "Napoleon",
+      "group": 5
+    },
+    {
+      "id": "Literature",
+      "label": "Literature",
+      "group": 6,
+      "hub": true
+    },
+    {
+      "id": "Books",
+      "label": "Books",
+      "group": 6,
+      "url": "../books/"
+    },
+    {
+      "id": "Fyodor Dostoevsky",
+      "label": "Fyodor Dostoevsky",
+      "group": 6
+    },
+    {
+      "id": "Crime and Punishment",
+      "label": "Crime and Punishment",
+      "group": 6
+    },
+    {
+      "id": "The Brothers Karamazov",
+      "label": "The Brothers Karamazov",
+      "group": 6
+    },
+    {
+      "id": "Marcel Proust",
+      "label": "Marcel Proust",
+      "group": 6
+    },
+    {
+      "id": "Émile Zola",
+      "label": "Émile Zola",
+      "group": 6
+    },
+    {
+      "id": "Thérèse Raquin",
+      "label": "Thérèse Raquin",
+      "group": 6
+    },
+    {
+      "id": "Albert Camus",
+      "label": "Albert Camus",
+      "group": 6
+    },
+    {
+      "id": "Le Premier Homme",
+      "label": "Le Premier Homme",
+      "group": 6
+    },
+    {
+      "id": "Le Mythe de Sisyphe",
+      "label": "Le Mythe de Sisyphe",
+      "group": 6
+    },
+    {
+      "id": "L’Homme révolté",
+      "label": "L’Homme révolté",
+      "group": 6
+    },
+    {
+      "id": "Noces",
+      "label": "Noces",
+      "group": 6
+    },
+    {
+      "id": "L’Été",
+      "label": "L’Été",
+      "group": 6
+    },
+    {
+      "id": "Arthur Rimbaud",
+      "label": "Arthur Rimbaud",
+      "group": 6
+    },
+    {
+      "id": "Anne Carson",
+      "label": "Anne Carson",
+      "group": 6
+    },
+    {
+      "id": "Franz Kafka",
+      "label": "Franz Kafka",
+      "group": 6
+    },
+    {
+      "id": "Poetry",
+      "label": "Poetry",
+      "group": 6
+    },
+    {
+      "id": "Prose",
+      "label": "Prose",
+      "group": 6
+    },
+    {
+      "id": "Reading",
+      "label": "Reading",
+      "group": 6,
+      "url": "../books/"
+    },
+    {
+      "id": "Writing",
+      "label": "Writing",
+      "group": 6
+    },
+    {
+      "id": "Art & cinema",
+      "label": "Art & cinema",
+      "group": 7,
+      "hub": true
+    },
+    {
+      "id": "Art",
+      "label": "Art",
+      "group": 7,
+      "url": "../art/"
+    },
+    {
+      "id": "Museums",
+      "label": "Museums",
+      "group": 7
+    },
+    {
+      "id": "Pierre-Auguste Renoir",
+      "label": "Pierre-Auguste Renoir",
+      "group": 7
+    },
+    {
+      "id": "Henri Matisse",
+      "label": "Henri Matisse",
+      "group": 7
+    },
+    {
+      "id": "Mark Rothko",
+      "label": "Mark Rothko",
+      "group": 7
+    },
+    {
+      "id": "Hilma af Klint",
+      "label": "Hilma af Klint",
+      "group": 7
+    },
+    {
+      "id": "Cinema",
+      "label": "Cinema",
+      "group": 7,
+      "url": "https://boxd.it/mvFYH"
+    },
+    {
+      "id": "A24",
+      "label": "A24",
+      "group": 7
+    },
+    {
+      "id": "Lost",
+      "label": "Lost",
+      "group": 7
+    },
+    {
+      "id": "Music",
+      "label": "Music",
+      "group": 8,
+      "hub": true,
+      "url": "../music/"
+    },
+    {
+      "id": "Rock",
+      "label": "Rock",
+      "group": 8
+    },
+    {
+      "id": "Alternative rock",
+      "label": "Alternative rock",
+      "group": 8
+    },
+    {
+      "id": "Indie",
+      "label": "Indie",
+      "group": 8
+    },
+    {
+      "id": "Indie rock",
+      "label": "Indie rock",
+      "group": 8
+    },
+    {
+      "id": "Soft indie",
+      "label": "Soft indie",
+      "group": 8
+    },
+    {
+      "id": "Lana Del Rey",
+      "label": "Lana Del Rey",
+      "group": 8
+    },
+    {
+      "id": "The Smiths",
+      "label": "The Smiths",
+      "group": 8
+    },
+    {
+      "id": "Lorde",
+      "label": "Lorde",
+      "group": 8
+    },
+    {
+      "id": "Tame Impala",
+      "label": "Tame Impala",
+      "group": 8
+    },
+    {
+      "id": "Cocteau Twins",
+      "label": "Cocteau Twins",
+      "group": 8
+    },
+    {
+      "id": "Blur",
+      "label": "Blur",
+      "group": 8
+    },
+    {
+      "id": "Movement & life",
+      "label": "Movement & life",
+      "group": 9,
+      "hub": true
+    },
+    {
+      "id": "Sports",
+      "label": "Sports",
+      "group": 9
+    },
+    {
+      "id": "Formula 1",
+      "label": "Formula 1",
+      "group": 9
+    },
+    {
+      "id": "Football",
+      "label": "Football",
+      "group": 9
+    },
+    {
+      "id": "Yoga",
+      "label": "Yoga",
+      "group": 9
+    },
+    {
+      "id": "Pilates",
+      "label": "Pilates",
+      "group": 9
+    },
+    {
+      "id": "Ballet",
+      "label": "Ballet",
+      "group": 9
+    },
+    {
+      "id": "Figure skating",
+      "label": "Figure skating",
+      "group": 9
+    },
+    {
+      "id": "Gymnastics",
+      "label": "Gymnastics",
+      "group": 9
+    },
+    {
+      "id": "Cats",
+      "label": "Cats",
+      "group": 9
+    },
+    {
+      "id": "Deer",
+      "label": "Deer",
+      "group": 9
+    },
+    {
+      "id": "Ambition",
+      "label": "Ambition",
+      "group": 9
+    },
+    {
+      "id": "Creating something big",
+      "label": "Creating something big",
+      "group": 9,
+      "note": "Ambition, agency, making things, trying and failing."
+    },
+    {
+      "id": "Agency",
+      "label": "Agency",
+      "group": 9
+    },
+    {
+      "id": "Obsession",
+      "label": "Obsession",
+      "group": 9
+    },
+    {
+      "id": "Trying & failing",
+      "label": "Trying & failing",
+      "group": 9
+    },
+    {
+      "id": "Machines of Loving Grace",
+      "label": "Machines of Loving Grace",
+      "group": 2,
+      "url": "https://darioamodei.com/essay/machines-of-loving-grace"
+    },
+    {
+      "id": "How To Be Successful",
+      "label": "How To Be Successful",
+      "group": 2,
+      "url": "https://blog.samaltman.com/how-to-be-successful"
+    },
+    {
+      "id": "Fast",
+      "label": "Fast",
+      "group": 2,
+      "url": "https://patrickcollison.com/fast"
+    },
+    {
+      "id": "Ernest Hemingway’s Powerful Letter to F. Scott Fitzgerald",
+      "label": "Ernest Hemingway’s Powerful Letter to F. Scott Fitzgerald",
+      "group": 2,
+      "url": "https://fs.blog/you-see-well-enough-but-you-stop-listening/"
+    },
+    {
+      "id": "Signposts Back",
+      "label": "Signposts Back",
+      "group": 2,
+      "url": "https://www.avitalbalwit.com/post/signposts-back"
+    },
+    {
+      "id": "The Straussian Moment",
+      "label": "The Straussian Moment",
+      "group": 2,
+      "url": "https://gwern.net/doc/politics/2007-thiel.pdf"
+    },
+    {
+      "id": "The Diet Coke Essay",
+      "label": "The Diet Coke Essay",
+      "group": 2,
+      "url": "https://finalgirldigital.substack.com/p/the-diet-coke-essay"
+    },
+    {
+      "id": "Almost anything you give sustained attention to will begin to loop on itself and bloom",
+      "label": "Almost anything you give sustained attention to will begin to loop on itself and bloom",
+      "group": 2,
+      "url": "https://www.henrikkarlsson.xyz/p/attention"
+    },
+    {
+      "id": "The Adolescence of Technology",
+      "label": "The Adolescence of Technology",
+      "group": 2,
+      "url": "https://darioamodei.com/essay/the-adolescence-of-technology"
+    },
+    {
+      "id": "What I Wish Someone Had Told Me",
+      "label": "What I Wish Someone Had Told Me",
+      "group": 2,
+      "url": "https://blog.samaltman.com/what-i-wish-someone-had-told-me"
+    },
+    {
+      "id": "Man-Computer Symbiosis",
+      "label": "Man-Computer Symbiosis",
+      "group": 2,
+      "url": "https://worrydream.com/refs/Licklider_1960_-_Man-Computer_Symbiosis.pdf"
+    },
+    {
+      "id": "I am not always very attached to being alive",
+      "label": "I am not always very attached to being alive",
+      "group": 2,
+      "url": "https://theoutline.com/post/7267/living-with-passive-suicidal-ideation"
+    },
+    {
+      "id": "100 Ways To Live Better",
+      "label": "100 Ways To Live Better",
+      "group": 2,
+      "url": "https://www.lesswrong.com/posts/HJeD6XbMGEfcrx3mD/100-ways-to-live-better"
+    },
+    {
+      "id": "How to Do Great Work",
+      "label": "How to Do Great Work",
+      "group": 2,
+      "url": "https://paulgraham.com/greatwork.html"
+    },
+    {
+      "id": "A Project of One’s Own",
+      "label": "A Project of One’s Own",
+      "group": 2,
+      "url": "https://paulgraham.com/own.html"
+    }
+  ],
+  "edges": [
+    [
+      "Fashion & couture",
+      "Fashion",
+      "part of this corner"
+    ],
+    [
+      "Fashion & couture",
+      "Haute couture",
+      "part of this corner"
+    ],
+    [
+      "Fashion & couture",
+      "Fashion weeks",
+      "part of this corner"
+    ],
+    [
+      "Fashion & couture",
+      "Maison Margiela",
+      "part of this corner"
+    ],
+    [
+      "Fashion & couture",
+      "Acne Studios",
+      "part of this corner"
+    ],
+    [
+      "Fashion & couture",
+      "Schiaparelli",
+      "part of this corner"
+    ],
+    [
+      "Fashion & couture",
+      "Dior haute couture",
+      "part of this corner"
+    ],
+    [
+      "Fashion & couture",
+      "Balenciaga",
+      "part of this corner"
+    ],
+    [
+      "Fashion & couture",
+      "Elsa Schiaparelli",
+      "part of this corner"
+    ],
+    [
+      "Fashion & couture",
+      "John Galliano",
+      "part of this corner"
+    ],
+    [
+      "Fashion & couture",
+      "Alexander McQueen",
+      "part of this corner"
+    ],
+    [
+      "Fashion & couture",
+      "Jonathan Anderson",
+      "part of this corner"
+    ],
+    [
+      "Design & objects",
+      "Design",
+      "part of this corner"
+    ],
+    [
+      "Design & objects",
+      "Computational design",
+      "part of this corner"
+    ],
+    [
+      "Design & objects",
+      "Graphic design",
+      "part of this corner"
+    ],
+    [
+      "Design & objects",
+      "Objects as a concept",
+      "part of this corner"
+    ],
+    [
+      "Design & objects",
+      "Human–computer interaction",
+      "part of this corner"
+    ],
+    [
+      "Design & objects",
+      "Beauty",
+      "part of this corner"
+    ],
+    [
+      "Design & objects",
+      "Creativity",
+      "part of this corner"
+    ],
+    [
+      "Design & objects",
+      "Mediums",
+      "part of this corner"
+    ],
+    [
+      "Design & objects",
+      "Flamingo Estate",
+      "part of this corner"
+    ],
+    [
+      "Design & objects",
+      "OEM",
+      "part of this corner"
+    ],
+    [
+      "Design & objects",
+      "Le Labo",
+      "part of this corner"
+    ],
+    [
+      "Design & objects",
+      "Diptyque",
+      "part of this corner"
+    ],
+    [
+      "Technology",
+      "Tech",
+      "part of this corner"
+    ],
+    [
+      "Technology",
+      "AI development",
+      "part of this corner"
+    ],
+    [
+      "Technology",
+      "Computer science",
+      "part of this corner"
+    ],
+    [
+      "Technology",
+      "Theoretical CS",
+      "part of this corner"
+    ],
+    [
+      "Technology",
+      "Software",
+      "part of this corner"
+    ],
+    [
+      "Technology",
+      "Companies",
+      "part of this corner"
+    ],
+    [
+      "Technology",
+      "Venture capital",
+      "part of this corner"
+    ],
+    [
+      "Technology",
+      "Big tech",
+      "part of this corner"
+    ],
+    [
+      "Technology",
+      "Pattern recognition",
+      "part of this corner"
+    ],
+    [
+      "Technology",
+      "Wikipedia",
+      "part of this corner"
+    ],
+    [
+      "Mathematics",
+      "Pure maths",
+      "part of this corner"
+    ],
+    [
+      "Mathematics",
+      "Category theory",
+      "part of this corner"
+    ],
+    [
+      "Mathematics",
+      "Algebraic geometry",
+      "part of this corner"
+    ],
+    [
+      "Mathematics",
+      "Linear algebra",
+      "part of this corner"
+    ],
+    [
+      "Abstraction",
+      "Mathematics",
+      "an association"
+    ],
+    [
+      "Mathematics",
+      "Riemann hypothesis",
+      "part of this corner"
+    ],
+    [
+      "Mathematics",
+      "Poincaré conjecture",
+      "part of this corner"
+    ],
+    [
+      "Mathematics",
+      "Grigori Perelman",
+      "part of this corner"
+    ],
+    [
+      "Philosophy & society",
+      "Philosophy",
+      "part of this corner"
+    ],
+    [
+      "Philosophy & society",
+      "Linguistics",
+      "part of this corner"
+    ],
+    [
+      "Philosophy & society",
+      "Neurolinguistics",
+      "part of this corner"
+    ],
+    [
+      "Philosophy & society",
+      "Anthropology",
+      "part of this corner"
+    ],
+    [
+      "Philosophy & society",
+      "Sociology",
+      "part of this corner"
+    ],
+    [
+      "Philosophy & society",
+      "Economics",
+      "part of this corner"
+    ],
+    [
+      "Philosophy & society",
+      "Pierre Bourdieu",
+      "part of this corner"
+    ],
+    [
+      "Philosophy & society",
+      "Critical theory",
+      "part of this corner"
+    ],
+    [
+      "Philosophy & society",
+      "Effective altruism",
+      "part of this corner"
+    ],
+    [
+      "Philosophy & society",
+      "Jean-Paul Sartre",
+      "part of this corner"
+    ],
+    [
+      "Philosophy & society",
+      "Gilles Deleuze",
+      "part of this corner"
+    ],
+    [
+      "Philosophy & society",
+      "Félix Guattari",
+      "part of this corner"
+    ],
+    [
+      "Philosophy & society",
+      "G. W. F. Hegel",
+      "part of this corner"
+    ],
+    [
+      "Philosophy & society",
+      "History",
+      "part of this corner"
+    ],
+    [
+      "Philosophy & society",
+      "Geist & freedom",
+      "part of this corner"
+    ],
+    [
+      "Philosophy & society",
+      "Søren Kierkegaard",
+      "part of this corner"
+    ],
+    [
+      "Philosophy & society",
+      "Martin Heidegger",
+      "part of this corner"
+    ],
+    [
+      "Philosophy & society",
+      "Ted Kaczynski / Unabomber",
+      "part of this corner"
+    ],
+    [
+      "Myths & figures",
+      "Myths",
+      "part of this corner"
+    ],
+    [
+      "Myths & figures",
+      "Great narratives",
+      "part of this corner"
+    ],
+    [
+      "Myths & figures",
+      "Great figures",
+      "part of this corner"
+    ],
+    [
+      "Myths & figures",
+      "Saints",
+      "part of this corner"
+    ],
+    [
+      "Myths & figures",
+      "Sainthood",
+      "part of this corner"
+    ],
+    [
+      "Myths & figures",
+      "Jeanne d’Arc",
+      "part of this corner"
+    ],
+    [
+      "Myths & figures",
+      "Hypatia of Alexandria",
+      "part of this corner"
+    ],
+    [
+      "Myths & figures",
+      "Achilles",
+      "part of this corner"
+    ],
+    [
+      "Myths & figures",
+      "Glory",
+      "part of this corner"
+    ],
+    [
+      "Myths & figures",
+      "Athena",
+      "part of this corner"
+    ],
+    [
+      "Myths & figures",
+      "Alexander the Great",
+      "part of this corner"
+    ],
+    [
+      "Myths & figures",
+      "Napoleon",
+      "part of this corner"
+    ],
+    [
+      "Books",
+      "Literature",
+      "an association"
+    ],
+    [
+      "Literature",
+      "Fyodor Dostoevsky",
+      "an association"
+    ],
+    [
+      "Literature",
+      "Crime and Punishment",
+      "part of this corner"
+    ],
+    [
+      "Literature",
+      "The Brothers Karamazov",
+      "part of this corner"
+    ],
+    [
+      "Literature",
+      "Marcel Proust",
+      "part of this corner"
+    ],
+    [
+      "Literature",
+      "Émile Zola",
+      "part of this corner"
+    ],
+    [
+      "Literature",
+      "Thérèse Raquin",
+      "part of this corner"
+    ],
+    [
+      "Literature",
+      "Albert Camus",
+      "part of this corner"
+    ],
+    [
+      "Literature",
+      "Le Premier Homme",
+      "part of this corner"
+    ],
+    [
+      "Literature",
+      "Le Mythe de Sisyphe",
+      "part of this corner"
+    ],
+    [
+      "Literature",
+      "L’Homme révolté",
+      "part of this corner"
+    ],
+    [
+      "Literature",
+      "Noces",
+      "part of this corner"
+    ],
+    [
+      "Literature",
+      "L’Été",
+      "part of this corner"
+    ],
+    [
+      "Literature",
+      "Arthur Rimbaud",
+      "part of this corner"
+    ],
+    [
+      "Literature",
+      "Anne Carson",
+      "part of this corner"
+    ],
+    [
+      "Literature",
+      "Franz Kafka",
+      "part of this corner"
+    ],
+    [
+      "Literature",
+      "Poetry",
+      "part of this corner"
+    ],
+    [
+      "Literature",
+      "Prose",
+      "part of this corner"
+    ],
+    [
+      "Literature",
+      "Reading",
+      "an association"
+    ],
+    [
+      "Literature",
+      "Writing",
+      "part of this corner"
+    ],
+    [
+      "Art & cinema",
+      "Art",
+      "part of this corner"
+    ],
+    [
+      "Art & cinema",
+      "Museums",
+      "part of this corner"
+    ],
+    [
+      "Art & cinema",
+      "Pierre-Auguste Renoir",
+      "part of this corner"
+    ],
+    [
+      "Art & cinema",
+      "Henri Matisse",
+      "part of this corner"
+    ],
+    [
+      "Art & cinema",
+      "Mark Rothko",
+      "part of this corner"
+    ],
+    [
+      "Art & cinema",
+      "Hilma af Klint",
+      "part of this corner"
+    ],
+    [
+      "Art & cinema",
+      "Cinema",
+      "part of this corner"
+    ],
+    [
+      "Art & cinema",
+      "A24",
+      "part of this corner"
+    ],
+    [
+      "Art & cinema",
+      "Lost",
+      "part of this corner"
+    ],
+    [
+      "Music",
+      "Rock",
+      "an association"
+    ],
+    [
+      "Music",
+      "Alternative rock",
+      "part of this corner"
+    ],
+    [
+      "Music",
+      "Indie",
+      "part of this corner"
+    ],
+    [
+      "Music",
+      "Indie rock",
+      "part of this corner"
+    ],
+    [
+      "Music",
+      "Soft indie",
+      "part of this corner"
+    ],
+    [
+      "Music",
+      "Lana Del Rey",
+      "an association"
+    ],
+    [
+      "Music",
+      "The Smiths",
+      "part of this corner"
+    ],
+    [
+      "Music",
+      "Lorde",
+      "an association"
+    ],
+    [
+      "Music",
+      "Tame Impala",
+      "part of this corner"
+    ],
+    [
+      "Music",
+      "Cocteau Twins",
+      "an association"
+    ],
+    [
+      "Music",
+      "Blur",
+      "part of this corner"
+    ],
+    [
+      "Movement & life",
+      "Sports",
+      "part of this corner"
+    ],
+    [
+      "Movement & life",
+      "Formula 1",
+      "part of this corner"
+    ],
+    [
+      "Movement & life",
+      "Football",
+      "part of this corner"
+    ],
+    [
+      "Movement & life",
+      "Yoga",
+      "part of this corner"
+    ],
+    [
+      "Movement & life",
+      "Pilates",
+      "part of this corner"
+    ],
+    [
+      "Ballet",
+      "Movement & life",
+      "an association"
+    ],
+    [
+      "Movement & life",
+      "Figure skating",
+      "part of this corner"
+    ],
+    [
+      "Movement & life",
+      "Gymnastics",
+      "part of this corner"
+    ],
+    [
+      "Movement & life",
+      "Cats",
+      "part of this corner"
+    ],
+    [
+      "Movement & life",
+      "Deer",
+      "part of this corner"
+    ],
+    [
+      "Movement & life",
+      "Ambition",
+      "part of this corner"
+    ],
+    [
+      "Movement & life",
+      "Creating something big",
+      "part of this corner"
+    ],
+    [
+      "Movement & life",
+      "Agency",
+      "part of this corner"
+    ],
+    [
+      "Movement & life",
+      "Obsession",
+      "part of this corner"
+    ],
+    [
+      "Movement & life",
+      "Trying & failing",
+      "part of this corner"
+    ],
+    [
+      "Mathematics",
+      "Art",
+      "an association"
+    ],
+    [
+      "Art",
+      "Design",
+      "an association"
+    ],
+    [
+      "Design",
+      "Computational design",
+      "an association"
+    ],
+    [
+      "Computational design",
+      "Computer science",
+      "an association"
+    ],
+    [
+      "Computer science",
+      "Theoretical CS",
+      "an association"
+    ],
+    [
+      "Theoretical CS",
+      "Pure maths",
+      "an association"
+    ],
+    [
+      "Pure maths",
+      "Category theory",
+      "an association"
+    ],
+    [
+      "Category theory",
+      "Algebraic geometry",
+      "an association"
+    ],
+    [
+      "Beauty",
+      "Haute couture",
+      "an association"
+    ],
+    [
+      "Haute couture",
+      "Fashion weeks",
+      "an association"
+    ],
+    [
+      "Haute couture",
+      "Dior haute couture",
+      "an association"
+    ],
+    [
+      "Dior haute couture",
+      "John Galliano",
+      "an association"
+    ],
+    [
+      "John Galliano",
+      "Maison Margiela",
+      "an association"
+    ],
+    [
+      "Schiaparelli",
+      "Elsa Schiaparelli",
+      "an association"
+    ],
+    [
+      "Fashion",
+      "Jonathan Anderson",
+      "an association"
+    ],
+    [
+      "Fashion",
+      "Alexander McQueen",
+      "an association"
+    ],
+    [
+      "Design",
+      "Objects as a concept",
+      "an association"
+    ],
+    [
+      "Objects as a concept",
+      "Flamingo Estate",
+      "an association"
+    ],
+    [
+      "Objects as a concept",
+      "OEM",
+      "an association"
+    ],
+    [
+      "Objects as a concept",
+      "Le Labo",
+      "an association"
+    ],
+    [
+      "Objects as a concept",
+      "Diptyque",
+      "an association"
+    ],
+    [
+      "Design",
+      "Graphic design",
+      "an association"
+    ],
+    [
+      "Human–computer interaction",
+      "Design",
+      "an association"
+    ],
+    [
+      "Human–computer interaction",
+      "Computer science",
+      "an association"
+    ],
+    [
+      "AI development",
+      "Linear algebra",
+      "an association"
+    ],
+    [
+      "AI development",
+      "Pattern recognition",
+      "an association"
+    ],
+    [
+      "Pattern recognition",
+      "Abstraction",
+      "an association"
+    ],
+    [
+      "AI development",
+      "Effective altruism",
+      "an association"
+    ],
+    [
+      "Tech",
+      "Software",
+      "an association"
+    ],
+    [
+      "Software",
+      "Companies",
+      "an association"
+    ],
+    [
+      "Companies",
+      "Venture capital",
+      "an association"
+    ],
+    [
+      "Venture capital",
+      "Big tech",
+      "an association"
+    ],
+    [
+      "Poincaré conjecture",
+      "Grigori Perelman",
+      "an association"
+    ],
+    [
+      "Pure maths",
+      "Riemann hypothesis",
+      "an association"
+    ],
+    [
+      "Linguistics",
+      "Neurolinguistics",
+      "an association"
+    ],
+    [
+      "Linguistics",
+      "Computer science",
+      "an association"
+    ],
+    [
+      "Anthropology",
+      "Myths",
+      "an association"
+    ],
+    [
+      "Myths",
+      "Great narratives",
+      "an association"
+    ],
+    [
+      "Great narratives",
+      "Literature",
+      "an association"
+    ],
+    [
+      "Sociology",
+      "Pierre Bourdieu",
+      "an association"
+    ],
+    [
+      "Pierre Bourdieu",
+      "Fashion",
+      "an association"
+    ],
+    [
+      "Critical theory",
+      "Sociology",
+      "an association"
+    ],
+    [
+      "Sociology",
+      "Economics",
+      "an association"
+    ],
+    [
+      "Gilles Deleuze",
+      "Félix Guattari",
+      "an association"
+    ],
+    [
+      "G. W. F. Hegel",
+      "Geist & freedom",
+      "an association"
+    ],
+    [
+      "Geist & freedom",
+      "History",
+      "an association"
+    ],
+    [
+      "History",
+      "Napoleon",
+      "an association"
+    ],
+    [
+      "History",
+      "Alexander the Great",
+      "an association"
+    ],
+    [
+      "Saints",
+      "Sainthood",
+      "an association"
+    ],
+    [
+      "Sainthood",
+      "Jeanne d’Arc",
+      "an association"
+    ],
+    [
+      "Great figures",
+      "Hypatia of Alexandria",
+      "an association"
+    ],
+    [
+      "Hypatia of Alexandria",
+      "Mathematics",
+      "an association"
+    ],
+    [
+      "Great figures",
+      "Achilles",
+      "an association"
+    ],
+    [
+      "Achilles",
+      "Glory",
+      "an association"
+    ],
+    [
+      "Glory",
+      "Ambition",
+      "an association"
+    ],
+    [
+      "Myths",
+      "Athena",
+      "an association"
+    ],
+    [
+      "Reading",
+      "Writing",
+      "an association"
+    ],
+    [
+      "Writing",
+      "Prose",
+      "an association"
+    ],
+    [
+      "Writing",
+      "Poetry",
+      "an association"
+    ],
+    [
+      "Poetry",
+      "Arthur Rimbaud",
+      "an association"
+    ],
+    [
+      "Poetry",
+      "Anne Carson",
+      "an association"
+    ],
+    [
+      "Anne Carson",
+      "Myths",
+      "an association"
+    ],
+    [
+      "Fyodor Dostoevsky",
+      "Crime and Punishment",
+      "an association"
+    ],
+    [
+      "Fyodor Dostoevsky",
+      "The Brothers Karamazov",
+      "an association"
+    ],
+    [
+      "Émile Zola",
+      "Thérèse Raquin",
+      "an association"
+    ],
+    [
+      "Albert Camus",
+      "Le Mythe de Sisyphe",
+      "an association"
+    ],
+    [
+      "Le Mythe de Sisyphe",
+      "Philosophy",
+      "an association"
+    ],
+    [
+      "Albert Camus",
+      "Le Premier Homme",
+      "an association"
+    ],
+    [
+      "Albert Camus",
+      "L’Homme révolté",
+      "an association"
+    ],
+    [
+      "Albert Camus",
+      "Noces",
+      "an association"
+    ],
+    [
+      "Albert Camus",
+      "L’Été",
+      "an association"
+    ],
+    [
+      "Albert Camus",
+      "Jean-Paul Sartre",
+      "an association"
+    ],
+    [
+      "Philosophy",
+      "Søren Kierkegaard",
+      "an association"
+    ],
+    [
+      "Philosophy",
+      "Martin Heidegger",
+      "an association"
+    ],
+    [
+      "Ted Kaczynski / Unabomber",
+      "Tech",
+      "an association"
+    ],
+    [
+      "Art",
+      "Museums",
+      "an association"
+    ],
+    [
+      "Art",
+      "Mediums",
+      "an association"
+    ],
+    [
+      "Mediums",
+      "Creativity",
+      "an association"
+    ],
+    [
+      "Creativity",
+      "Writing",
+      "an association"
+    ],
+    [
+      "Abstraction",
+      "Mark Rothko",
+      "an association"
+    ],
+    [
+      "Abstraction",
+      "Hilma af Klint",
+      "an association"
+    ],
+    [
+      "Cinema",
+      "A24",
+      "an association"
+    ],
+    [
+      "Cinema",
+      "Lost",
+      "an association"
+    ],
+    [
+      "Rock",
+      "Alternative rock",
+      "an association"
+    ],
+    [
+      "Alternative rock",
+      "Indie rock",
+      "an association"
+    ],
+    [
+      "Indie rock",
+      "Indie",
+      "an association"
+    ],
+    [
+      "Indie",
+      "Soft indie",
+      "an association"
+    ],
+    [
+      "Indie rock",
+      "The Smiths",
+      "an association"
+    ],
+    [
+      "Indie rock",
+      "Tame Impala",
+      "an association"
+    ],
+    [
+      "Alternative rock",
+      "Blur",
+      "an association"
+    ],
+    [
+      "Beauty",
+      "Ballet",
+      "an association"
+    ],
+    [
+      "Beauty",
+      "Figure skating",
+      "an association"
+    ],
+    [
+      "Beauty",
+      "Gymnastics",
+      "an association"
+    ],
+    [
+      "Sports",
+      "Formula 1",
+      "an association"
+    ],
+    [
+      "Sports",
+      "Football",
+      "an association"
+    ],
+    [
+      "Agency",
+      "Ambition",
+      "an association"
+    ],
+    [
+      "Ambition",
+      "Creating something big",
+      "an association"
+    ],
+    [
+      "Creating something big",
+      "Trying & failing",
+      "an association"
+    ],
+    [
+      "Creativity",
+      "Obsession",
+      "an association"
+    ],
+    [
+      "Cats",
+      "Art",
+      "an association"
+    ],
+    [
+      "Deer",
+      "Art",
+      "an association"
+    ],
+    [
+      "AI development",
+      "Machines of Loving Grace",
+      "an essay on my shelf"
+    ],
+    [
+      "Agency",
+      "How To Be Successful",
+      "an essay on my shelf"
+    ],
+    [
+      "Agency",
+      "Fast",
+      "an essay on my shelf"
+    ],
+    [
+      "Writing",
+      "Ernest Hemingway’s Powerful Letter to F. Scott Fitzgerald",
+      "an essay on my shelf"
+    ],
+    [
+      "Agency",
+      "Signposts Back",
+      "an essay on my shelf"
+    ],
+    [
+      "Philosophy",
+      "The Straussian Moment",
+      "an essay on my shelf"
+    ],
+    [
+      "Writing",
+      "The Diet Coke Essay",
+      "an essay on my shelf"
+    ],
+    [
+      "Writing",
+      "Almost anything you give sustained attention to will begin to loop on itself and bloom",
+      "an essay on my shelf"
+    ],
+    [
+      "AI development",
+      "The Adolescence of Technology",
+      "an essay on my shelf"
+    ],
+    [
+      "Agency",
+      "What I Wish Someone Had Told Me",
+      "an essay on my shelf"
+    ],
+    [
+      "Human–computer interaction",
+      "Man-Computer Symbiosis",
+      "an essay on my shelf"
+    ],
+    [
+      "Writing",
+      "I am not always very attached to being alive",
+      "an essay on my shelf"
+    ],
+    [
+      "Agency",
+      "100 Ways To Live Better",
+      "an essay on my shelf"
+    ],
+    [
+      "Agency",
+      "How to Do Great Work",
+      "an essay on my shelf"
+    ],
+    [
+      "Agency",
+      "A Project of One’s Own",
+      "an essay on my shelf"
+    ]
+  ]
+}
