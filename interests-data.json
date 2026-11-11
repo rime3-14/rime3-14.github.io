@@ -39,6 +39,10 @@
     {
       "label": "Movement & life",
       "color": "#8b8663"
+    },
+    {
+      "label": "Life & mind",
+      "color": "#8a9274"
     }
   ],
   "nodes": [
@@ -750,94 +754,570 @@
       "group": 9
     },
     {
-      "id": "Machines of Loving Grace",
-      "label": "Machines of Loving Grace",
-      "group": 2,
-      "url": "https://darioamodei.com/essay/machines-of-loving-grace"
+      "id": "Feedback loops",
+      "label": "Feedback loops",
+      "group": 2
     },
     {
-      "id": "How To Be Successful",
-      "label": "How To Be Successful",
-      "group": 2,
-      "url": "https://blog.samaltman.com/how-to-be-successful"
+      "id": "Hard problems",
+      "label": "Hard problems",
+      "group": 2
     },
     {
-      "id": "Fast",
-      "label": "Fast",
-      "group": 2,
-      "url": "https://patrickcollison.com/fast"
+      "id": "Deep learning",
+      "label": "Deep learning",
+      "group": 2
     },
     {
-      "id": "Ernest Hemingway’s Powerful Letter to F. Scott Fitzgerald",
-      "label": "Ernest Hemingway’s Powerful Letter to F. Scott Fitzgerald",
-      "group": 2,
-      "url": "https://fs.blog/you-see-well-enough-but-you-stop-listening/"
+      "id": "Perceptron",
+      "label": "Perceptron",
+      "group": 2
     },
     {
-      "id": "Signposts Back",
-      "label": "Signposts Back",
-      "group": 2,
-      "url": "https://www.avitalbalwit.com/post/signposts-back"
+      "id": "Von Neumann architecture",
+      "label": "Von Neumann architecture",
+      "group": 2
     },
     {
-      "id": "The Straussian Moment",
-      "label": "The Straussian Moment",
-      "group": 2,
-      "url": "https://gwern.net/doc/politics/2007-thiel.pdf"
+      "id": "Finite-state machine",
+      "label": "Finite-state machine",
+      "group": 2
     },
     {
-      "id": "The Diet Coke Essay",
-      "label": "The Diet Coke Essay",
-      "group": 2,
-      "url": "https://finalgirldigital.substack.com/p/the-diet-coke-essay"
+      "id": "Turing machine",
+      "label": "Turing machine",
+      "group": 2
     },
     {
-      "id": "Almost anything you give sustained attention to will begin to loop on itself and bloom",
-      "label": "Almost anything you give sustained attention to will begin to loop on itself and bloom",
-      "group": 2,
-      "url": "https://www.henrikkarlsson.xyz/p/attention"
+      "id": "Exponential Time Hypothesis (ETH)",
+      "label": "Exponential Time Hypothesis (ETH)",
+      "group": 2
     },
     {
-      "id": "The Adolescence of Technology",
-      "label": "The Adolescence of Technology",
-      "group": 2,
-      "url": "https://darioamodei.com/essay/the-adolescence-of-technology"
+      "id": "P vs NP",
+      "label": "P vs NP",
+      "group": 2
     },
     {
-      "id": "What I Wish Someone Had Told Me",
-      "label": "What I Wish Someone Had Told Me",
-      "group": 2,
-      "url": "https://blog.samaltman.com/what-i-wish-someone-had-told-me"
+      "id": "Gradient descent",
+      "label": "Gradient descent",
+      "group": 2
     },
     {
-      "id": "Man-Computer Symbiosis",
-      "label": "Man-Computer Symbiosis",
-      "group": 2,
-      "url": "https://worrydream.com/refs/Licklider_1960_-_Man-Computer_Symbiosis.pdf"
+      "id": "Learning",
+      "label": "Learning",
+      "group": 2
     },
     {
-      "id": "I am not always very attached to being alive",
-      "label": "I am not always very attached to being alive",
-      "group": 2,
-      "url": "https://theoutline.com/post/7267/living-with-passive-suicidal-ideation"
+      "id": "Updating priors",
+      "label": "Updating priors",
+      "group": 2
     },
     {
-      "id": "100 Ways To Live Better",
-      "label": "100 Ways To Live Better",
-      "group": 2,
-      "url": "https://www.lesswrong.com/posts/HJeD6XbMGEfcrx3mD/100-ways-to-live-better"
+      "id": "Russell’s paradox",
+      "label": "Russell’s paradox",
+      "group": 3
     },
     {
-      "id": "How to Do Great Work",
-      "label": "How to Do Great Work",
-      "group": 2,
-      "url": "https://paulgraham.com/greatwork.html"
+      "id": "Fermat’s Last Theorem",
+      "label": "Fermat’s Last Theorem",
+      "group": 3
     },
     {
-      "id": "A Project of One’s Own",
-      "label": "A Project of One’s Own",
+      "id": "Ostrogradsky’s theorem",
+      "label": "Ostrogradsky’s theorem",
+      "group": 3
+    },
+    {
+      "id": "Measure theory",
+      "label": "Measure theory",
+      "group": 3
+    },
+    {
+      "id": "Technocracy",
+      "label": "Technocracy",
+      "group": 4
+    },
+    {
+      "id": "Syntax",
+      "label": "Syntax",
+      "group": 4
+    },
+    {
+      "id": "Aesthetics",
+      "label": "Aesthetics",
+      "group": 4
+    },
+    {
+      "id": "Meaning",
+      "label": "Meaning",
+      "group": 4
+    },
+    {
+      "id": "Consciousness",
+      "label": "Consciousness",
+      "group": 4
+    },
+    {
+      "id": "Science fiction",
+      "label": "Science fiction",
+      "group": 6
+    },
+    {
+      "id": "Classics",
+      "label": "Classics",
+      "group": 6
+    },
+    {
+      "id": "Techno parties",
+      "label": "Techno parties",
+      "group": 8
+    },
+    {
+      "id": "Discussions",
+      "label": "Discussions",
+      "group": 9
+    },
+    {
+      "id": "Friendship",
+      "label": "Friendship",
+      "group": 9
+    },
+    {
+      "id": "Crochet",
+      "label": "Crochet",
+      "group": 9
+    },
+    {
+      "id": "Building things",
+      "label": "Building things",
+      "group": 9
+    },
+    {
+      "id": "Sadness",
+      "label": "Sadness",
+      "group": 9
+    },
+    {
+      "id": "Hope?",
+      "label": "Hope?",
+      "group": 9
+    },
+    {
+      "id": "Life & mind",
+      "label": "Life & mind",
+      "group": 10,
+      "hub": true
+    },
+    {
+      "id": "Genetics",
+      "label": "Genetics",
+      "group": 10
+    },
+    {
+      "id": "Metabolism",
+      "label": "Metabolism",
+      "group": 10
+    },
+    {
+      "id": "Metabolic pathways",
+      "label": "Metabolic pathways",
+      "group": 10
+    },
+    {
+      "id": "Brain function",
+      "label": "Brain function",
+      "group": 10
+    },
+    {
+      "id": "Neurons (biological)",
+      "label": "Neurons (biological)",
+      "group": 10
+    },
+    {
+      "id": "Neurons (artificial)",
+      "label": "Neurons (artificial)",
+      "group": 10
+    },
+    {
+      "id": "The Swan, No. 1",
+      "label": "The Swan, No. 1",
+      "group": 7,
+      "url": "../art/"
+    },
+    {
+      "id": "Four Darks in Red",
+      "label": "Four Darks in Red",
+      "group": 7,
+      "url": "../art/"
+    },
+    {
+      "id": "Blue Monochrome",
+      "label": "Blue Monochrome",
+      "group": 7,
+      "url": "../art/"
+    },
+    {
+      "id": "Yves Klein",
+      "label": "Yves Klein",
+      "group": 7
+    },
+    {
+      "id": "Female Artist (Artistin)",
+      "label": "Female Artist (Artistin)",
+      "group": 7,
+      "url": "../art/"
+    },
+    {
+      "id": "Ernst Ludwig Kirchner",
+      "label": "Ernst Ludwig Kirchner",
+      "group": 7
+    },
+    {
+      "id": "Dante et Virgile",
+      "label": "Dante et Virgile",
+      "group": 7,
+      "url": "../art/"
+    },
+    {
+      "id": "William Bouguereau",
+      "label": "William Bouguereau",
+      "group": 7
+    },
+    {
+      "id": "The Cyclops",
+      "label": "The Cyclops",
+      "group": 7,
+      "url": "../art/"
+    },
+    {
+      "id": "Odilon Redon",
+      "label": "Odilon Redon",
+      "group": 7
+    },
+    {
+      "id": "The Sun",
+      "label": "The Sun",
+      "group": 7,
+      "url": "../art/"
+    },
+    {
+      "id": "Edvard Munch",
+      "label": "Edvard Munch",
+      "group": 7
+    },
+    {
+      "id": "The Monk by the Sea",
+      "label": "The Monk by the Sea",
+      "group": 7,
+      "url": "../art/"
+    },
+    {
+      "id": "Caspar David Friedrich",
+      "label": "Caspar David Friedrich",
+      "group": 7
+    },
+    {
+      "id": "Man Grieving over a Dead Deer",
+      "label": "Man Grieving over a Dead Deer",
+      "group": 7,
+      "url": "../art/"
+    },
+    {
+      "id": "George Minne",
+      "label": "George Minne",
+      "group": 7
+    },
+    {
+      "id": "Ochre and Red on Red",
+      "label": "Ochre and Red on Red",
+      "group": 7,
+      "url": "../art/"
+    },
+    {
+      "id": "Vir Heroicus Sublimis",
+      "label": "Vir Heroicus Sublimis",
+      "group": 7,
+      "url": "../art/"
+    },
+    {
+      "id": "Barnett Newman",
+      "label": "Barnett Newman",
+      "group": 7
+    },
+    {
+      "id": "Victoire de Samothrace",
+      "label": "Victoire de Samothrace",
+      "group": 7,
+      "url": "../art/"
+    },
+    {
+      "id": "What a Human Being Is",
+      "label": "What a Human Being Is",
+      "group": 7,
+      "url": "../art/"
+    },
+    {
+      "id": "No. 5/No. 22",
+      "label": "No. 5/No. 22",
+      "group": 7,
+      "url": "../art/"
+    },
+    {
+      "id": "Pietà",
+      "label": "Pietà",
+      "group": 7,
+      "url": "../art/"
+    },
+    {
+      "id": "Michelangelo",
+      "label": "Michelangelo",
+      "group": 7
+    },
+    {
+      "id": "Icarus (Icare)",
+      "label": "Icarus (Icare)",
+      "group": 7,
+      "url": "../art/"
+    },
+    {
+      "id": "Nike of Samothrace",
+      "label": "Nike of Samothrace",
+      "group": 7,
+      "url": "../art/"
+    },
+    {
+      "id": "Stańczyk",
+      "label": "Stańczyk",
+      "group": 7,
+      "url": "../art/"
+    },
+    {
+      "id": "Jan Matejko",
+      "label": "Jan Matejko",
+      "group": 7
+    },
+    {
+      "id": "The Persistence of Memory",
+      "label": "The Persistence of Memory",
+      "group": 7,
+      "url": "../art/"
+    },
+    {
+      "id": "Salvador Dalí",
+      "label": "Salvador Dalí",
+      "group": 7
+    },
+    {
+      "id": "Le fils de l’homme",
+      "label": "Le fils de l’homme",
+      "group": 7,
+      "url": "../art/"
+    },
+    {
+      "id": "René Magritte",
+      "label": "René Magritte",
+      "group": 7
+    },
+    {
+      "id": "Rothko Chapel",
+      "label": "Rothko Chapel",
+      "group": 7,
+      "url": "../art/"
+    },
+    {
+      "id": "Colour",
+      "label": "Colour",
+      "group": 7
+    },
+    {
+      "id": "The sublime",
+      "label": "The sublime",
+      "group": 7
+    },
+    {
+      "id": "Surrealism",
+      "label": "Surrealism",
+      "group": 7
+    },
+    {
+      "id": "Memory",
+      "label": "Memory",
+      "group": 4
+    },
+    {
+      "id": "Attention",
+      "label": "Attention",
+      "group": 4
+    },
+    {
+      "id": "Human–computer symbiosis",
+      "label": "Human–computer symbiosis",
+      "group": 4
+    },
+    {
+      "id": "Wuthering Heights",
+      "label": "Wuthering Heights",
+      "group": 6,
+      "url": "../books/"
+    },
+    {
+      "id": "Emily Brontë",
+      "label": "Emily Brontë",
+      "group": 6
+    },
+    {
+      "id": "Anna Karenina",
+      "label": "Anna Karenina",
+      "group": 6,
+      "url": "../books/"
+    },
+    {
+      "id": "Leo Tolstoy",
+      "label": "Leo Tolstoy",
+      "group": 6
+    },
+    {
+      "id": "Dune",
+      "label": "Dune",
+      "group": 6,
+      "url": "../books/"
+    },
+    {
+      "id": "Frank Herbert",
+      "label": "Frank Herbert",
+      "group": 6
+    },
+    {
+      "id": "Eros the Bittersweet",
+      "label": "Eros the Bittersweet",
+      "group": 6,
+      "url": "../books/"
+    },
+    {
+      "id": "The Diaries",
+      "label": "The Diaries",
+      "group": 6,
+      "url": "../books/"
+    },
+    {
+      "id": "Antigone",
+      "label": "Antigone",
+      "group": 6,
+      "url": "../books/"
+    },
+    {
+      "id": "Sophocles",
+      "label": "Sophocles",
+      "group": 6
+    },
+    {
+      "id": "The Odyssey",
+      "label": "The Odyssey",
+      "group": 6,
+      "url": "../books/"
+    },
+    {
+      "id": "Homer",
+      "label": "Homer",
+      "group": 6
+    },
+    {
+      "id": "Dario Amodei",
+      "label": "Dario Amodei",
       "group": 2,
-      "url": "https://paulgraham.com/own.html"
+      "url": "../essays/"
+    },
+    {
+      "id": "Sam Altman",
+      "label": "Sam Altman",
+      "group": 2,
+      "url": "../essays/"
+    },
+    {
+      "id": "Patrick Collison",
+      "label": "Patrick Collison",
+      "group": 2,
+      "url": "../essays/"
+    },
+    {
+      "id": "Ernest Hemingway",
+      "label": "Ernest Hemingway",
+      "group": 6,
+      "url": "../essays/"
+    },
+    {
+      "id": "Avital Balwit",
+      "label": "Avital Balwit",
+      "group": 2,
+      "url": "../essays/"
+    },
+    {
+      "id": "Peter Thiel",
+      "label": "Peter Thiel",
+      "group": 2,
+      "url": "../essays/"
+    },
+    {
+      "id": "Cricket Guest",
+      "label": "Cricket Guest",
+      "group": 6,
+      "url": "../essays/"
+    },
+    {
+      "id": "Henrik Karlsson",
+      "label": "Henrik Karlsson",
+      "group": 6,
+      "url": "../essays/"
+    },
+    {
+      "id": "J. C. R. Licklider",
+      "label": "J. C. R. Licklider",
+      "group": 2,
+      "url": "../essays/"
+    },
+    {
+      "id": "Anna Borges",
+      "label": "Anna Borges",
+      "group": 6,
+      "url": "../essays/"
+    },
+    {
+      "id": "Jacob Falkovich",
+      "label": "Jacob Falkovich",
+      "group": 2,
+      "url": "../essays/"
+    },
+    {
+      "id": "Paul Graham",
+      "label": "Paul Graham",
+      "group": 2,
+      "url": "../essays/"
+    },
+    {
+      "id": "East of Eden",
+      "label": "East of Eden",
+      "group": 6,
+      "url": "https://www.goodreads.com/user/show/145207462-rime",
+      "note": "From my Goodreads reading shelf."
+    },
+    {
+      "id": "John Steinbeck",
+      "label": "John Steinbeck",
+      "group": 6
+    },
+    {
+      "id": "Anaïs Nin",
+      "label": "Anaïs Nin",
+      "group": 6,
+      "note": "From the quotes on my Goodreads profile."
+    },
+    {
+      "id": "Life",
+      "label": "Life",
+      "group": 10,
+      "hub": true,
+      "root": true
     }
   ],
   "edges": [
@@ -1982,79 +2462,1279 @@
       "an association"
     ],
     [
+      "Technology",
+      "Feedback loops",
+      "an association"
+    ],
+    [
+      "Technology",
+      "Hard problems",
+      "an association"
+    ],
+    [
+      "Technology",
+      "Deep learning",
+      "an association"
+    ],
+    [
+      "Technology",
+      "Perceptron",
+      "an association"
+    ],
+    [
+      "Technology",
+      "Von Neumann architecture",
+      "an association"
+    ],
+    [
+      "Technology",
+      "Finite-state machine",
+      "an association"
+    ],
+    [
+      "Technology",
+      "Turing machine",
+      "an association"
+    ],
+    [
+      "Technology",
+      "Exponential Time Hypothesis (ETH)",
+      "an association"
+    ],
+    [
+      "Technology",
+      "P vs NP",
+      "an association"
+    ],
+    [
+      "Technology",
+      "Gradient descent",
+      "an association"
+    ],
+    [
+      "Technology",
+      "Learning",
+      "an association"
+    ],
+    [
+      "Technology",
+      "Updating priors",
+      "an association"
+    ],
+    [
+      "Mathematics",
+      "Russell’s paradox",
+      "an association"
+    ],
+    [
+      "Mathematics",
+      "Fermat’s Last Theorem",
+      "an association"
+    ],
+    [
+      "Mathematics",
+      "Ostrogradsky’s theorem",
+      "an association"
+    ],
+    [
+      "Mathematics",
+      "Measure theory",
+      "an association"
+    ],
+    [
+      "Philosophy & society",
+      "Technocracy",
+      "an association"
+    ],
+    [
+      "Philosophy & society",
+      "Syntax",
+      "an association"
+    ],
+    [
+      "Philosophy & society",
+      "Aesthetics",
+      "an association"
+    ],
+    [
+      "Philosophy & society",
+      "Meaning",
+      "an association"
+    ],
+    [
+      "Philosophy & society",
+      "Consciousness",
+      "an association"
+    ],
+    [
+      "Literature",
+      "Science fiction",
+      "an association"
+    ],
+    [
+      "Literature",
+      "Classics",
+      "an association"
+    ],
+    [
+      "Music",
+      "Techno parties",
+      "an association"
+    ],
+    [
+      "Movement & life",
+      "Discussions",
+      "an association"
+    ],
+    [
+      "Movement & life",
+      "Friendship",
+      "an association"
+    ],
+    [
+      "Movement & life",
+      "Crochet",
+      "an association"
+    ],
+    [
+      "Movement & life",
+      "Building things",
+      "an association"
+    ],
+    [
+      "Movement & life",
+      "Sadness",
+      "an association"
+    ],
+    [
+      "Movement & life",
+      "Hope?",
+      "an association"
+    ],
+    [
+      "Life & mind",
+      "Genetics",
+      "an association"
+    ],
+    [
+      "Life & mind",
+      "Metabolism",
+      "an association"
+    ],
+    [
+      "Life & mind",
+      "Metabolic pathways",
+      "an association"
+    ],
+    [
+      "Life & mind",
+      "Brain function",
+      "an association"
+    ],
+    [
+      "Life & mind",
+      "Neurons (biological)",
+      "an association"
+    ],
+    [
+      "Life & mind",
+      "Neurons (artificial)",
+      "an association"
+    ],
+    [
+      "Hard problems",
+      "P vs NP",
+      "an association"
+    ],
+    [
+      "P vs NP",
+      "Theoretical CS",
+      "an association"
+    ],
+    [
+      "Theoretical CS",
+      "Exponential Time Hypothesis (ETH)",
+      "an association"
+    ],
+    [
+      "P vs NP",
+      "Turing machine",
+      "an association"
+    ],
+    [
+      "Turing machine",
+      "Finite-state machine",
+      "an association"
+    ],
+    [
+      "Von Neumann architecture",
+      "Computer science",
+      "an association"
+    ],
+    [
+      "Russell’s paradox",
+      "Pure maths",
+      "an association"
+    ],
+    [
+      "Fermat’s Last Theorem",
+      "Algebraic geometry",
+      "an association"
+    ],
+    [
+      "Measure theory",
+      "Pure maths",
+      "an association"
+    ],
+    [
+      "Measure theory",
+      "Learning",
+      "an association"
+    ],
+    [
       "AI development",
-      "Machines of Loving Grace",
-      "an essay on my shelf"
+      "Deep learning",
+      "an association"
     ],
     [
-      "Agency",
-      "How To Be Successful",
-      "an essay on my shelf"
+      "Deep learning",
+      "Neurons (artificial)",
+      "an association"
     ],
     [
-      "Agency",
-      "Fast",
-      "an essay on my shelf"
+      "Neurons (artificial)",
+      "Perceptron",
+      "an association"
     ],
     [
-      "Writing",
-      "Ernest Hemingway’s Powerful Letter to F. Scott Fitzgerald",
-      "an essay on my shelf"
+      "Perceptron",
+      "Linear algebra",
+      "an association"
     ],
     [
-      "Agency",
-      "Signposts Back",
-      "an essay on my shelf"
+      "Deep learning",
+      "Gradient descent",
+      "an association"
     ],
     [
-      "Philosophy",
-      "The Straussian Moment",
-      "an essay on my shelf"
+      "Gradient descent",
+      "Learning",
+      "an association"
     ],
     [
-      "Writing",
-      "The Diet Coke Essay",
-      "an essay on my shelf"
+      "Learning",
+      "Updating priors",
+      "an association"
     ],
     [
-      "Writing",
-      "Almost anything you give sustained attention to will begin to loop on itself and bloom",
-      "an essay on my shelf"
+      "Learning",
+      "Feedback loops",
+      "an association"
     ],
     [
-      "AI development",
-      "The Adolescence of Technology",
-      "an essay on my shelf"
+      "Feedback loops",
+      "Metabolism",
+      "an association"
     ],
     [
-      "Agency",
-      "What I Wish Someone Had Told Me",
-      "an essay on my shelf"
+      "Metabolism",
+      "Metabolic pathways",
+      "an association"
     ],
     [
+      "Genetics",
+      "Metabolism",
+      "an association"
+    ],
+    [
+      "Neurons (biological)",
+      "Brain function",
+      "an association"
+    ],
+    [
+      "Brain function",
+      "Consciousness",
+      "an association"
+    ],
+    [
+      "Consciousness",
+      "Meaning",
+      "an association"
+    ],
+    [
+      "Neurons (biological)",
+      "Neurons (artificial)",
+      "an association"
+    ],
+    [
+      "Neurolinguistics",
+      "Brain function",
+      "an association"
+    ],
+    [
+      "Syntax",
+      "Linguistics",
+      "an association"
+    ],
+    [
+      "Technocracy",
+      "Tech",
+      "an association"
+    ],
+    [
+      "Technocracy",
+      "Economics",
+      "an association"
+    ],
+    [
+      "Science fiction",
+      "Tech",
+      "an association"
+    ],
+    [
+      "Aesthetics",
+      "Beauty",
+      "an association"
+    ],
+    [
+      "Beauty",
+      "Art",
+      "an association"
+    ],
+    [
+      "Crochet",
+      "Building things",
+      "an association"
+    ],
+    [
+      "Building things",
+      "Creating something big",
+      "an association"
+    ],
+    [
+      "Discussions",
+      "Friendship",
+      "an association"
+    ],
+    [
+      "Friendship",
+      "Hope?",
+      "an association"
+    ],
+    [
+      "Hope?",
+      "Meaning",
+      "an association"
+    ],
+    [
+      "Sadness",
+      "Poetry",
+      "an association"
+    ],
+    [
+      "Feedback loops",
+      "Pattern recognition",
+      "an association"
+    ],
+    [
+      "Art & cinema",
+      "The Swan, No. 1",
+      "an association"
+    ],
+    [
+      "Art",
+      "The Swan, No. 1",
+      "an association"
+    ],
+    [
+      "Hilma af Klint",
+      "The Swan, No. 1",
+      "an association"
+    ],
+    [
+      "Art & cinema",
+      "Four Darks in Red",
+      "an association"
+    ],
+    [
+      "Art",
+      "Four Darks in Red",
+      "an association"
+    ],
+    [
+      "Mark Rothko",
+      "Four Darks in Red",
+      "an association"
+    ],
+    [
+      "Art & cinema",
+      "Blue Monochrome",
+      "an association"
+    ],
+    [
+      "Art",
+      "Blue Monochrome",
+      "an association"
+    ],
+    [
+      "Art & cinema",
+      "Yves Klein",
+      "an association"
+    ],
+    [
+      "Yves Klein",
+      "Blue Monochrome",
+      "an association"
+    ],
+    [
+      "Art & cinema",
+      "Female Artist (Artistin)",
+      "an association"
+    ],
+    [
+      "Art",
+      "Female Artist (Artistin)",
+      "an association"
+    ],
+    [
+      "Art & cinema",
+      "Ernst Ludwig Kirchner",
+      "an association"
+    ],
+    [
+      "Ernst Ludwig Kirchner",
+      "Female Artist (Artistin)",
+      "an association"
+    ],
+    [
+      "Art & cinema",
+      "Dante et Virgile",
+      "an association"
+    ],
+    [
+      "Art",
+      "Dante et Virgile",
+      "an association"
+    ],
+    [
+      "Art & cinema",
+      "William Bouguereau",
+      "an association"
+    ],
+    [
+      "William Bouguereau",
+      "Dante et Virgile",
+      "an association"
+    ],
+    [
+      "Art & cinema",
+      "The Cyclops",
+      "an association"
+    ],
+    [
+      "Art",
+      "The Cyclops",
+      "an association"
+    ],
+    [
+      "Art & cinema",
+      "Odilon Redon",
+      "an association"
+    ],
+    [
+      "Odilon Redon",
+      "The Cyclops",
+      "an association"
+    ],
+    [
+      "Art & cinema",
+      "The Sun",
+      "an association"
+    ],
+    [
+      "Art",
+      "The Sun",
+      "an association"
+    ],
+    [
+      "Art & cinema",
+      "Edvard Munch",
+      "an association"
+    ],
+    [
+      "Edvard Munch",
+      "The Sun",
+      "an association"
+    ],
+    [
+      "Art & cinema",
+      "The Monk by the Sea",
+      "an association"
+    ],
+    [
+      "Art",
+      "The Monk by the Sea",
+      "an association"
+    ],
+    [
+      "Art & cinema",
+      "Caspar David Friedrich",
+      "an association"
+    ],
+    [
+      "Caspar David Friedrich",
+      "The Monk by the Sea",
+      "an association"
+    ],
+    [
+      "Art & cinema",
+      "Man Grieving over a Dead Deer",
+      "an association"
+    ],
+    [
+      "Art",
+      "Man Grieving over a Dead Deer",
+      "an association"
+    ],
+    [
+      "Art & cinema",
+      "George Minne",
+      "an association"
+    ],
+    [
+      "George Minne",
+      "Man Grieving over a Dead Deer",
+      "an association"
+    ],
+    [
+      "Art & cinema",
+      "Ochre and Red on Red",
+      "an association"
+    ],
+    [
+      "Art",
+      "Ochre and Red on Red",
+      "an association"
+    ],
+    [
+      "Mark Rothko",
+      "Ochre and Red on Red",
+      "an association"
+    ],
+    [
+      "Art & cinema",
+      "Vir Heroicus Sublimis",
+      "an association"
+    ],
+    [
+      "Art",
+      "Vir Heroicus Sublimis",
+      "an association"
+    ],
+    [
+      "Art & cinema",
+      "Barnett Newman",
+      "an association"
+    ],
+    [
+      "Barnett Newman",
+      "Vir Heroicus Sublimis",
+      "an association"
+    ],
+    [
+      "Art & cinema",
+      "Victoire de Samothrace",
+      "an association"
+    ],
+    [
+      "Art",
+      "Victoire de Samothrace",
+      "an association"
+    ],
+    [
+      "Yves Klein",
+      "Victoire de Samothrace",
+      "an association"
+    ],
+    [
+      "Art & cinema",
+      "What a Human Being Is",
+      "an association"
+    ],
+    [
+      "Art",
+      "What a Human Being Is",
+      "an association"
+    ],
+    [
+      "Hilma af Klint",
+      "What a Human Being Is",
+      "an association"
+    ],
+    [
+      "Art & cinema",
+      "No. 5/No. 22",
+      "an association"
+    ],
+    [
+      "Art",
+      "No. 5/No. 22",
+      "an association"
+    ],
+    [
+      "Mark Rothko",
+      "No. 5/No. 22",
+      "an association"
+    ],
+    [
+      "Art & cinema",
+      "Pietà",
+      "an association"
+    ],
+    [
+      "Art",
+      "Pietà",
+      "an association"
+    ],
+    [
+      "Art & cinema",
+      "Michelangelo",
+      "an association"
+    ],
+    [
+      "Michelangelo",
+      "Pietà",
+      "an association"
+    ],
+    [
+      "Art & cinema",
+      "Icarus (Icare)",
+      "an association"
+    ],
+    [
+      "Art",
+      "Icarus (Icare)",
+      "an association"
+    ],
+    [
+      "Henri Matisse",
+      "Icarus (Icare)",
+      "an association"
+    ],
+    [
+      "Art & cinema",
+      "Nike of Samothrace",
+      "an association"
+    ],
+    [
+      "Art",
+      "Nike of Samothrace",
+      "an association"
+    ],
+    [
+      "Art & cinema",
+      "Stańczyk",
+      "an association"
+    ],
+    [
+      "Art",
+      "Stańczyk",
+      "an association"
+    ],
+    [
+      "Art & cinema",
+      "Jan Matejko",
+      "an association"
+    ],
+    [
+      "Jan Matejko",
+      "Stańczyk",
+      "an association"
+    ],
+    [
+      "Art & cinema",
+      "The Persistence of Memory",
+      "an association"
+    ],
+    [
+      "Art",
+      "The Persistence of Memory",
+      "an association"
+    ],
+    [
+      "Art & cinema",
+      "Salvador Dalí",
+      "an association"
+    ],
+    [
+      "Salvador Dalí",
+      "The Persistence of Memory",
+      "an association"
+    ],
+    [
+      "Art & cinema",
+      "Le fils de l’homme",
+      "an association"
+    ],
+    [
+      "Art",
+      "Le fils de l’homme",
+      "an association"
+    ],
+    [
+      "Art & cinema",
+      "René Magritte",
+      "an association"
+    ],
+    [
+      "René Magritte",
+      "Le fils de l’homme",
+      "an association"
+    ],
+    [
+      "Art & cinema",
+      "Rothko Chapel",
+      "an association"
+    ],
+    [
+      "Art",
+      "Rothko Chapel",
+      "an association"
+    ],
+    [
+      "Mark Rothko",
+      "Rothko Chapel",
+      "an association"
+    ],
+    [
+      "Art & cinema",
+      "Colour",
+      "an association"
+    ],
+    [
+      "Art & cinema",
+      "The sublime",
+      "an association"
+    ],
+    [
+      "Art & cinema",
+      "Surrealism",
+      "an association"
+    ],
+    [
+      "Philosophy & society",
+      "Memory",
+      "an association"
+    ],
+    [
+      "Philosophy & society",
+      "Attention",
+      "an association"
+    ],
+    [
+      "Philosophy & society",
+      "Human–computer symbiosis",
+      "an association"
+    ],
+    [
+      "Colour",
+      "Mark Rothko",
+      "an association"
+    ],
+    [
+      "Colour",
+      "Yves Klein",
+      "an association"
+    ],
+    [
+      "The sublime",
+      "The Monk by the Sea",
+      "an association"
+    ],
+    [
+      "The sublime",
+      "Vir Heroicus Sublimis",
+      "an association"
+    ],
+    [
+      "Surrealism",
+      "Le fils de l’homme",
+      "an association"
+    ],
+    [
+      "Surrealism",
+      "The Persistence of Memory",
+      "an association"
+    ],
+    [
+      "Memory",
+      "The Persistence of Memory",
+      "an association"
+    ],
+    [
+      "Myths",
+      "The Cyclops",
+      "an association"
+    ],
+    [
+      "Myths",
+      "Icarus (Icare)",
+      "an association"
+    ],
+    [
+      "Deer",
+      "Man Grieving over a Dead Deer",
+      "an association"
+    ],
+    [
+      "Sadness",
+      "Man Grieving over a Dead Deer",
+      "an association"
+    ],
+    [
+      "Sainthood",
+      "Pietà",
+      "an association"
+    ],
+    [
+      "Attention",
+      "Feedback loops",
+      "an association"
+    ],
+    [
+      "Memory",
+      "Marcel Proust",
+      "an association"
+    ],
+    [
+      "Human–computer symbiosis",
       "Human–computer interaction",
-      "Man-Computer Symbiosis",
-      "an essay on my shelf"
+      "an association"
     ],
     [
+      "Books",
+      "Crime and Punishment",
+      "an association"
+    ],
+    [
+      "Literature",
+      "Wuthering Heights",
+      "an association"
+    ],
+    [
+      "Literature",
+      "Emily Brontë",
+      "an association"
+    ],
+    [
+      "Emily Brontë",
+      "Wuthering Heights",
+      "an association"
+    ],
+    [
+      "Books",
+      "Wuthering Heights",
+      "an association"
+    ],
+    [
+      "Literature",
+      "Anna Karenina",
+      "an association"
+    ],
+    [
+      "Literature",
+      "Leo Tolstoy",
+      "an association"
+    ],
+    [
+      "Leo Tolstoy",
+      "Anna Karenina",
+      "an association"
+    ],
+    [
+      "Books",
+      "Anna Karenina",
+      "an association"
+    ],
+    [
+      "Literature",
+      "Dune",
+      "an association"
+    ],
+    [
+      "Literature",
+      "Frank Herbert",
+      "an association"
+    ],
+    [
+      "Frank Herbert",
+      "Dune",
+      "an association"
+    ],
+    [
+      "Books",
+      "Dune",
+      "an association"
+    ],
+    [
+      "Literature",
+      "Eros the Bittersweet",
+      "an association"
+    ],
+    [
+      "Anne Carson",
+      "Eros the Bittersweet",
+      "an association"
+    ],
+    [
+      "Books",
+      "Eros the Bittersweet",
+      "an association"
+    ],
+    [
+      "Literature",
+      "The Diaries",
+      "an association"
+    ],
+    [
+      "Franz Kafka",
+      "The Diaries",
+      "an association"
+    ],
+    [
+      "Books",
+      "The Diaries",
+      "an association"
+    ],
+    [
+      "Books",
+      "Le Mythe de Sisyphe",
+      "an association"
+    ],
+    [
+      "Literature",
+      "Antigone",
+      "an association"
+    ],
+    [
+      "Literature",
+      "Sophocles",
+      "an association"
+    ],
+    [
+      "Sophocles",
+      "Antigone",
+      "an association"
+    ],
+    [
+      "Books",
+      "Antigone",
+      "an association"
+    ],
+    [
+      "Literature",
+      "The Odyssey",
+      "an association"
+    ],
+    [
+      "Literature",
+      "Homer",
+      "an association"
+    ],
+    [
+      "Homer",
+      "The Odyssey",
+      "an association"
+    ],
+    [
+      "Books",
+      "The Odyssey",
+      "an association"
+    ],
+    [
+      "Science fiction",
+      "Dune",
+      "an association"
+    ],
+    [
+      "Classics",
+      "Antigone",
+      "an association"
+    ],
+    [
+      "Myths",
+      "The Odyssey",
+      "an association"
+    ],
+    [
+      "Technology",
+      "Dario Amodei",
+      "an association"
+    ],
+    [
+      "Technology",
+      "Sam Altman",
+      "an association"
+    ],
+    [
+      "Technology",
+      "Patrick Collison",
+      "an association"
+    ],
+    [
+      "Literature",
+      "Ernest Hemingway",
+      "an association"
+    ],
+    [
+      "Technology",
+      "Avital Balwit",
+      "an association"
+    ],
+    [
+      "Technology",
+      "Peter Thiel",
+      "an association"
+    ],
+    [
+      "Literature",
+      "Cricket Guest",
+      "an association"
+    ],
+    [
+      "Literature",
+      "Henrik Karlsson",
+      "an association"
+    ],
+    [
+      "Technology",
+      "J. C. R. Licklider",
+      "an association"
+    ],
+    [
+      "Literature",
+      "Anna Borges",
+      "an association"
+    ],
+    [
+      "Technology",
+      "Jacob Falkovich",
+      "an association"
+    ],
+    [
+      "Technology",
+      "Paul Graham",
+      "an association"
+    ],
+    [
+      "Literature",
+      "East of Eden",
+      "an association"
+    ],
+    [
+      "Literature",
+      "John Steinbeck",
+      "an association"
+    ],
+    [
+      "John Steinbeck",
+      "East of Eden",
+      "an association"
+    ],
+    [
+      "East of Eden",
+      "Meaning",
+      "an association"
+    ],
+    [
+      "Literature",
+      "Anaïs Nin",
+      "an association"
+    ],
+    [
+      "Anaïs Nin",
+      "Prose",
+      "an association"
+    ],
+    [
+      "Life",
+      "Fashion & couture",
+      "a part of life"
+    ],
+    [
+      "Life",
+      "Design & objects",
+      "a part of life"
+    ],
+    [
+      "Life",
+      "Technology",
+      "a part of life"
+    ],
+    [
+      "Life",
+      "Mathematics",
+      "a part of life"
+    ],
+    [
+      "Life",
+      "Philosophy & society",
+      "a part of life"
+    ],
+    [
+      "Life",
+      "Myths & figures",
+      "a part of life"
+    ],
+    [
+      "Life",
+      "Literature",
+      "a part of life"
+    ],
+    [
+      "Life",
+      "Art & cinema",
+      "a part of life"
+    ],
+    [
+      "Life",
+      "Music",
+      "a part of life"
+    ],
+    [
+      "Life",
+      "Movement & life",
+      "a part of life"
+    ],
+    [
+      "Life",
+      "Life & mind",
+      "a part of life"
+    ],
+    [
+      "P vs NP",
+      "Exponential Time Hypothesis (ETH)",
+      "complexity theory"
+    ],
+    [
+      "Dario Amodei",
+      "AI development",
+      "from my essay collection"
+    ],
+    [
+      "Sam Altman",
+      "Agency",
+      "from my essay collection"
+    ],
+    [
+      "Sam Altman",
+      "Ambition",
+      "from my essay collection"
+    ],
+    [
+      "Patrick Collison",
+      "Agency",
+      "from my essay collection"
+    ],
+    [
+      "Patrick Collison",
+      "Building things",
+      "from my essay collection"
+    ],
+    [
+      "Ernest Hemingway",
       "Writing",
-      "I am not always very attached to being alive",
-      "an essay on my shelf"
+      "from my essay collection"
     ],
     [
-      "Agency",
-      "100 Ways To Live Better",
-      "an essay on my shelf"
+      "Ernest Hemingway",
+      "Friendship",
+      "from my essay collection"
     ],
     [
+      "Avital Balwit",
       "Agency",
-      "How to Do Great Work",
-      "an essay on my shelf"
+      "from my essay collection"
     ],
     [
+      "Avital Balwit",
+      "Hope?",
+      "from my essay collection"
+    ],
+    [
+      "Peter Thiel",
+      "Philosophy",
+      "from my essay collection"
+    ],
+    [
+      "Peter Thiel",
+      "Technocracy",
+      "from my essay collection"
+    ],
+    [
+      "Cricket Guest",
+      "Writing",
+      "from my essay collection"
+    ],
+    [
+      "Cricket Guest",
+      "Objects as a concept",
+      "from my essay collection"
+    ],
+    [
+      "Henrik Karlsson",
+      "Writing",
+      "from my essay collection"
+    ],
+    [
+      "Henrik Karlsson",
+      "Attention",
+      "from my essay collection"
+    ],
+    [
+      "Sam Altman",
+      "Learning",
+      "from my essay collection"
+    ],
+    [
+      "J. C. R. Licklider",
+      "Human–computer interaction",
+      "from my essay collection"
+    ],
+    [
+      "J. C. R. Licklider",
+      "Human–computer symbiosis",
+      "from my essay collection"
+    ],
+    [
+      "Anna Borges",
+      "Writing",
+      "from my essay collection"
+    ],
+    [
+      "Anna Borges",
+      "Sadness",
+      "from my essay collection"
+    ],
+    [
+      "Jacob Falkovich",
       "Agency",
-      "A Project of One’s Own",
-      "an essay on my shelf"
+      "from my essay collection"
+    ],
+    [
+      "Jacob Falkovich",
+      "Learning",
+      "from my essay collection"
+    ],
+    [
+      "Paul Graham",
+      "Agency",
+      "from my essay collection"
+    ],
+    [
+      "Paul Graham",
+      "Building things",
+      "from my essay collection"
     ]
   ]
 }
